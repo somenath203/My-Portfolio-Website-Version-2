@@ -1,73 +1,186 @@
+'use client';
+
+import { useState } from 'react';
 import { Alert, AlertTitle } from '@/components/ui/alert';
-import { Button } from '@/components/ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { FaJava } from 'react-icons/fa';
+import { FaPython } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io';
+import { TbBrandCpp } from 'react-icons/tb';
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiFlask } from "react-icons/si";
+import { SiFastapi } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiAntdesign } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { SiChakraui } from "react-icons/si";
+import { SiShadcnui } from "react-icons/si";
+import { SiStreamlit } from "react-icons/si";
+import { FaLayerGroup } from "react-icons/fa";
+import { SiFlutter } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { GoGraph } from "react-icons/go";
+import { SiScikitlearn } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { ScrollArea } from "@/components/ui/scroll-area"
+
 
 const Page = () => {
-  const cards = [
+
+  const tabListName = [
+    { id: 1, name: 'Programming Languages' },
+    { id: 2, name: 'Web Development' },
+    { id: 3, name: 'App Development' },
+    { id: 4, name: 'Artificial Intelligence' },
+    { id: 5, name: 'DevOps' },
+  ];
+
+  const tabContents = [
     {
       id: 1,
-      cardName: 'Programming Languages',
-      cardDescription:
-        'Click the button below to checkout the skills related to programming languages.',
+      tabName: 'Programming Languages',
+      tabContent: [
+        { id: 1, icon: <TbBrandCpp />, nameOfTooltip: 'C++' },
+        { id: 2, icon: <FaJava />, nameOfTooltip: 'JAVA' },
+        { id: 3, icon: <FaPython />, nameOfTooltip: 'Python' },
+        { id: 4, icon: <IoLogoJavascript />, nameOfTooltip: 'Javascript' },
+      ],
     },
     {
       id: 2,
-      cardName: 'Web Development',
-      cardDescription:
-        'Click the button below to checkout the skills related to web development.',
+      tabName: 'Web Development',
+      tabContent: [
+        { id: 1, icon: <FaHtml5 />, nameOfTooltip: 'Html' },
+        { id: 2, icon: <FaCss3 />, nameOfTooltip: 'CSS' },
+        { id: 3, icon: <FaReact />, nameOfTooltip: 'ReactJS' },
+        { id: 4, icon: <RiNextjsFill />, nameOfTooltip: 'NextJS' },
+        { id: 5, icon: <FaNodeJs />, nameOfTooltip: 'NodeJS' },
+        { id: 6, icon: <SiExpress />, nameOfTooltip: 'ExpressJS' },
+        { id: 7, icon: <SiFlask />, nameOfTooltip: 'Flask' },
+        { id: 8, icon: <SiFastapi />, nameOfTooltip: 'FastAPI' },
+        { id: 9, icon: <RiTailwindCssFill />, nameOfTooltip: 'TailwindCSS' },
+        { id: 10, icon: <SiAntdesign />, nameOfTooltip: 'Antd Design' },
+        { id: 11, icon: <SiMui />, nameOfTooltip: 'Material UI' },
+        { id: 12, icon: <SiChakraui />, nameOfTooltip: 'Chakra UI' },
+        { id: 13, icon: <SiShadcnui />, nameOfTooltip: 'ShadcnUI' },
+        { id: 14, icon: <SiStreamlit />, nameOfTooltip: 'Streamlit' },
+        { id: 15, icon: <FaLayerGroup />, nameOfTooltip: 'Gradio' },
+      ],
     },
     {
       id: 3,
-      cardName: 'App Development',
-      cardDescription:
-        'Click the button below to checkout the skills related to app development.',
+      tabName: 'App Development',
+      tabContent: [
+        { id: 1, icon: <SiFlutter />, nameOfTooltip: 'FLutter' }
+      ],
     },
     {
       id: 4,
-      cardName: 'Artificial Intelligence',
-      cardDescription:
-        'Click the button below to checkout the skills related to artificial intelligence.',
-    }
+      tabName: 'Artificial Intelligence',
+      tabContent: [
+        { id: 1, icon: <SiNumpy />, nameOfTooltip: 'Numpy' },
+        { id: 2, icon: <SiPandas />, nameOfTooltip: 'Pandas' },
+        { id: 3, icon: <GoGraph />, nameOfTooltip: 'Matplotlib and Seaborn' },
+        { id: 4, icon: <SiScikitlearn />, nameOfTooltip: 'Scikit learn' },
+        { id: 5, icon: <SiTensorflow />, nameOfTooltip: 'TensorFlow' },
+      ],
+    },
+    {
+      id: 5,
+      tabName: 'DevOps',
+      tabContent: [
+        { id: 1, icon: <FaDocker />, nameOfTooltip: 'Docker' }
+      ],
+    },
   ];
 
+  const [selectedTab, setSelectedTab] = useState(tabListName[0].name);
+
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col gap-14 items-center">
+    <div className="min-h-screen bg-slate-900 flex flex-col gap-56 items-center">
+
+
       <div className="mt-14 w-1/6">
         <Alert className="bg-transparent font-poppins w-full flex items-center justify-center text-xl text-green-300">
           <AlertTitle className="tracking-wider">My Skills</AlertTitle>
         </Alert>
       </div>
 
-      <div className="grid grid-cols-2 w-9/12 items-center gap-x-8 gap-y-8">
-        {cards.map((card) => (
-          <div className="w-full" key={card.id}>
-            <Card className="font-poppins w-full bg-white/5">
-              <CardHeader className="text-center flex flex-col gap-3">
-                <CardTitle className="text-green-200">
-                  {card.cardName}
-                </CardTitle>
-                <CardDescription className="text-white">
-                  {card.cardDescription}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="flex items-center justify-center">
-                <Button
-                  variant="ghost"
-                  className="border-2 border-green-500 text-white uppercase tracking-wider hover:bg-slate-800 transition-all duration-150 text-base hover:text-white py-6 w-3/4 flex items-center justify-center gap-2"
-                >
-                  <span>Click Here</span>
-                </Button>
-              </CardContent>
-            </Card>
+
+      <Tabs defaultValue={selectedTab} className="w-3/6 flex gap-5">
+
+        <TabsList className="w-full bg-transparent ">
+
+          <div className='w-full h-80 flex flex-col gap-6 overflow-y-auto pr-6'>
+            {tabListName.map((tab) => (
+              <TabsTrigger
+                key={tab.id}
+                value={tab.name}
+                className={`w-full border-2 border-green-500 rounded-lg p-4 ${
+                  selectedTab === tab.name
+                    ? '!bg-slate-800 !text-white'
+                    : '!bg-transparent'
+                }`}
+                onClick={() => setSelectedTab(tab.name)}
+              >
+                <span className="font-poppins text-white tracking-wide">
+                  {tab.name}
+                </span>
+              </TabsTrigger>
+            ))}
           </div>
-        ))}
-      </div>
+
+        </TabsList>
+
+
+        <TabsList className="bg-transparent w-full">
+          {tabContents.map((tabcontent) => (
+            <TabsContent
+              key={tabcontent.id}
+              value={tabcontent.tabName}
+              className="text-white w-full"
+            >
+              <div className="overflow-y-auto h-80">
+                <div className="flex items-center justify-center">
+                  <div className="grid grid-cols-2 items-center gap-x-4 gap-y-4">
+                    {tabcontent.tabContent.map((icon) => (
+                      <div key={icon.id} className="p-10 rounded-lg bg-slate-800">
+                        <div className="text-6xl">
+                          <TooltipProvider>
+                            <Tooltip>
+                              <TooltipTrigger>
+                                <div className="text-6xl hover:text-green-300 transition-all duration-200">{icon.icon}</div>
+                              </TooltipTrigger>
+                              <TooltipContent>
+                                <p>{icon.nameOfTooltip}</p>
+                              </TooltipContent>
+                            </Tooltip>
+                          </TooltipProvider>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </TabsContent>
+          ))}
+        </TabsList>
+
+
+      </Tabs>
     </div>
   );
 };
