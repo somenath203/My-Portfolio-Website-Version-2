@@ -42,10 +42,10 @@ const Page = () => {
                 <span className='flex items-center gap-4'>
 
                   <span>
-                    <i class="ri-github-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
+                    <i className="ri-github-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
                   </span>
                   <span>
-                    <i class="ri-stack-overflow-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
+                    <i className="ri-stack-overflow-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
                   </span>
 
                 </span>

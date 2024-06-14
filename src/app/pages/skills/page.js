@@ -35,7 +35,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { ScrollArea } from "@/components/ui/scroll-area"
 
 
 const Page = () => {
@@ -110,7 +109,7 @@ const Page = () => {
   const [selectedTab, setSelectedTab] = useState(tabListName[0].name);
 
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col gap-56 items-center">
+    <div className="min-h-screen bg-slate-900 flex flex-col gap-56 items-center font-poppins">
 
 
       <div className="mt-14 w-1/6">
