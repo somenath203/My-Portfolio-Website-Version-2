@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { Alert, AlertTitle } from '@/components/ui/alert';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { FaJava } from 'react-icons/fa';
 import { FaPython } from 'react-icons/fa';
@@ -35,6 +34,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+
+import PageHeading from '@/app/components/PageHeading';
 
 
 const Page = () => {
@@ -109,13 +110,11 @@ const Page = () => {
   const [selectedTab, setSelectedTab] = useState(tabListName[0].name);
 
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col gap-56 items-center font-poppins">
+    <div className="min-h-screen bg-slate-900 flex flex-col gap-48 items-center font-poppins">
 
 
       <div className="mt-14 w-1/6">
-        <Alert className="bg-transparent font-poppins w-full flex items-center justify-center text-xl text-green-300">
-          <AlertTitle className="tracking-wider">My Skills</AlertTitle>
-        </Alert>
+        <PageHeading heading='My Skills' />
       </div>
 
 

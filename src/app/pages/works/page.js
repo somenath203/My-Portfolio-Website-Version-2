@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { Alert, AlertTitle } from '@/components/ui/alert';
 import {
   Card,
   CardContent,
@@ -9,6 +8,9 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from "@/components/ui/button";
+
+import PageHeading from '@/app/components/PageHeading';
+
 
 const Page = () => {
   const allWorkLinks = [
@@ -26,12 +28,18 @@ const Page = () => {
     },
     {
       id: 3,
+      workName: 'MERN Projects',
+      workDescription: 'Click here to view all my work related to mern stack.',
+      linkToWork: '/pages/all_works/mern_projects'
+    },
+    {
+      id: 4,
       workName: 'MobileApp Projects',
       workDescription: 'Click here to view all my work related to mobile app development.',
       linkToWork: '/pages/all_works/mobile_app_projects'
     },
     {
-      id: 4,
+      id: 5,
       workName: 'AI Projects',
       workDescription: 'Click here to view all my work related to artificial intelligence.',
       linkToWork: '/pages/all_works/ai_projects'
@@ -44,12 +52,10 @@ const Page = () => {
 
 
       <div className="mt-14 w-1/6">
-        <Alert className="bg-transparent font-poppins w-full flex items-center justify-center text-xl text-green-300">
-          <AlertTitle className="tracking-wider">My Works</AlertTitle>
-        </Alert>
+        <PageHeading heading='My Works' />
       </div>
 
-      <div className='w-4/5'>
+      <div className='w-4/5 mb-10'>
 
         <div className="w-full mt-10 grid grid-cols-2 items-center gap-x-4 gap-y-8 font-poppins">
           {allWorkLinks.map((work) => (

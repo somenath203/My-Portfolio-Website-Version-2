@@ -1,10 +1,11 @@
 'use client';
 
-import { Alert, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+
+import PageHeading from '@/app/components/PageHeading';
 
 
 const Page = () => {
@@ -14,10 +15,8 @@ const Page = () => {
     <div className="min-h-screen bg-slate-900 flex flex-col gap-11 items-center">
 
       <div className="mt-14 w-1/6">
-    
-        <Alert className="bg-transparent font-poppins w-full flex items-center justify-center text-xl text-green-300">
-          <AlertTitle className="tracking-wider">Connect With Me</AlertTitle>
-        </Alert>
+
+        <PageHeading heading='Connect With Me' />
 
       </div>
 
@@ -51,7 +50,7 @@ const Page = () => {
       <div className='mb-10 text-xl text-white font-poppins tracking-widest flex flex-col gap-1 items-center justify-center'>
         <span className='h-0.5 bg-white mb-4 w-80'></span>
         <span>
-          CLICK <a href="mailto:somenathchoudhury38@gmail.com" target='_blank' className='text-green-400 font-semibold'>HERE</a> TO EMAIL ME DIRECTLY
+          Click <a href="mailto:somenathchoudhury38@gmail.com" target='_blank' className='text-green-400 font-semibold'>HERE</a> to email me directly
         </span>
         <span className='h-0.5 bg-white my-4 w-80'></span>
       </div>

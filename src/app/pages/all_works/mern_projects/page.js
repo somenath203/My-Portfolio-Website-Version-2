@@ -8,7 +8,7 @@ const Page = () => {
 
       <div className="mt-14 w-1/6">
 
-       <PageHeading heading='AI Projects' />
+       <PageHeading heading='MERN Projects' />
 
       </div>
 

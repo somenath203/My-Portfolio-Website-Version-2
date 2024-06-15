@@ -1,6 +1,6 @@
 'use client';
 
-import { Alert, AlertTitle } from '@/components/ui/alert';
+import PageHeading from '@/app/components/PageHeading';
 
 const Page = () => {
   return (
@@ -8,9 +8,7 @@ const Page = () => {
 
       <div className="mt-14 w-1/6">
 
-        <Alert className="bg-transparent font-poppins w-full flex items-center justify-center text-xl text-green-300">
-          <AlertTitle className="tracking-wider">MobieApp Projects</AlertTitle>
-        </Alert>
+        <PageHeading heading='App Development Projects' />
 
       </div>
 
