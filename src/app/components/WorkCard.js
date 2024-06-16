@@ -14,7 +14,6 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-  AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
 import { useState } from 'react';
 import { IoIosLink } from "react-icons/io";
@@ -29,18 +28,18 @@ import Link from 'next/link';
 
 
 
-const SkillCard = ({ skillArray }) => {
+const WorkCard = ({ workArray }) => {
 
 
   const [openModal, setOpenModal] = useState(false);
 
 
-  const [getCurrentSkill, setGetCurrentSkill] = useState();
+  const [getCurrentWork, setGetCurrentWork] = useState();
 
 
-  const handleOpenModal = (currSkill) => {
+  const handleOpenModal = (currWork) => {
 
-    setGetCurrentSkill(currSkill);
+    setGetCurrentWork(currWork);
 
     setOpenModal(true);
 
@@ -53,22 +52,22 @@ const SkillCard = ({ skillArray }) => {
 
       <div className="w-full grid grid-cols-2 gap-x-8 gap-y-6 items-center">
 
-        {skillArray.map((skill) => (
+        {workArray.map((work) => (
           <Card
-            key={skill.id}
+            key={work.id}
             className="w-full text-center bg-transparent/10 text-white font-poppins border-2 border-green-500"
           >
             <CardHeader className='flex flex-col gap-2'>
-              <CardTitle>{skill.nameOfTheProject}</CardTitle>
+              <CardTitle>{work.nameOfTheProject}</CardTitle>
               <CardDescription>
-                <span className='text-gray-400'>{skill.descOfTheProject.split(' ').length <= 6 ? skill.descOfTheProject : skill.descOfTheProject.split(' ').slice(0, 6).join(' ') + ' . . . .'}</span>
+                <span className='text-gray-400'>{work.descOfTheProject.split(' ').length <= 6 ? work.descOfTheProject : work.descOfTheProject.split(' ').slice(0, 6).join(' ') + ' . . . .'}</span>
               </CardDescription>
             </CardHeader>
             <CardContent>
               <Button
                 variant="outline"
                 className="w-56 p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase"
-                onClick={() => handleOpenModal(skill)}
+                onClick={() => handleOpenModal(work)}
               >
                 View Details
               </Button>
@@ -77,18 +76,18 @@ const SkillCard = ({ skillArray }) => {
         ))}
       </div>
 
-      {getCurrentSkill && <AlertDialog open={openModal} onOpenChange={setOpenModal}>
+      {getCurrentWork && <AlertDialog open={openModal} onOpenChange={setOpenModal}>
         <AlertDialogContent className="overflow-auto max-h-[90vh] bg-slate-800 border-slate-800">
           <AlertDialogHeader>
-            <AlertDialogTitle className='mb-4 font-poppins text-2xl text-green-400 text-center'>{getCurrentSkill.nameOfTheProject}</AlertDialogTitle>
+            <AlertDialogTitle className='mb-4 font-poppins text-2xl text-green-400 text-center'>{getCurrentWork.nameOfTheProject}</AlertDialogTitle>
             <AlertDialogDescription className='flex flex-col gap-6 font-poppins'>
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
                 <span className='font-bold'>Description:</span>
-                <span className='text-white'>{getCurrentSkill.descOfTheProject}</span>
+                <span className='text-white'>{getCurrentWork.descOfTheProject}</span>
               </span>
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
                 <span className='font-bold'>Tech Stack Used:</span>
-                <span className='text-white'>{getCurrentSkill.techStackUsedInTheProject}</span>
+                <span className='text-white'>{getCurrentWork.techStackUsedInTheProject}</span>
               </span>
                 <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
                   <span className='font-bold'>Links:</span>
@@ -97,7 +96,7 @@ const SkillCard = ({ skillArray }) => {
                         <TooltipProvider>
                           <Tooltip>
                             <TooltipTrigger>
-                              <Link href={getCurrentSkill.livePreviewOfTheProject} target='_blank'><IoIosLink className='text-white hover:text-green-400 text-3xl transition-all duration-150' /></Link>
+                              <Link href={getCurrentWork.livePreviewOfTheProject} target='_blank'><IoIosLink className='text-white hover:text-green-400 text-3xl transition-all duration-150' /></Link>
                             </TooltipTrigger>
                             <TooltipContent>
                               <span>Live Preview</span>
@@ -109,7 +108,7 @@ const SkillCard = ({ skillArray }) => {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <Link href={getCurrentSkill.githubLinkOfTheProject} target='_blank'><FaGithub className='text-white hover:text-green-400 text-3xl transition-all duration-150' /></Link>
+                            <Link href={getCurrentWork.githubLinkOfTheProject} target='_blank'><FaGithub className='text-white hover:text-green-400 text-3xl transition-all duration-150' /></Link>
                           </TooltipTrigger>
                           <TooltipContent>
                             <span>GitHub Link</span>
@@ -131,4 +130,4 @@ const SkillCard = ({ skillArray }) => {
   );
 };
 
-export default SkillCard;
+export default WorkCard;

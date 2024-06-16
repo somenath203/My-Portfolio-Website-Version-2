@@ -1,7 +1,7 @@
 'use client';
 
 import PageHeading from '@/app/components/PageHeading';
-import SkillCard from '@/app/components/SkillCard';
+import WorkCard from '@/app/components/WorkCard';
 
 
 const Page = () => {
@@ -54,7 +54,7 @@ const Page = () => {
         <PageHeading heading="Backend Projects" />
       </div>
 
-      <SkillCard skillArray={backendProjects} />
+      <WorkCard workArray={backendProjects} />
 
     </div>
   );
