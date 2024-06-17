@@ -112,7 +112,7 @@ const Page = () => {
                 <span className='text-white'>{getCurrentAchievement.descriptionOfTheAchievement}</span>
               </span>
                 <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
-                  <span className='font-bold'>Links:</span>
+                  <span className='font-bold'>Link:</span>
                   <span className='mt-1 flex items-center justify-center gap-4'>
                       <span>
                         <TooltipProvider>

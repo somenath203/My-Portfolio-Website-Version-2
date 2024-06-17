@@ -23,7 +23,7 @@ const Page = () => {
     {
       id: 2,
       workName: 'Backend Projects',
-      workDescription: 'Click here to view all my work related to backend web development.',
+      workDescription: 'Click here to view all my work related to backend development.',
       linkToWork: '/pages/all_works/backend_projects'
     },
     {

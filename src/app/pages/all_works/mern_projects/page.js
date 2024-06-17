@@ -51,6 +51,15 @@ const Page = () => {
       livePreviewOfTheProject: 'https://shareyourfile.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Share-Your-File',
     },
+    {
+      id: 6,
+      nameOfTheProject: 'Weather App',
+      descOfTheProject: 'This is a project created with the help of React, TailwindCSS, ExpressJS and OpenWeatherAPI where a user can get the temperature and humidity of any city in the world.',
+      techStackUsedInTheProject: 'React, TailwindCSS, ExpressJS, OpenWeatherAPI',
+      picOfTheProj: '',
+      livePreviewOfTheProject: 'https://weather-app-frontend-nine.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Weather-App-Frontend',
+    }
   ];
 
   return (

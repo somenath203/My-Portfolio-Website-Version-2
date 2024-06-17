@@ -42,7 +42,16 @@ const Page = () => {
       picOfTheProj: '',
       livePreviewOfTheProject: 'https://documenter.getpostman.com/view/14623339/2s93zFXKXo',
       githubLinkOfTheProject: 'https://github.com/somenath203/Food-Delivery-API-NodeJS',
-    }
+    },
+    {
+      id: 5,
+      nameOfTheProject: 'Image Text Extractor',
+      descOfTheProject: 'This is a web app that lets users extract text from any image and also the user has the option to copy the extracted text in the clipboard as well.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, FastAPI, pytesseract',
+      picOfTheProj: '',
+      livePreviewOfTheProject: 'https://image-text-generator.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Image-Text-Extractor',
+    },
   ];
 
 
