@@ -161,7 +161,7 @@ const Page = () => {
     },
     {
         id: 18,
-        nameOfTheProject: 'Binaryclass Brain Tumor Classification using CNN',
+        nameOfTheProject: 'Binaryclass Brain Tumor Classification',
         descOfTheProject: 'This is a project which uses Tensorflow, Convolutional Neural Network (CNN), and Streamlit to analyze MRI images of Brain and detect the presence or absence of Tumors.',
         techStackUsedInTheProject: 'Tensorflow, Sequential, CNN, Streamlit',
         picOfTheProj: '',
