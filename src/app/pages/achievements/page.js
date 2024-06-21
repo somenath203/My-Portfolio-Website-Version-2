@@ -10,7 +10,6 @@ import {
 import { Button } from '@/components/ui/button';
 import {
   AlertDialog,
-  AlertDialogAction,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
@@ -19,7 +18,6 @@ import {
 } from '@/components/ui/alert-dialog';
 import { useState } from 'react';
 import { IoIosLink } from 'react-icons/io';
-import { FaGithub } from 'react-icons/fa';
 import {
   Tooltip,
   TooltipContent,
@@ -143,12 +141,14 @@ const Page = () => {
                 </AlertDialogDescription>
               </AlertDialogHeader>
               <AlertDialogFooter>
-                <AlertDialogAction
-                  onClick={() => setOpenModal(false)}
-                  className="border-2 border-green-400 bg-transparent text-green-400 font-poppins hover:bg-slate-700 hover:text-green-400 transition-all duration-200"
-                >
-                  Close
-                </AlertDialogAction>
+                <div className='flex items-center justify-end'>
+                  <Button
+                    onClick={() => setOpenModal(false)}
+                    className="p-6 border-2 border-green-400 bg-transparent text-green-400 font-poppins hover:bg-slate-700 hover:text-green-400 transition-all duration-200"
+                  >
+                    Close
+                  </Button>
+                </div>
               </AlertDialogFooter>
             </AlertDialogContent>
           </AlertDialog>

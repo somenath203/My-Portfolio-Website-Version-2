@@ -1,4 +1,8 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import { Inter } from 'next/font/google';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import './globals.css';
 import Navbar from './components/Navbar';
 
@@ -22,6 +26,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
+        <ToastContainer />
+        <script src="https://kit.fontawesome.com/1b20c7f767.js" crossorigin="anonymous"></script>
       </body>
     </html>
   );

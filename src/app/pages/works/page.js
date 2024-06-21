@@ -51,7 +51,7 @@ const Page = () => {
     <div className="min-h-screen bg-slate-900 flex flex-col items-center">
 
 
-      <div className="mt-14 w-4/6 lg:w-1/6">
+      <div className="mt-14 w-5/6 lg:w-1/6">
         <PageHeading heading='My Works' />
       </div>
 

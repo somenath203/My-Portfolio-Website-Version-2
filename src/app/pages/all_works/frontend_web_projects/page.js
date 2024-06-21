@@ -124,6 +124,24 @@ const Page = () => {
       livePreviewOfTheProject: 'https://markdown-previewer-psi-liard.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Markdown-Previewer',
     },
+    {
+      id: 14,
+      nameOfTheProject: 'Write Your Thoughts',
+      descOfTheProject: 'This is a web app where a user can express his/her thoughts in front of the whole world.',
+      techStackUsedInTheProject: 'React, Firebase',
+      picOfTheProj: '',
+      livePreviewOfTheProject: 'https://write-your-thoughts.netlify.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/WriteYourThoughts',
+    },
+    {
+      id: 15,
+      nameOfTheProject: 'My Porfolio Website Version 1',
+      descOfTheProject: 'This is my portfolio website version 1',
+      techStackUsedInTheProject: 'React, TailwindCSS',
+      picOfTheProj: '',
+      livePreviewOfTheProject: 'https://somenath-portfolio-website.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/My-Portfolio-Project',
+    },
   ];
 
 
