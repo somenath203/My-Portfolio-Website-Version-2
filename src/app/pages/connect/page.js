@@ -14,13 +14,13 @@ const Page = () => {
 
     <div className="min-h-screen bg-slate-900 flex flex-col gap-11 items-center">
 
-      <div className="mt-14 w-1/6">
+      <div className="mt-14 w-4/6 lg:w-1/6">
 
         <PageHeading heading='Connect With Me' />
 
       </div>
 
-      <div className='w-3/5'>
+      <div className='w-5/6 lg:w-3/5'>
 
         <form className='w-full flex flex-col gap-6'>
 
@@ -45,14 +45,14 @@ const Page = () => {
 
       </div>
 
-      <p className='text-white text-2xl font-poppins tracking-wide'>------------ OR ------------</p>
+      <p className='text-white text-xl lg:text-2xl text-center font-poppins tracking-wide'>------------ OR ------------</p>
 
-      <div className='mb-10 text-xl text-white font-poppins tracking-widest flex flex-col gap-1 items-center justify-center'>
-        <span className='h-0.5 bg-white mb-4 w-80'></span>
+      <div className='mb-10 text-center text-lg lg:text-xl text-white font-poppins tracking-widest flex flex-col gap-1 items-center justify-center'>
+        <span className='h-0.5 bg-white mb-4 w-72 lg:w-80'></span>
         <span>
           Click <a href="mailto:somenathchoudhury38@gmail.com" target='_blank' className='text-green-400 font-semibold'>HERE</a> to email me directly
         </span>
-        <span className='h-0.5 bg-white my-4 w-80'></span>
+        <span className='h-0.5 bg-white my-4 w-72 lg:w-80'></span>
       </div>
 
     </div>
