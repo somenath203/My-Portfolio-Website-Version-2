@@ -29,7 +29,7 @@ const Page = () => {
   return (
     <div className="min-h-screen bg-slate-900 flex flex-col gap-11 items-center">
 
-      <div className="mt-14 w-1/4">
+      <div className="mt-14 w-5/6 lg:w-1/4">
 
         <PageHeading heading='App Development Projects' />
 

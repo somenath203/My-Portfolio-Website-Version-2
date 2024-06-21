@@ -20,7 +20,7 @@ const Page = () => {
 
       </div>
 
-      <div className='w-5/6 lg:w-3/5'>
+      <div className='w-11/12 lg:w-3/5'>
 
         <form className='w-full flex flex-col gap-6'>
 

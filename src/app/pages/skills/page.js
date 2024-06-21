@@ -110,19 +110,19 @@ const Page = () => {
   const [selectedTab, setSelectedTab] = useState(tabListName[0].name);
 
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col gap-48 items-center font-poppins">
+    <div className="min-h-screen bg-slate-900 flex flex-col gap-16 lg:gap-48 items-center font-poppins">
 
 
-      <div className="mt-14 w-1/6">
+      <div className="mt-14 w-3/6 lg:w-1/6">
         <PageHeading heading='My Skills' />
       </div>
 
 
-      <Tabs defaultValue={selectedTab} className="w-3/6 flex gap-5">
+      <Tabs defaultValue={selectedTab} className="w-5/6 lg:w-3/6 flex flex-col lg:flex-row gap-48 lg:gap-5">
 
         <TabsList className="w-full bg-transparent ">
 
-          <div className='w-full h-80 flex flex-col gap-6 overflow-y-auto pr-6'>
+          <div className='w-full h-16 lg:h-80 flex flex-row lg:flex-col gap-6 overflow-x-auto lg:overflow-y-auto pr-0 lg:pr-6'>
             {tabListName.map((tab) => (
               <TabsTrigger
                 key={tab.id}
@@ -153,7 +153,7 @@ const Page = () => {
             >
               <div className="overflow-y-auto h-80">
                 <div className="flex items-center justify-center">
-                  <div className="grid grid-cols-2 items-center gap-x-4 gap-y-4">
+                  <div className="flex items-center justify-center gap-5 overflow-x-auto lg:grid lg:grid-cols-2 lg:items-center lg:gap-x-4 lg:gap-y-4">
                     {tabcontent.tabContent.map((icon) => (
                       <div key={icon.id} className="p-10 rounded-lg bg-slate-800">
                         <div className="text-6xl">

@@ -51,20 +51,20 @@ const Page = () => {
     <div className="min-h-screen bg-slate-900 flex flex-col items-center">
 
 
-      <div className="mt-14 w-1/6">
+      <div className="mt-14 w-4/6 lg:w-1/6">
         <PageHeading heading='My Works' />
       </div>
 
-      <div className='w-4/5 mb-10'>
+      <div className='w-11/12 lg:w-4/5 mb-10'>
 
-        <div className="w-full mt-10 grid grid-cols-2 items-center gap-x-4 gap-y-8 font-poppins">
+        <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 items-center gap-x-4 gap-y-8 font-poppins">
           {allWorkLinks.map((work) => (
             <Card key={work.id} className='text-center flex flex-col items-center justify-center bg-transparent/10 text-white'>
               <CardHeader>
-                <CardTitle className='tracking-wide text-green-300'>{work.workName}</CardTitle>
+                <CardTitle className='tracking-wide text-green-300 text-center'>{work.workName}</CardTitle>
               </CardHeader>
               <CardContent className='flex flex-col gap-4 items-center justify-center'>
-                <p className='text-gray-400 text-base'>{work.workDescription}</p>
+                <p className='text-gray-400 text-base text-center'>{work.workDescription}</p>
                 <Link href={work.linkToWork} className='w-56'>
                   <Button variant="outline" className='w-full p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase'>Click Here</Button>
                 </Link>

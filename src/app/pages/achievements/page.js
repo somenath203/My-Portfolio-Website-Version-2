@@ -68,7 +68,7 @@ const Page = () => {
         <PageHeading heading="My Achievements" />
       </div>
 
-      <div className="mb-10 w-10/12 lg:w-4/5 flex items-center justify-center">
+      <div className="mb-10 w-11/12 lg:w-4/5 flex items-center justify-center">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center">
           {achievements.map((achievement) => (
             <Card
@@ -76,7 +76,7 @@ const Page = () => {
               className="w-full text-center bg-transparent/10 text-white font-poppins"
             >
               <CardHeader className="flex flex-col gap-2">
-                <CardTitle className="text-green-300 text-lg lg:text-2xl text-center">
+                <CardTitle className="text-green-300 text-center">
                   {achievement.nameOfTheAchievement}
                 </CardTitle>
                 <CardDescription>

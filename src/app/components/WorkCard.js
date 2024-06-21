@@ -48,9 +48,9 @@ const WorkCard = ({ workArray }) => {
 
   return (
 
-    <div className="mb-10 w-4/5 flex items-center justify-center">
+    <div className="mb-10 w-11/12 lg:w-4/5 flex items-center justify-center">
 
-      <div className="w-full grid grid-cols-2 gap-x-8 gap-y-6 items-center">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center">
 
         {workArray.map((work) => (
           <Card
