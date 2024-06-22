@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website Version 2
 
-## Getting Started
+This is my 2nd portfolio website. The portfolio website is mainly divided into 5 sections:
+01) The first section is the landing page itself which displayes my name, a 2 liner introduction about myself, my resume and my github and stackoverflow profile link.
+02) The second section is named `Skills` which displays all my skillset in different domain of coding.
+03) The third section is named `Works` which displays mainly all the projects that I have developed so far.
+04) The fourth section is about my `Achievements`.
+05) The fifth and the last section is named `Connect` where a basic form is displayed and beneath the form, a text `Click HERE to email me directly` is present. User can either use the contact form to connect
+with me or the user can click on `HERE` of the text `Click HERE to email me directly` to directly email me in my email address. All the details entered by the user in the form is stored in Firebase.
 
-First, run the development server:
+## Technologies Used to create the website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+01) NextJS v14
+02) TailwindCSS
+03) ShadcnUI
+04) Firebase
+   
+## Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website is deployed on Vercel
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Links
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Link to the website: https://somenath-choudhury-portfolio-version-2.vercel.app/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Demo Video of the Website
