@@ -40,6 +40,3 @@ The website is deployed on Vercel.
 
 - **Website**: [https://somenath-choudhury-portfolio-version-2.vercel.app/](https://somenath-choudhury-portfolio-version-2.vercel.app/)
 
----
-
-This version maintains the structure of your original content but improves readability and presentation.
