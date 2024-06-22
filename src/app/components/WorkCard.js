@@ -30,8 +30,9 @@ import Link from 'next/link';
 const WorkCard = ({ workArray }) => {
 
 
-  const [openModal, setOpenModal] = useState(false);
+  const [page, setPage] = useState(1);
 
+  const [openModal, setOpenModal] = useState(false);
 
   const [getCurrentWork, setGetCurrentWork] = useState();
 
@@ -47,11 +48,38 @@ const WorkCard = ({ workArray }) => {
 
   return (
 
-    <div className="mb-10 w-11/12 lg:w-4/5 flex items-center justify-center">
+    <div className="mb-10 w-11/12 lg:w-4/5 flex flex-col gap-8 items-center justify-center">
+
+      <div className='w-full flex items-center justify-end mr-12'>
+
+        <div className="flex flex-col items-center justify-center gap-2">
+
+          <p className='text-white text-xl'>{page} / {Math.ceil(workArray.length / 6)}</p>
+
+          <div className='flex gap-5'>
+            <button 
+              disabled={page === 1}
+              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-3xl font-bold'
+              onClick={() => setPage(page - 1)}
+            >
+              <i className="ri-arrow-left-line"></i>
+            </button>
+            <button 
+              disabled={page === Math.ceil(workArray.length / 6)}
+              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-3xl font-bold'
+              onClick={() => setPage(page + 1)}
+            >
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center">
 
-        {workArray.map((work) => (
+        {workArray.slice(page * 6 - 6, page * 6).map((work) => (
           <Card
             key={work.id}
             className="w-full text-center bg-transparent/10 text-white font-poppins border-2 border-green-500"
