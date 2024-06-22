@@ -111,7 +111,7 @@ const Page = () => {
           <AlertDialog open={openModal} onOpenChange={setOpenModal}>
             <AlertDialogContent className="overflow-auto max-h-[90vh] bg-slate-800 border-slate-800">
               <AlertDialogHeader>
-                <AlertDialogTitle className="mb-4 font-poppins text-xl lg:text-2xl text-green-400 text-center">
+                <AlertDialogTitle className="mb-4 font-poppins text-xl text-green-400 text-center">
                   {getCurrentAchievement.nameOfTheAchievement}
                 </AlertDialogTitle>
                 <AlertDialogDescription className="flex flex-col gap-6 font-poppins">
@@ -126,7 +126,7 @@ const Page = () => {
                       alt={getCurrentAchievement.nameOfTheAchievement} 
                     />
 
-                    <span className="font-bold">Description:</span>
+                    <span className="font-bold mt-5">Description:</span>
                     <span className="text-white">
                       {getCurrentAchievement.descriptionOfTheAchievement}
                     </span>

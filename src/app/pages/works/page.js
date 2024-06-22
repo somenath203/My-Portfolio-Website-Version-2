@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from "@/components/ui/button";
+import { motion } from 'framer-motion';
 
 import PageHeading from '@/app/components/PageHeading';
 
@@ -59,17 +60,25 @@ const Page = () => {
 
         <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-2 items-center gap-x-4 gap-y-8 font-poppins">
           {allWorkLinks.map((work) => (
-            <Card key={work.id} className='text-center flex flex-col items-center justify-center bg-transparent/10 text-white'>
-              <CardHeader>
-                <CardTitle className='tracking-wide text-green-300 text-center'>{work.workName}</CardTitle>
-              </CardHeader>
-              <CardContent className='flex flex-col gap-4 items-center justify-center'>
-                <p className='text-gray-400 text-base text-center'>{work.workDescription}</p>
-                <Link href={work.linkToWork} className='w-56'>
-                  <Button variant="outline" className='w-full p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase'>Click Here</Button>
-                </Link>
-              </CardContent>
-            </Card>
+            <motion.div 
+              key={work.id}
+              initial={{ opacity: 0, y: 50, scale: 0 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 1 }}
+              viewport={{ once: true }}
+            >
+              <Card className='text-center flex flex-col items-center justify-center bg-transparent/10 text-white'>
+                <CardHeader>
+                  <CardTitle className='tracking-wide text-green-300 text-center'>{work.workName}</CardTitle>
+                </CardHeader>
+                <CardContent className='flex flex-col gap-4 items-center justify-center'>
+                  <p className='text-gray-400 text-base text-center'>{work.workDescription}</p>
+                  <Link href={work.linkToWork} className='w-56'>
+                    <Button variant="outline" className='w-full p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase'>Click Here</Button>
+                  </Link>
+                </CardContent>
+              </Card>
+            </motion.div>
           ))}
         </div>
 

@@ -25,6 +25,7 @@ import {
 } from "@/components/ui/tooltip"
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 
 const WorkCard = ({ workArray }) => {
@@ -80,41 +81,48 @@ const WorkCard = ({ workArray }) => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center">
 
         {workArray.slice(page * 6 - 6, page * 6).map((work) => (
-          <Card
+          <motion.div 
             key={work.id}
-            className="w-full text-center bg-transparent/10 text-white font-poppins border-2 border-green-500"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
           >
-            <CardHeader className='flex flex-col gap-2'>
-              <CardTitle>{work.nameOfTheProject}</CardTitle>
-              <CardDescription>
-                <span className='text-gray-400'>{work.descOfTheProject.split(' ').length <= 6 ? work.descOfTheProject : work.descOfTheProject.split(' ').slice(0, 6).join(' ') + ' . . . .'}</span>
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Button
-                variant="outline"
-                className="w-56 p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase"
-                onClick={() => handleOpenModal(work)}
-              >
-                View Details
-              </Button>
-            </CardContent>
-          </Card>
+            <Card
+              className="w-full text-center bg-transparent/10 text-white font-poppins border-2 border-green-500"
+            >
+              <CardHeader className='flex flex-col gap-2'>
+                <CardTitle>{work.nameOfTheProject}</CardTitle>
+                <CardDescription>
+                  <span className='text-gray-400'>{work.descOfTheProject.split(' ').length <= 6 ? work.descOfTheProject : work.descOfTheProject.split(' ').slice(0, 6).join(' ') + ' . . . .'}</span>
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button
+                  variant="outline"
+                  className="w-56 p-6 bg-transparent border-2 hover:border-green-500 hover:bg-slate-800 hover:text-white transition-all duration-150 uppercase"
+                  onClick={() => handleOpenModal(work)}
+                >
+                  View Details
+                </Button>
+              </CardContent>
+            </Card>
+          </motion.div>
         ))}
       </div>
 
       {getCurrentWork && <AlertDialog open={openModal} onOpenChange={setOpenModal}>
         <AlertDialogContent className="overflow-auto max-h-[90vh] bg-slate-800 border-slate-800">
           <AlertDialogHeader>
-            <AlertDialogTitle className='mb-4 font-poppins text-xl lg:text-2xl text-green-400 text-center'>{getCurrentWork.nameOfTheProject}</AlertDialogTitle>
+            <AlertDialogTitle className='mb-4 font-poppins text-xl text-green-400 text-center'>{getCurrentWork.nameOfTheProject}</AlertDialogTitle>
             <AlertDialogDescription className='flex flex-col gap-6 font-poppins'>
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
                 
               <Image 
                 className='rounded-lg shadow-xl object-cover object-center'
                 src={getCurrentWork.picOfTheProj} 
-                width={400} 
-                height={400} 
+                width={500} 
+                height={500} 
                 alt={getCurrentWork.nameOfTheAchievement} 
               />
 

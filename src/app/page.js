@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
@@ -7,6 +9,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
+import { motion } from 'framer-motion';
 
 import WelcomePageImg from './assets/welcome_page_pics/welcome_page_img.png';
 
@@ -15,7 +18,13 @@ const Page = () => {
     <>
       <div className="min-h-screen bg-slate-900 font-poppins">
 
-        <div className="flex items-center justify-center">
+        <motion.div 
+          className="flex items-center justify-center"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
 
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mt-16 lg:mt-6">
 
@@ -30,9 +39,15 @@ const Page = () => {
               <div>
                 <p className="flex flex-col text-3xl lg:text-5xl text-center lg:text-left">
                   <span>My name is</span>
-                  <span className="text-green-400 font-semibold tracking-wide">
+                  <motion.span 
+                    className="text-green-400 font-semibold tracking-wide"
+                    initial={{ opacity: 0, x: '-100%' }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: '100%' }}
+                    transition={{ duration: 3 }}
+                  >
                     Somenath Choudhury
-                  </span>
+                  </motion.span>
                 </p>
               </div>
 
@@ -95,7 +110,12 @@ const Page = () => {
               </div>
             </div>
 
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 50, scale: 0 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 3 }}
+              viewport={{ once: true }}
+            >
               <Image
                 class="hidden lg:block object-cover object-center rounded-full border-4 border-dashed border-green-500"
                 alt="hero img"
@@ -103,9 +123,9 @@ const Page = () => {
                 width={550}
                 height={550}
               />
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
