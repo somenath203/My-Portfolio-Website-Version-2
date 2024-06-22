@@ -3,6 +3,13 @@
 import PageHeading from '@/app/components/PageHeading';
 import WorkCard from '@/app/components/WorkCard';
 
+import ImageGalleryPic from './../../../assets/mern_development_pics/imagegallery.png';
+import MyExpenseManagerPic from './../../../assets/mern_development_pics/myexpensemanager.png';
+import ShortMyURLPic from './../../../assets/mern_development_pics/shortmyurlpic.png';
+import MernAuthWithEmailVerifyPic from './../../../assets/mern_development_pics/authwithemailverification.png';
+import ShareYourFilePic from './../../../assets/mern_development_pics/sharefileprojpic.png';
+import WeatherAppPic from './../../../assets/mern_development_pics/weatherappimage.png';
+
 const Page = () => {
 
   const mernProjects = [
@@ -11,7 +18,7 @@ const Page = () => {
       nameOfTheProject: 'Image Gallery',
       descOfTheProject: 'This is a project with the help of which a user would be able to store his/her best memories in his/her life.',
       techStackUsedInTheProject: 'React, TailwindCSS, ExpressJS, MongoDB, Cloudinary',
-      picOfTheProj: '',
+      picOfTheProj: ImageGalleryPic,
       livePreviewOfTheProject: 'https://mern-stack-image-gallery-frontend-fh09y4t7a-somenath203.vercel.app/login',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mern-Stack-Image-Gallery-Frontend',
     },
@@ -20,7 +27,7 @@ const Page = () => {
       nameOfTheProject: 'My Finance Manager',
       descOfTheProject: 'This is a project where a user would be able to add his/her savings, expenditures, and investments and on the basis of that, the user will get to know how he/she should use his/her money.',
       techStackUsedInTheProject: 'React, TailwindCSS, antd, ExpressJS, MongoDB',
-      picOfTheProj: '',
+      picOfTheProj: MyExpenseManagerPic,
       livePreviewOfTheProject: 'https://my-finance-manager-frontend.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/My-Finance-Manager-Frontend',
     },
@@ -29,7 +36,7 @@ const Page = () => {
       nameOfTheProject: 'ShortMyURL',
       descOfTheProject: 'This is website where a user would be able to reduce the size of url of any length.',
       techStackUsedInTheProject: 'React, TailwindCSS, ExpressJS, MongoDB',
-      picOfTheProj: '',
+      picOfTheProj: ShortMyURLPic,
       livePreviewOfTheProject: 'https://mern-stack-url-shortener-frontend.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mern-Stack-URL-Shortener-Frontend',
     },
@@ -38,7 +45,7 @@ const Page = () => {
       nameOfTheProject: 'Advanced Mern Authenitcation',
       descOfTheProject: 'This is a project where the account of the user is activated when the user clicks on the activation link sent to him/her in there respective email address when the user registers for a new account.',
       techStackUsedInTheProject: 'React, Bootstrap, ExpressJS, MongoDB, Nodemailer',
-      picOfTheProj: '',
+      picOfTheProj: MernAuthWithEmailVerifyPic,
       livePreviewOfTheProject: 'https://mern-authentication-with-email-activation-frontend.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mern-Authentication-with-Email-Activation-Frontend',
     },
@@ -47,7 +54,7 @@ const Page = () => {
       nameOfTheProject: 'Share Your File',
       descOfTheProject: 'This is a web tool that let users share files easily. Just upload your files, and it will give you a link to share them.',
       techStackUsedInTheProject: 'React, antd, ExpressJS, MongoDB',
-      picOfTheProj: '',
+      picOfTheProj: ShareYourFilePic,
       livePreviewOfTheProject: 'https://shareyourfile.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Share-Your-File',
     },
@@ -56,7 +63,7 @@ const Page = () => {
       nameOfTheProject: 'Weather App',
       descOfTheProject: 'This is a project created with the help of React, TailwindCSS, ExpressJS and OpenWeatherAPI where a user can get the temperature and humidity of any city in the world.',
       techStackUsedInTheProject: 'React, TailwindCSS, ExpressJS, OpenWeatherAPI',
-      picOfTheProj: '',
+      picOfTheProj: WeatherAppPic,
       livePreviewOfTheProject: 'https://weather-app-frontend-nine.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Weather-App-Frontend',
     }
@@ -65,7 +72,7 @@ const Page = () => {
   return (
     <div className="min-h-screen bg-slate-900 flex flex-col gap-11 items-center">
 
-      <div className="mt-14 w-5/6 lg:w-1/4">
+      <div className="mt-14 w-4/6 lg:w-1/4">
 
         <PageHeading heading='MERN Projects' />
 

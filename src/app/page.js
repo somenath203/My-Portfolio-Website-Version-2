@@ -8,7 +8,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 
-import WelcomePageImg from './assets/welcome_page_img.png';
+import WelcomePageImg from './assets/welcome_page_pics/welcome_page_img.png';
 
 const Page = () => {
   return (

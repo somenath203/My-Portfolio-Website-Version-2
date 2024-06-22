@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {
   Card,
   CardContent,
@@ -28,12 +29,16 @@ import Link from 'next/link';
 
 import PageHeading from '@/app/components/PageHeading';
 
+import PostmanStudentExpertImg from './../../assets/achievements_pics/postmanstudentexpertbatchimg.png';
+import DevfolioAchievmentPic from './../../assets/achievements_pics/devfolio_achievment.png';
+
+
 const Page = () => {
   const achievements = [
     {
       id: 1,
       nameOfTheAchievement: 'Postman API Fundamentals Student Expert',
-      photoOfTheAchievement: '',
+      photoOfTheAchievement: PostmanStudentExpertImg,
       descriptionOfTheAchievement:
         'Got this batch for successfully testing APIs with Postman.',
       urlOfTheAchievement:
@@ -42,7 +47,7 @@ const Page = () => {
     {
       id: 2,
       nameOfTheAchievement: 'Devfolio Live the Code 2.0 Hackathon',
-      photoOfTheAchievement: '',
+      photoOfTheAchievement: DevfolioAchievmentPic,
       descriptionOfTheAchievement:
         'Secured Rank 5 and became Pool Prize Winner in Devfolio Live the Code 2.0 Hackathon out of 100 teams.',
       urlOfTheAchievement:
@@ -106,16 +111,28 @@ const Page = () => {
           <AlertDialog open={openModal} onOpenChange={setOpenModal}>
             <AlertDialogContent className="overflow-auto max-h-[90vh] bg-slate-800 border-slate-800">
               <AlertDialogHeader>
-                <AlertDialogTitle className="mb-4 font-poppins text-2xl text-green-400 text-center">
+                <AlertDialogTitle className="mb-4 font-poppins text-xl lg:text-2xl text-green-400 text-center">
                   {getCurrentAchievement.nameOfTheAchievement}
                 </AlertDialogTitle>
                 <AlertDialogDescription className="flex flex-col gap-6 font-poppins">
+
                   <span className="flex flex-col items-center justify-center text-center gap-2 text-base text-green-400">
+
+                    <Image 
+                      className='rounded-lg shadow-xl object-cover object-center'
+                      src={getCurrentAchievement.photoOfTheAchievement} 
+                      width={400} 
+                      height={400} 
+                      alt={getCurrentAchievement.nameOfTheAchievement} 
+                    />
+
                     <span className="font-bold">Description:</span>
                     <span className="text-white">
                       {getCurrentAchievement.descriptionOfTheAchievement}
                     </span>
+
                   </span>
+
                   <span className="flex flex-col items-center justify-center text-center gap-2 text-base text-green-400">
                     <span className="font-bold">Link:</span>
                     <span className="mt-1 flex items-center justify-center gap-4">

@@ -24,7 +24,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 
 const WorkCard = ({ workArray }) => {
@@ -50,23 +50,23 @@ const WorkCard = ({ workArray }) => {
 
     <div className="mb-10 w-11/12 lg:w-4/5 flex flex-col gap-8 items-center justify-center">
 
-      <div className='w-full flex items-center justify-end mr-12'>
+      <div className='w-full flex justify-end mr-12'>
 
         <div className="flex flex-col items-center justify-center gap-2">
 
-          <p className='text-white text-xl'>{page} / {Math.ceil(workArray.length / 6)}</p>
+          <p className='text-white text-xl text-center'>{page} / {Math.ceil(workArray.length / 6)}</p>
 
           <div className='flex gap-5'>
             <button 
               disabled={page === 1}
-              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-3xl font-bold'
+              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-2xl lg:text-3xl font-bold'
               onClick={() => setPage(page - 1)}
             >
               <i className="ri-arrow-left-line"></i>
             </button>
             <button 
               disabled={page === Math.ceil(workArray.length / 6)}
-              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-3xl font-bold'
+              className='flex items-center justify-center text-green-300 border-2 p-2 border-green-200 hover:border-green-400 transition-all duration-200 disabled:text-slate-400 disabled:border-slate-500 disabled:cursor-not-allowed rounded-lg text-2xl lg:text-3xl font-bold'
               onClick={() => setPage(page + 1)}
             >
               <i class="ri-arrow-right-line"></i>
@@ -106,10 +106,19 @@ const WorkCard = ({ workArray }) => {
       {getCurrentWork && <AlertDialog open={openModal} onOpenChange={setOpenModal}>
         <AlertDialogContent className="overflow-auto max-h-[90vh] bg-slate-800 border-slate-800">
           <AlertDialogHeader>
-            <AlertDialogTitle className='mb-4 font-poppins text-2xl text-green-400 text-center'>{getCurrentWork.nameOfTheProject}</AlertDialogTitle>
+            <AlertDialogTitle className='mb-4 font-poppins text-xl lg:text-2xl text-green-400 text-center'>{getCurrentWork.nameOfTheProject}</AlertDialogTitle>
             <AlertDialogDescription className='flex flex-col gap-6 font-poppins'>
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
-                <span className='font-bold'>Description:</span>
+                
+              <Image 
+                className='rounded-lg shadow-xl object-cover object-center'
+                src={getCurrentWork.picOfTheProj} 
+                width={400} 
+                height={400} 
+                alt={getCurrentWork.nameOfTheAchievement} 
+              />
+
+                <span className='font-bold mt-5'>Description:</span>
                 <span className='text-white'>{getCurrentWork.descOfTheProject}</span>
               </span>
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
