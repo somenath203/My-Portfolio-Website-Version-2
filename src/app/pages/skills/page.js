@@ -152,8 +152,8 @@ const Page = () => {
               className="text-white w-full"
             >
               <div className="overflow-y-auto h-80">
-                <div className="flex items-center justify-center">
-                  <div className="flex items-center justify-center gap-5 overflow-x-auto lg:grid lg:grid-cols-2 lg:items-center lg:gap-x-4 lg:gap-y-4">
+                <div className="flex lg:items-center lg:justify-center">
+                  <div className="flex lg:items-center lg:justify-center gap-5 overflow-x-auto lg:grid lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4">
                     {tabcontent.tabContent.map((icon) => (
                       <div key={icon.id} className="p-10 rounded-lg bg-slate-800">
                         <div className="text-6xl">
