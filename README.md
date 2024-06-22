@@ -1,7 +1,3 @@
-The content of your README is good but can be improved for clarity, professionalism, and readability. Here’s a refined version:
-
----
-
 # My Portfolio Website Version 2
 
 This is my second portfolio website, showcasing my skills, projects, achievements, and contact information. The website is structured into five main sections:
@@ -39,4 +35,9 @@ The website is deployed on Vercel.
 ## Links
 
 - **Website**: [https://somenath-choudhury-portfolio-version-2.vercel.app/](https://somenath-choudhury-portfolio-version-2.vercel.app/)
+
+## Demo Video of the Website
+
+https://github.com/somenath203/My-Portfolio-Website-Version-2/assets/81456073/a9f7fad7-76b6-493e-93f9-896c3f4ba529
+
 
