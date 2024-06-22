@@ -1,26 +1,45 @@
+The content of your README is good but can be improved for clarity, professionalism, and readability. Here’s a refined version:
+
+---
+
 # My Portfolio Website Version 2
 
-This is my 2nd portfolio website. The portfolio website is mainly divided into 5 sections:
-01) The first section is the landing page itself which displayes my name, a 2 liner introduction about myself, my resume and my github and stackoverflow profile link.
-02) The second section is named `Skills` which displays all my skillset in different domain of coding.
-03) The third section is named `Works` which displays mainly all the projects that I have developed so far.
-04) The fourth section is about my `Achievements`.
-05) The fifth and the last section is named `Connect` where a basic form is displayed and beneath the form, a text `Click HERE to email me directly` is present. User can either use the contact form to connect
-with me or the user can click on `HERE` of the text `Click HERE to email me directly` to directly email me in my email address. All the details entered by the user in the form is stored in Firebase.
+This is my second portfolio website, showcasing my skills, projects, achievements, and contact information. The website is structured into five main sections:
 
-## Technologies Used to create the website
+1. **Landing Page**: 
+   - Displays my name.
+   - A brief introduction about myself.
+   - Links to my resume, GitHub profile, and Stack Overflow profile.
 
-01) NextJS v14
-02) TailwindCSS
-03) ShadcnUI
-04) Firebase
-   
+2. **Skills**: 
+   - Showcases my skill set across different coding domains.
+
+3. **Works**: 
+   - Highlights the projects I have developed so far.
+
+4. **Achievements**: 
+   - Details my significant accomplishments.
+
+5. **Connect**: 
+   - Features a contact form for users to connect with me.
+   - Includes a link to directly email me.
+   - User details entered in the form are stored in Firebase.
+
+## Technologies Used
+
+- **NextJS v14**
+- **TailwindCSS**
+- **ShadcnUI**
+- **Firebase**
+
 ## Deployment
 
-The website is deployed on Vercel
+The website is deployed on Vercel.
 
 ## Links
 
-Link to the website: https://somenath-choudhury-portfolio-version-2.vercel.app/
+- **Website**: [https://somenath-choudhury-portfolio-version-2.vercel.app/](https://somenath-choudhury-portfolio-version-2.vercel.app/)
 
-## Demo Video of the Website
+---
+
+This version maintains the structure of your original content but improves readability and presentation.
