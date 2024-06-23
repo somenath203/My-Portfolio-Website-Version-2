@@ -14,6 +14,28 @@ import { motion } from 'framer-motion';
 import WelcomePageImg from './assets/welcome_page_pics/welcome_page_img.png';
 
 const Page = () => {
+
+  const socialLinksArray = [
+    {
+      id: 1,
+      nameOfTheSocialLink: 'GitHub',
+      urlOfTheSocialLink: 'https://github.com/somenath203',
+      iconOfTheSocialLink: 'ri-github-line'
+    },
+    {
+      id: 2,
+      nameOfTheSocialLink: 'Linkedin',
+      urlOfTheSocialLink: 'https://www.linkedin.com/in/somenath-choudhury/',
+      iconOfTheSocialLink: 'ri-linkedin-fill'
+    },
+    {
+      id: 3,
+      nameOfTheSocialLink: 'StackOverflow',
+      urlOfTheSocialLink: 'https://stackoverflow.com/users/14437554/somenath-choudhury',
+      iconOfTheSocialLink: 'ri-stack-overflow-line'
+    }
+  ];
+
   return (
     <>
       <div className="min-h-screen bg-slate-900 font-poppins">
@@ -74,37 +96,23 @@ const Page = () => {
 
                 <span className="flex items-center gap-4">
 
-                  <TooltipProvider>
-                    <Tooltip>
-                      <TooltipTrigger>
-                        <Link
-                          href="https://github.com/somenath203"
-                          target="_blank"
-                        >
-                          <i className="ri-github-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-3xl lg:text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
-                        </Link>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>GitHub Profile Link</p>
-                      </TooltipContent>
-                    </Tooltip>
+                  {socialLinksArray.map((social) => (
+                    <TooltipProvider key={social.id}>
+                      <Tooltip>
+                        <TooltipTrigger>
+                          <Link
+                            href={social.urlOfTheSocialLink}
+                            target="_blank"
+                          >
+                            <i className={`${social.iconOfTheSocialLink} hover:bg-slate-800 cursor-pointer transition-all duration-150 text-3xl lg:text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full`}></i>
+                          </Link>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>{social.nameOfTheSocialLink} Profile Link</p>
+                        </TooltipContent>
+                      </Tooltip>
                   </TooltipProvider>
-
-                  <TooltipProvider>
-                    <Tooltip>
-                      <TooltipTrigger>
-                        <Link
-                          href="https://stackoverflow.com/users/14437554/somenath-choudhury"
-                          target="_blank"
-                        >
-                          <i className="ri-stack-overflow-line hover:bg-slate-800 cursor-pointer transition-all duration-150 text-3xl lg:text-2xl border-2 text-green-500 border-green-400 p-2 rounded-full"></i>
-                        </Link>
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>StackOverflow Profile Link</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
+                  ))}
 
                 </span>
               </div>

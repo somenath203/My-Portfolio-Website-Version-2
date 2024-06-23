@@ -35,15 +35,15 @@ const Page = () => {
     },
     {
       id: 4,
-      workName: 'MobileApp Projects',
-      workDescription: 'Click here to view all my work related to mobile app development.',
-      linkToWork: '/pages/all_works/mobile_app_projects'
-    },
-    {
-      id: 5,
       workName: 'AI Projects',
       workDescription: 'Click here to view all my work related to artificial intelligence.',
       linkToWork: '/pages/all_works/ai_projects'
+    },
+    {
+      id: 5,
+      workName: 'MobileApp Projects',
+      workDescription: 'Click here to view all my work related to mobile app development.',
+      linkToWork: '/pages/all_works/mobile_app_projects'
     },
   ];
 

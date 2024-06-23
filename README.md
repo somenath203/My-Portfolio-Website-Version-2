@@ -26,6 +26,7 @@ This is my second portfolio website, showcasing my skills, projects, achievement
 - **NextJS v14**
 - **TailwindCSS**
 - **ShadcnUI**
+- **Framer Motion**
 - **Firebase**
 
 ## Deployment
