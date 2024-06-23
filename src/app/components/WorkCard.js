@@ -119,7 +119,7 @@ const WorkCard = ({ workArray }) => {
               <span className='flex flex-col items-center justify-center text-center gap-2 text-base text-green-400'>
                 
               <Image 
-                className='w-full h-full rounded-xl shadow-xl object-cover object-center border-8 border-green-500'
+                className='w-full h-full rounded-xl shadow-xl object-cover object-center border-8 border-green-400'
                 src={getCurrentWork.picOfTheProj} 
                 width=""
                 height="" 
