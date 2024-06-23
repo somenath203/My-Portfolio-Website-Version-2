@@ -5,7 +5,7 @@ This is my second portfolio website, showcasing my skills, projects, achievement
 1. **Landing Page**: 
    - Displays my name.
    - A brief introduction about myself.
-   - Links to my resume, GitHub profile, and Stack Overflow profile.
+   - Links to my resume, GitHub profile, Linkedin profile and Stack Overflow profile.
 
 2. **Skills**: 
    - Showcases my skill set across different coding domains.
