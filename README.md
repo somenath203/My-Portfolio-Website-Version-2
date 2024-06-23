@@ -39,6 +39,6 @@ The website is deployed on Vercel.
 
 ## Demo Video of the Website
 
-https://github.com/somenath203/My-Portfolio-Website-Version-2/assets/81456073/a9f7fad7-76b6-493e-93f9-896c3f4ba529
+https://github.com/somenath203/My-Portfolio-Website-Version-2/assets/81456073/68976dd4-fc37-4fa9-b6dc-f95c546b2f86
 
 
