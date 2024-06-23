@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { addDoc, collection } from 'firebase/firestore';
 import { toast } from 'react-toastify';
+import { motion } from 'framer-motion';
 
 import PageHeading from '@/app/components/PageHeading';
 import firebaseDB from '@/firebaseConfig';
@@ -79,7 +80,13 @@ const Page = () => {
         <PageHeading heading="Connect With Me" />
       </div>
 
-      <div className="w-11/12 lg:w-3/5">
+      <motion.div 
+        className="w-11/12 lg:w-3/5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
 
         <form className="w-full flex flex-col gap-6" onSubmit={onSubmitForm}>
 
@@ -125,13 +132,25 @@ const Page = () => {
             Submit
           </Button>}
         </form>
-      </div>
+      </motion.div>
 
-      <p className="text-white text-xl lg:text-2xl text-center font-poppins tracking-wide">
+      <motion.p 
+        className="text-white text-xl lg:text-2xl text-center font-poppins tracking-wide"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         ------------ OR ------------
-      </p>
+      </motion.p>
 
-      <div className="mb-10 text-center text-lg lg:text-xl text-white font-poppins tracking-widest flex flex-col gap-1 items-center justify-center">
+      <motion.div 
+        className="mb-10 text-center text-lg lg:text-xl text-white font-poppins tracking-widest flex flex-col gap-1 items-center justify-center"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+      >
         <span className="h-0.5 bg-white mb-4 w-72 lg:w-80"></span>
         <span>
           Click{' '}
@@ -145,7 +164,7 @@ const Page = () => {
           to email me directly
         </span>
         <span className="h-0.5 bg-white my-4 w-72 lg:w-80"></span>
-      </div>
+      </motion.div>
     </div>
   );
 };

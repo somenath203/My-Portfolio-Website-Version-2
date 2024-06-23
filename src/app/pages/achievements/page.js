@@ -26,6 +26,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 import PageHeading from '@/app/components/PageHeading';
 
@@ -72,7 +73,13 @@ const Page = () => {
       </div>
 
       <div className="mb-10 w-11/12 lg:w-4/5 flex items-center justify-center">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center">
+        <motion.div 
+          className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6 items-center"
+          initial={{ opacity: 0, y: 50, scale: 0 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
           {achievements.map((achievement) => (
             <Card
               key={achievement.id}
@@ -105,7 +112,7 @@ const Page = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </motion.div>
 
         {getCurrentAchievement && (
           <AlertDialog open={openModal} onOpenChange={setOpenModal}>
