@@ -9,6 +9,7 @@ import ShortMyURLPic from './../../../assets/mern_development_pics/shortmyurlpic
 import MernAuthWithEmailVerifyPic from './../../../assets/mern_development_pics/authwithemailverification.png';
 import ShareYourFilePic from './../../../assets/mern_development_pics/sharefileprojpic.png';
 import WeatherAppPic from './../../../assets/mern_development_pics/weatherappimage.png';
+import SimpleTaskManagerAppPic from './../../../assets/mern_development_pics/taskmanagerprojimg.png';
 
 const Page = () => {
 
@@ -66,7 +67,16 @@ const Page = () => {
       picOfTheProj: WeatherAppPic,
       livePreviewOfTheProject: 'https://weather-app-frontend-nine.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Weather-App-Frontend',
-    }
+    },
+    {
+      id: 7,
+      nameOfTheProject: 'Simple Task Manager',
+      descOfTheProject: 'This is a simple task manager webapp where authenticated user will be able to create a new task with a due date, view all created tasks, view details of a particular task, edit a task and as well as, delete a task.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, ExpressJS, MongoDB',
+      picOfTheProj: SimpleTaskManagerAppPic,
+      livePreviewOfTheProject: 'https://task-manager-pedalstart.vercel.app/pages/login',
+      githubLinkOfTheProject: 'https://github.com/somenath203/PedalStart-Task-Manager-Assignment',
+    },
   ];
 
   return (
