@@ -42,10 +42,11 @@ const Page = () => {
 
   const tabListName = [
     { id: 1, name: 'Programming Languages' },
-    { id: 2, name: 'Web Development' },
-    { id: 3, name: 'App Development' },
-    { id: 4, name: 'Artificial Intelligence' },
-    { id: 5, name: 'DevOps' },
+    { id: 2, name: 'Frontend Web Development' },
+    { id: 3, name: 'Backend Development' },
+    { id: 4, name: 'App Development' },
+    { id: 5, name: 'Artificial Intelligence' },
+    { id: 6, name: 'DevOps' },
   ];
 
   const tabContents = [
@@ -61,34 +62,40 @@ const Page = () => {
     },
     {
       id: 2,
-      tabName: 'Web Development',
+      tabName: 'Frontend Web Development',
       tabContent: [
         { id: 1, icon: <FaHtml5 />, nameOfTooltip: 'Html' },
         { id: 2, icon: <FaCss3 />, nameOfTooltip: 'CSS' },
         { id: 3, icon: <FaReact />, nameOfTooltip: 'ReactJS' },
         { id: 4, icon: <RiNextjsFill />, nameOfTooltip: 'NextJS' },
-        { id: 5, icon: <FaNodeJs />, nameOfTooltip: 'NodeJS' },
-        { id: 6, icon: <SiExpress />, nameOfTooltip: 'ExpressJS' },
-        { id: 7, icon: <SiFlask />, nameOfTooltip: 'Flask' },
-        { id: 8, icon: <SiFastapi />, nameOfTooltip: 'FastAPI' },
-        { id: 9, icon: <RiTailwindCssFill />, nameOfTooltip: 'TailwindCSS' },
-        { id: 10, icon: <SiAntdesign />, nameOfTooltip: 'Antd Design' },
-        { id: 11, icon: <SiMui />, nameOfTooltip: 'Material UI' },
-        { id: 12, icon: <SiChakraui />, nameOfTooltip: 'Chakra UI' },
-        { id: 13, icon: <SiShadcnui />, nameOfTooltip: 'ShadcnUI' },
-        { id: 14, icon: <SiStreamlit />, nameOfTooltip: 'Streamlit' },
-        { id: 15, icon: <FaLayerGroup />, nameOfTooltip: 'Gradio' },
+        { id: 5, icon: <RiTailwindCssFill />, nameOfTooltip: 'TailwindCSS' },
+        { id: 6, icon: <SiAntdesign />, nameOfTooltip: 'Antd Design' },
+        { id: 7, icon: <SiMui />, nameOfTooltip: 'Material UI' },
+        { id: 8, icon: <SiChakraui />, nameOfTooltip: 'Chakra UI' },
+        { id: 9, icon: <SiShadcnui />, nameOfTooltip: 'ShadcnUI' },
+        { id: 10, icon: <SiStreamlit />, nameOfTooltip: 'Streamlit' },
+        { id: 11, icon: <FaLayerGroup />, nameOfTooltip: 'Gradio' },
       ],
     },
     {
       id: 3,
+      tabName: 'Backend Development',
+      tabContent: [
+        { id: 1, icon: <FaNodeJs />, nameOfTooltip: 'NodeJS' },
+        { id: 2, icon: <SiExpress />, nameOfTooltip: 'ExpressJS' },
+        { id: 3, icon: <SiFlask />, nameOfTooltip: 'Flask' },
+        { id: 4, icon: <SiFastapi />, nameOfTooltip: 'FastAPI' },
+      ],
+    },
+    {
+      id: 4,
       tabName: 'App Development',
       tabContent: [
         { id: 1, icon: <SiFlutter />, nameOfTooltip: 'FLutter' }
       ],
     },
     {
-      id: 4,
+      id: 5,
       tabName: 'Artificial Intelligence',
       tabContent: [
         { id: 1, icon: <SiNumpy />, nameOfTooltip: 'Numpy' },
@@ -99,7 +106,7 @@ const Page = () => {
       ],
     },
     {
-      id: 5,
+      id: 6,
       tabName: 'DevOps',
       tabContent: [
         { id: 1, icon: <FaDocker />, nameOfTooltip: 'Docker' }
