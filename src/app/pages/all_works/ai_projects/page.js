@@ -274,8 +274,8 @@ const Page = () => {
         descOfTheProject: "This is a simple Question Answering application created with the help of Langchain, Ollama, Llama3 Large Language Model and Streamlit that answer questions and produce code related to machine learning and deep learning.",
         techStackUsedInTheProject: 'langChain, Ollama, Llama LLM, Streamlit',
         picOfTheProj: QuestionAnswerAiLlama3ChatAppImg,
-        livePreviewOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-Ollama-and-Llama3?tab=readme-ov-file#demo-video-of-the-application',
-        githubLinkOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-Ollama-and-Llama3'
+        livePreviewOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3?tab=readme-ov-file#demo-video-of-the-application',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3'
     },
 ];
 
