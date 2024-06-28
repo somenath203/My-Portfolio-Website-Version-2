@@ -29,6 +29,7 @@ import LanguageIdentifierProjImg from './../../../assets/ai_development_pics/lan
 import MalariaImgCellClassifyProjImg from './../../../assets/ai_development_pics/malariacellclassification.png';
 import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/namedentityrecognizerpic.png';
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
+import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
 
 const Page = () => {
 
@@ -266,6 +267,15 @@ const Page = () => {
         picOfTheProj: TomatoLeafImg,
         livePreviewOfTheProject: 'https://healthy-tomato.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/tomato-disease-classification-ten-classes'
+    },
+    {
+        id: 27,
+        nameOfTheProject: 'Machine Learning and Deep learning Assistant using Langchain, Ollama and Llama3',
+        descOfTheProject: "This is a simple Question Answering application created with the help of Langchain, Ollama, Llama3 Large Language Model and Streamlit that answer questions and produce code related to machine learning and deep learning.",
+        techStackUsedInTheProject: 'langChain, Ollama, Llama LLM, Streamlit',
+        picOfTheProj: QuestionAnswerAiLlama3ChatAppImg,
+        livePreviewOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-Ollama-and-Llama3?tab=readme-ov-file#demo-video-of-the-application',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-Ollama-and-Llama3'
     },
 ];
 
