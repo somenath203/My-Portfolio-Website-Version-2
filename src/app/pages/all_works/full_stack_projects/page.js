@@ -13,7 +13,7 @@ import SimpleTaskManagerAppPic from './../../../assets/mern_development_pics/tas
 
 const Page = () => {
 
-  const mernProjects = [
+  const fullStackProjects = [
     {
       id: 1,
       nameOfTheProject: 'Image Gallery',
@@ -84,11 +84,11 @@ const Page = () => {
 
       <div className="mt-14 w-4/6 lg:w-1/4">
 
-        <PageHeading heading='MERN Projects' />
+        <PageHeading heading='Full Stack Projects' />
 
       </div>
 
-      <WorkCard workArray={mernProjects} />
+      <WorkCard workArray={fullStackProjects} />
 
     </div>
   );

@@ -29,9 +29,9 @@ const Page = () => {
     },
     {
       id: 3,
-      workName: 'MERN Projects',
-      workDescription: 'Click here to view all my work related to mern stack.',
-      linkToWork: '/pages/all_works/mern_projects'
+      workName: 'Full Stack Projects',
+      workDescription: 'Click here to view all my work related to full stack.',
+      linkToWork: '/pages/all_works/full_stack_projects'
     },
     {
       id: 4,
