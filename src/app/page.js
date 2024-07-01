@@ -78,7 +78,7 @@ const Page = () => {
                 webapps, ai models and deploying them in production.
               </div>
 
-              <Link href="https://drive.google.com/file/d/1VSIt9FOd6bZpnornD9DkxzlRT5ObELMk/view?usp=sharing" target='_blank'>
+              <Link href="https://drive.google.com/file/d/1xaprd9LP1yPMRc_f1BerjNsKnGhUxOes/view?usp=sharing" target='_blank'>
                 <Button
                   variant="ghost"
                   className="border-2 m-auto lg:m-0 border-green-500 hover:bg-slate-800 transition-all duration-150 text-base hover:text-white py-6 w-5/6 lg:w-3/6 flex items-center justify-center gap-2"
