@@ -41,7 +41,7 @@ const Page = () => {
       nameOfTheAchievement: 'Postman API Fundamentals Student Expert',
       photoOfTheAchievement: PostmanStudentExpertImg,
       descriptionOfTheAchievement:
-        'Got this batch for successfully testing APIs with Postman.',
+        'Certified as Postman API Fundamentals Student Expert for showing essential skills in API interaction and Postman essentials.',
       urlOfTheAchievement:
         'https://badgr.com/public/assertions/u9_k1c49QaOWTqEvt0oOzA?identity__email=somenathchoudhury35@gmail.com',
     },
@@ -50,7 +50,7 @@ const Page = () => {
       nameOfTheAchievement: 'Devfolio Live the Code 2.0 Hackathon',
       photoOfTheAchievement: DevfolioAchievmentPic,
       descriptionOfTheAchievement:
-        'Secured Rank 5 and became Pool Prize Winner in Devfolio Live the Code 2.0 Hackathon out of 100 teams.',
+        'Achieved Rank 5 and became a Pool Prize Winner out of 100 teams in Devfolio Live the Code 2.0 hackathon.',
       urlOfTheAchievement:
         'https://drive.google.com/file/d/1SHrwWFKx7aovLIpB6Lks4EEZ7cN9oscM/view',
     },
