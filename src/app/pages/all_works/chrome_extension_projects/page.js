@@ -12,7 +12,7 @@ const Page = () => {
     {
       id: 1,
       nameOfTheProject: 'TextSearch',
-      descOfTheProject: 'TextSearch improves your browsing experience by allowing you to search any selected text with a simple right-click. You can choose from multiple search engines, including Google, Bing, DuckDuckGo, and Yahoo. Customize your preferred search engine in the extension options and enjoy seamless, efficient web searches without the hassle of copying and pasting.',
+      descOfTheProject: 'TextSearch improves your browsing experience by allowing you to search any selected text with a simple right-click.',
       techStackUsedInTheProject: 'Html, CSS, Javascript',
       picOfTheProj: TextSearchImg,
       livePreviewOfTheProject: 'https://chromewebstore.google.com/detail/lblfeoenhlakknjhjlcbjohgfkbbikbd',
