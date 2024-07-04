@@ -45,6 +45,12 @@ const Page = () => {
       workDescription: 'Click here to view all my work related to mobile app development.',
       linkToWork: '/pages/all_works/mobile_app_projects'
     },
+    {
+      id: 6,
+      workName: 'Chrome Extension Projects',
+      workDescription: 'Click here to view all my work related to chrome extensions.',
+      linkToWork: '/pages/all_works/chrome_extension_projects'
+    },
   ];
 
   return (
