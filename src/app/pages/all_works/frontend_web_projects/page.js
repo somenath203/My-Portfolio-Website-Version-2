@@ -18,6 +18,7 @@ import QrCodeProjPic from './../../../assets/frontend_development_pics/playwithq
 import MarkdownPreviewerPic from './../../../assets/frontend_development_pics/markdownpreviewerprojimg.png';
 import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import PortfolioPic from './../../../assets/frontend_development_pics/portfolioimage.png';
+import FourInOneStreamlitAiToolAppImg from './../../../assets/frontend_development_pics/fourinoneaitoolproj.png';
 
 
 const Page = () => {
@@ -158,6 +159,15 @@ const Page = () => {
       livePreviewOfTheProject: 'https://somenath-portfolio-website.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/My-Portfolio-Project',
     },
+    {
+      id: 16,
+      nameOfTheProject: '4 in 1 AI Toolkit Powered by Google Gemini API',
+      descOfTheProject: "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
+      techStackUsedInTheProject: 'Streamlit, Google Gemini API',
+      picOfTheProj: FourInOneStreamlitAiToolAppImg,
+      livePreviewOfTheProject: 'https://4-in-1-ai-toolkit-powered-by-app-gemini.streamlit.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/4-in-1-AI-Toolkit-powered-by-Google-Gemini-API'
+  },
   ];
 
 

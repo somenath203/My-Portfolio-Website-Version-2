@@ -3,13 +3,14 @@
 import PageHeading from '@/app/components/PageHeading';
 import WorkCard from '@/app/components/WorkCard';
 
-import ImageGalleryPic from './../../../assets/mern_development_pics/imagegallery.png';
-import MyExpenseManagerPic from './../../../assets/mern_development_pics/myexpensemanager.png';
-import ShortMyURLPic from './../../../assets/mern_development_pics/shortmyurlpic.png';
-import MernAuthWithEmailVerifyPic from './../../../assets/mern_development_pics/authwithemailverification.png';
-import ShareYourFilePic from './../../../assets/mern_development_pics/sharefileprojpic.png';
-import WeatherAppPic from './../../../assets/mern_development_pics/weatherappimage.png';
-import SimpleTaskManagerAppPic from './../../../assets/mern_development_pics/taskmanagerprojimg.png';
+import ImageGalleryPic from './../../../assets/full_stack_development_pics/imagegallery.png';
+import MyExpenseManagerPic from './../../../assets/full_stack_development_pics/myexpensemanager.png';
+import ShortMyURLPic from './../../../assets/full_stack_development_pics/shortmyurlpic.png';
+import MernAuthWithEmailVerifyPic from './../../../assets/full_stack_development_pics/authwithemailverification.png';
+import ShareYourFilePic from './../../../assets/full_stack_development_pics/sharefileprojpic.png';
+import WeatherAppPic from './../../../assets/full_stack_development_pics/weatherappimage.png';
+import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pics/taskmanagerprojimg.png';
+import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pics/nextgeminichatapppic.png';
 
 const Page = () => {
 
@@ -76,6 +77,15 @@ const Page = () => {
       picOfTheProj: SimpleTaskManagerAppPic,
       livePreviewOfTheProject: 'https://task-manager-pedalstart.vercel.app/pages/login',
       githubLinkOfTheProject: 'https://github.com/somenath203/PedalStart-Task-Manager-Assignment',
+    },
+    {
+      id: 8,
+      nameOfTheProject: 'Next Gemini ChatApp',
+      descOfTheProject: 'This project is a full stack chatbot application built using modern web development technologies. It uses Next.js for the frontend and integrates the Gemini API to provide chatbot functionalities. The app is designed to offer a seamless and interactive user experience. Along with chat functionality, users can also view detailed histories of each chat session conducted in the past.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Vercel-AI SDK, Google Gemini API',
+      picOfTheProj: NextJSGeminiChatAppPic,
+      livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Next-Gemini-ChatApp',
     },
   ];
 

@@ -30,7 +30,6 @@ import MalariaImgCellClassifyProjImg from './../../../assets/ai_development_pics
 import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/namedentityrecognizerpic.png';
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
 import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
-import FourInOneStreamlitAiToolAppImg from './../../../assets/ai_development_pics/fourinoneaitoolproj.png';
 
 const Page = () => {
 
@@ -277,16 +276,7 @@ const Page = () => {
         picOfTheProj: QuestionAnswerAiLlama3ChatAppImg,
         livePreviewOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3?tab=readme-ov-file#demo-video-of-the-application',
         githubLinkOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3'
-    },
-    {
-        id: 28,
-        nameOfTheProject: '4 in 1 AI Toolkit Powered by Google Gemini API',
-        descOfTheProject: "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
-        techStackUsedInTheProject: 'Streamlit, Google Gemini API',
-        picOfTheProj: FourInOneStreamlitAiToolAppImg,
-        livePreviewOfTheProject: 'https://4-in-1-ai-toolkit-powered-by-app-gemini.streamlit.app/',
-        githubLinkOfTheProject: 'https://github.com/somenath203/4-in-1-AI-Toolkit-powered-by-Google-Gemini-API'
-    },
+    }
 ];
 
   return (
