@@ -30,7 +30,7 @@ import MalariaImgCellClassifyProjImg from './../../../assets/ai_development_pics
 import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/namedentityrecognizerpic.png';
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
 import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
-import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
+import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/pdfchatllamathreegroqpic.png';
 
 const Page = () => {
 
@@ -46,7 +46,7 @@ const Page = () => {
     },
     {
         id: 2,
-        nameOfTheProject: 'A.I.-Powered-California-House-Price-Predictor-Website',
+        nameOfTheProject: 'California House Price Predictor',
         descOfTheProject: 'This is a simple A.I. powered website created using Streamlit and Linear Regression Model which predicts the price of California House Data',
         techStackUsedInTheProject: 'Streamlit, Pandas, Numpy, Scikit-learn',
         picOfTheProj: HousePredictorPic,
