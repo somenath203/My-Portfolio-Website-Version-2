@@ -165,8 +165,8 @@ const Page = () => {
       descOfTheProject: "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
       techStackUsedInTheProject: 'Streamlit, Google Gemini API',
       picOfTheProj: FourInOneStreamlitAiToolAppImg,
-      livePreviewOfTheProject: 'https://4-in-1-ai-toolkit-powered-by-app-gemini.streamlit.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/4-in-1-AI-Toolkit-powered-by-Google-Gemini-API'
+      livePreviewOfTheProject: 'https://four-in-one-ai-toolkit-powered-by-gemini-api.streamlit.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/four-in-one-ai-toolkit-powered-by-google-gemini-api'
   },
   ];
 

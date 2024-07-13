@@ -4,7 +4,7 @@ import PageHeading from '@/app/components/PageHeading';
 import WorkCard from '@/app/components/WorkCard';
 
 import TitanicProjPic from './../../../assets/ai_development_pics/titanic_proj.png';
-import HousePredictorPic from './../../../assets/ai_development_pics/housepredictorpic.png';
+import HousePredictorPic from './../../../assets/ai_development_pics/californiahousepricepredictionimg.png';
 import StudentSuccessDropoutPredictorPic from './../../../assets/ai_development_pics/studentsuccessdropoutpredictor.png';
 import CreditCardFraudDetectImg from './../../../assets/ai_development_pics/creditcardfrauddetectimg.png';
 import SpamEmailDetectImg from './../../../assets/ai_development_pics/spamemailpredictionimg.png';
@@ -30,6 +30,7 @@ import MalariaImgCellClassifyProjImg from './../../../assets/ai_development_pics
 import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/namedentityrecognizerpic.png';
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
 import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
+import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
 
 const Page = () => {
 
@@ -45,12 +46,12 @@ const Page = () => {
     },
     {
         id: 2,
-        nameOfTheProject: 'House Price Predictor',
-        descOfTheProject: 'This is a project which predicts the price of a new house on the basis of Boston House Dataset.',
+        nameOfTheProject: 'A.I.-Powered-California-House-Price-Predictor-Website',
+        descOfTheProject: 'This is a simple A.I. powered website created using Streamlit and Linear Regression Model which predicts the price of California House Data',
         techStackUsedInTheProject: 'Streamlit, Pandas, Numpy, Scikit-learn',
         picOfTheProj: HousePredictorPic,
-        livePreviewOfTheProject: 'https://share.streamlit.io/somenath203/a.i.-powered-boston-house-price-predictor-website/main/boston_house_web_app.py',
-        githubLinkOfTheProject: 'https://github.com/somenath203/A.I.-Powered-Boston-House-Price-Predictor-Website'
+        livePreviewOfTheProject: 'https://ai-powered-california-house-price-predictor.streamlit.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/A.I.-Powered-California-House-Price-Predictor-Website'
     },
     {
         id: 3,
@@ -276,7 +277,16 @@ const Page = () => {
         picOfTheProj: QuestionAnswerAiLlama3ChatAppImg,
         livePreviewOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3?tab=readme-ov-file#demo-video-of-the-application',
         githubLinkOfTheProject: 'https://github.com/somenath203/Machine-Learning-and-Deep-learning-Assistant-using-langchain-Ollama-and-Llama3'
-    }
+    },
+    {
+        id: 28,
+        nameOfTheProject: 'PDF Insights: Interactive Q&A with Llama3 and Groq API',
+        descOfTheProject: "This project is an interactive Q&A application designed to provide insights from PDF documents. The project uses Llama3, a large language model, and the Groq API to deliver accurate and efficient responses. Users can upload PDF documents, ask questions, and receive relevant answers based on the content of the uploaded PDFs.",
+        techStackUsedInTheProject: 'langChain, Streamlit, Llama3, Groq API, FAISS, HuggingFace Embeddings',
+        picOfTheProj: PDFChatAppLlama3GroqImg,
+        livePreviewOfTheProject: 'https://pdf-insights-interactive-q-and-a-with-llamathree-groq-api.streamlit.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/pdf-insights-interactive-q-and-a-with-llamathree-groq-api'
+    },
 ];
 
   return (
