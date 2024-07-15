@@ -281,7 +281,7 @@ const Page = () => {
     {
         id: 28,
         nameOfTheProject: 'PDF Insights: Interactive Q&A with Llama3 and Groq API',
-        descOfTheProject: "This project is an interactive Q&A application designed to provide insights from PDF documents. The project uses Llama3, a large language model, and the Groq API to deliver accurate and efficient responses. Users can upload PDF documents, ask questions, and receive relevant answers based on the content of the uploaded PDFs.",
+        descOfTheProject: "This project is an interactive Q&A application designed to provide insights from PDF documents. The project uses Llama3, a large language model, and the Groq API to deliver accurate and efficient responses. Users can upload PDF documents, ask questions, and receive relevant answers based on the content of the uploaded PDF.",
         techStackUsedInTheProject: 'langChain, Streamlit, Llama3, Groq API, FAISS, HuggingFace Embeddings',
         picOfTheProj: PDFChatAppLlama3GroqImg,
         livePreviewOfTheProject: 'https://pdf-insights-interactive-q-and-a-with-llamathree-groq-api.streamlit.app/',
