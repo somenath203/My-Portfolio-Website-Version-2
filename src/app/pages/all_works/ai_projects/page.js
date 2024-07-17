@@ -31,6 +31,7 @@ import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/name
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
 import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
 import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/pdfchatllamathreegroqpic.png';
+import MovieRecommenderSystemImg from './../../../assets/ai_development_pics/movierecommendationsystempic.png'
 
 const Page = () => {
 
@@ -286,6 +287,15 @@ const Page = () => {
         picOfTheProj: PDFChatAppLlama3GroqImg,
         livePreviewOfTheProject: 'https://pdf-insights-interactive-q-and-a-with-llamathree-groq-api.streamlit.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/pdf-insights-interactive-q-and-a-with-llamathree-groq-api'
+    },
+    {
+        id: 29,
+        nameOfTheProject: 'Movie Recommender System',
+        descOfTheProject: "The Movie Recommender System is a machine learning project designed to recommend movies to users based on various criteria. This project uses Content based Filtering technique to provide personalized movie recommendations.",
+        techStackUsedInTheProject: 'Scikit-learn, Streamlit',
+        picOfTheProj: MovieRecommenderSystemImg,
+        livePreviewOfTheProject: 'https://som11-movie-recommendation-system.hf.space/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Movie-Recommender-System'
     },
 ];
 
