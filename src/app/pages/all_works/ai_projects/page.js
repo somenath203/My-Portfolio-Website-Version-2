@@ -31,7 +31,8 @@ import NamedEntityRecognizerImg from './../../../assets/ai_development_pics/name
 import TomatoLeafImg from './../../../assets/ai_development_pics/tomatoleafprojectpic.png';
 import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_pics/langchainollamallama3projpic.png';
 import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/pdfchatllamathreegroqpic.png';
-import MovieRecommenderSystemImg from './../../../assets/ai_development_pics/movierecommendationsystempic.png'
+import MovieRecommenderSystemImg from './../../../assets/ai_development_pics/movierecommendationsystempic.png';
+import MarketingContentGeneratorImg from './../../../assets/ai_development_pics/marketingcontentgeneratorpic.png';
 
 const Page = () => {
 
@@ -296,6 +297,15 @@ const Page = () => {
         picOfTheProj: MovieRecommenderSystemImg,
         livePreviewOfTheProject: 'https://som11-movie-recommendation-system.hf.space/',
         githubLinkOfTheProject: 'https://github.com/somenath203/Movie-Recommender-System'
+    },
+    {
+        id: 30,
+        nameOfTheProject: 'Marketing Content Generator',
+        descOfTheProject: "This is an application designed to generate marketing content. The application uses Langchain and Open Source Meta's Llama-3-8B-Instruct Large language Model to create engaging and relevant marketing copy based on user input and the content type.",
+        techStackUsedInTheProject: 'langchain, HuggingFace, Llama-3-8B-Instruct, Streamlit',
+        picOfTheProj: MarketingContentGeneratorImg,
+        livePreviewOfTheProject: 'https://marketing-content-generator.streamlit.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/marketing-content-generator'
     },
 ];
 
