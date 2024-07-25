@@ -94,8 +94,8 @@ const Page = () => {
       descOfTheProject: 'Next Finance Tracker is a full stack finance management application built with Next.js, designed to help users track and manage their finances in real time.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Recharts',
       picOfTheProj: NextFinanceTrackerPic,
-      livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
-      githubLinkOfTheProject: 'https://next-finance-tracker-fullstack.vercel.app/',
+      livePreviewOfTheProject: 'https://next-finance-tracker-fullstack.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/next-finance-tracker',
     },
   ];
 
