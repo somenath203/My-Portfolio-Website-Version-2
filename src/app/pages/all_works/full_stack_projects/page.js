@@ -11,6 +11,7 @@ import ShareYourFilePic from './../../../assets/full_stack_development_pics/shar
 import WeatherAppPic from './../../../assets/full_stack_development_pics/weatherappimage.png';
 import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pics/taskmanagerprojimg.png';
 import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pics/nextgeminichatapppic.png';
+import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
 
 const Page = () => {
 
@@ -86,6 +87,15 @@ const Page = () => {
       picOfTheProj: NextJSGeminiChatAppPic,
       livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-Gemini-ChatApp',
+    },
+    {
+      id: 9,
+      nameOfTheProject: 'Next Finance Tracker',
+      descOfTheProject: 'Next Finance Tracker is a full stack finance management application built with Next.js, designed to help users track and manage their finances in real time.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Recharts',
+      picOfTheProj: NextFinanceTrackerPic,
+      livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
+      githubLinkOfTheProject: 'https://next-finance-tracker-fullstack.vercel.app/',
     },
   ];
 
