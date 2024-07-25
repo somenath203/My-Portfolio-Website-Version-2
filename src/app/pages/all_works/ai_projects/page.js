@@ -224,7 +224,7 @@ const Page = () => {
         techStackUsedInTheProject: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, NextJS, FastAPI',
         picOfTheProj: MulticlassBrainTumorImg,
         livePreviewOfTheProject: 'https://multiclass-brain-tumor-classification.vercel.app/',
-        githubLinkOfTheProject: 'https://github.com/somenath203/Binaryclass-Brain-Tumor-Classification-using-CNN'
+        githubLinkOfTheProject: 'https://github.com/somenath203/Multiclass-Brain-Tumor-Classification-using-TensorFlow'
     },
     {
         id: 22,
