@@ -33,6 +33,7 @@ import QuestionAnswerAiLlama3ChatAppImg from './../../../assets/ai_development_p
 import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/pdfchatllamathreegroqpic.png';
 import MovieRecommenderSystemImg from './../../../assets/ai_development_pics/movierecommendationsystempic.png';
 import MarketingContentGeneratorImg from './../../../assets/ai_development_pics/marketingcontentgeneratorpic.png';
+import Nllb200LanguageTranslationImg from './../../../assets/ai_development_pics/languagetranslationpic.png';
 
 const Page = () => {
 
@@ -306,6 +307,15 @@ const Page = () => {
         picOfTheProj: MarketingContentGeneratorImg,
         livePreviewOfTheProject: 'https://marketing-content-generator.streamlit.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/marketing-content-generator'
+    },
+    {
+        id: 31,
+        nameOfTheProject: 'NextNLLB200 Language Translator',
+        descOfTheProject: "This application allows you to translate text between over 50 languages using the powerful NLLB-200 model by Meta. Built with modern technologies such as Next.js, Tailwind CSS, ShadcnUI, and FastAPI, this web app provides a seamless and efficient translation experience.",
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, FastAPI, transformers, Meta\'s NLLB-200 Model',
+        picOfTheProj: MarketingContentGeneratorImg,
+        livePreviewOfTheProject: 'https://language-translator-nllb-200-nextjs.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/next-nllb200-language-translator'
     },
 ];
 
