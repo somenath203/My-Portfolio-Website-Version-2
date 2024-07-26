@@ -313,7 +313,7 @@ const Page = () => {
         nameOfTheProject: 'NextNLLB200 Language Translator',
         descOfTheProject: "This application allows you to translate text between over 50 languages using the powerful NLLB-200 model by Meta. Built with modern technologies such as Next.js, Tailwind CSS, ShadcnUI, and FastAPI, this web app provides a seamless and efficient translation experience.",
         techStackUsedInTheProject: 'NextJS, ShadcnUI, FastAPI, transformers, Meta\'s NLLB-200 Model',
-        picOfTheProj: MarketingContentGeneratorImg,
+        picOfTheProj: Nllb200LanguageTranslationImg,
         livePreviewOfTheProject: 'https://language-translator-nllb-200-nextjs.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/next-nllb200-language-translator'
     },
