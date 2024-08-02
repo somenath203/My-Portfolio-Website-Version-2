@@ -12,6 +12,7 @@ import WeatherAppPic from './../../../assets/full_stack_development_pics/weather
 import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pics/taskmanagerprojimg.png';
 import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pics/nextgeminichatapppic.png';
 import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
+import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
 
 const Page = () => {
 
@@ -96,6 +97,15 @@ const Page = () => {
       picOfTheProj: NextFinanceTrackerPic,
       livePreviewOfTheProject: 'https://next-finance-tracker-fullstack.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/next-finance-tracker',
+    },
+    {
+      id: 10,
+      nameOfTheProject: 'Next AI Form Builder',
+      descOfTheProject: 'Next AI Form Builder is an AI-powered application that helps users create forms quickly and easily. By providing a prompt, users can generate forms with the help of the Google Gemini API. Users can customize, preview, and share these forms. Additionally, they can manage and export form responses.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, daisyUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
+      picOfTheProj: AIFormBuilderPic,
+      livePreviewOfTheProject: 'https://next-ai-form-builder.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Next-AI-Form-Builder',
     },
   ];
 
