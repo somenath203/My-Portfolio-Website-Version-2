@@ -13,6 +13,7 @@ import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pi
 import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pics/nextgeminichatapppic.png';
 import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
 import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
+import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
 
 const Page = () => {
 
@@ -106,6 +107,15 @@ const Page = () => {
       picOfTheProj: AIFormBuilderPic,
       livePreviewOfTheProject: 'https://next-ai-form-builder.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-AI-Form-Builder',
+    },
+    {
+      id: 11,
+      nameOfTheProject: 'Next Resumeee',
+      descOfTheProject: 'Next Resumeee is a comprehensive full stack Resume Builder Application developed using NextJS. It allows users to generate their resumes with ease by selecting from various templates. The application offers both free and premium templates. Users with a premium subscription can download any resume template they prefer. Additionally, the application features robust admin functionalities for managing templates and viewing user information in a structured format.',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, Antd Design, MongoDB, Firebase, Zustand, Stripe',
+      picOfTheProj: ResumeBuilderPic,
+      livePreviewOfTheProject: 'https://next-resumeee.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Next-Resumeee',
     },
   ];
 
