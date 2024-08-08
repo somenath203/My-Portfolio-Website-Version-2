@@ -120,7 +120,7 @@ const Page = () => {
     },
     {
       id: 12,
-      nameOfTheProject: 'Gemini-Content-Wizard',
+      nameOfTheProject: 'Gemini Content Wizard',
       descOfTheProject: "Gemini Content Wizard is an AI-powered content generation application designed to simplify your content creation process. Whether you're a blogger, YouTuber, social media manager, or developer, Gemini Content Wizard offers a variety of tools to help you generate high-quality content with ease. Simply input your desired parameters, and let the power of AI craft the perfect output for you.",
       techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
       picOfTheProj: GeminiContentWizardPic,
