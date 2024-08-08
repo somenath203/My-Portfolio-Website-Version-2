@@ -14,6 +14,7 @@ import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pic
 import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
 import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
 import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
+import GeminiContentWizardPic from './../../../assets/full_stack_development_pics/geminicontentwizardprojectpic.png';
 
 const Page = () => {
 
@@ -116,6 +117,15 @@ const Page = () => {
       picOfTheProj: ResumeBuilderPic,
       livePreviewOfTheProject: 'https://next-resumeee.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-Resumeee',
+    },
+    {
+      id: 12,
+      nameOfTheProject: 'Gemini-Content-Wizard',
+      descOfTheProject: "Gemini Content Wizard is an AI-powered content generation application designed to simplify your content creation process. Whether you're a blogger, YouTuber, social media manager, or developer, Gemini Content Wizard offers a variety of tools to help you generate high-quality content with ease. Simply input your desired parameters, and let the power of AI craft the perfect output for you.",
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
+      picOfTheProj: GeminiContentWizardPic,
+      livePreviewOfTheProject: 'https://gemini-content-wizard.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Gemini-Content-Wizard',
     },
   ];
 
