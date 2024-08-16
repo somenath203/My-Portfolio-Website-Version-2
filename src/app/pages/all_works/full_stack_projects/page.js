@@ -16,6 +16,7 @@ import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aifo
 import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
 import GeminiContentWizardPic from './../../../assets/full_stack_development_pics/geminicontentwizardprojectpic.png';
 import SmartWebChatPic from './../../../assets/full_stack_development_pics/smartwebchatpic.png';
+import OptiMediaHubPic from './../../../assets/full_stack_development_pics/optimediahubprojectpic.png';
 
 const Page = () => {
 
@@ -136,6 +137,15 @@ const Page = () => {
       picOfTheProj: SmartWebChatPic,
       livePreviewOfTheProject: 'https://smart-web-chat.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Smart-Web-Chat',
+    },
+    {
+      id: 14,
+      nameOfTheProject: 'OptiMedia Hub',
+      descOfTheProject: "OptiMedia Hub is an easy-to-use tool that helps you prepare images and videos for social media. It lets content creators quickly format their media for platforms like Instagram, Twitter, and Facebook. The app uses Cloudinary for processing media, Clerk for user authentication, and Neon PostgreSQL for managing data, all within a simple and friendly interface built with Next.js",
+      techStackUsedInTheProject: 'NextJS, Clerk, TailwindCSS, DaisyUI, Cloudinary, Next-Cloudinary, Prisma ORM, Neon Database',
+      picOfTheProj: OptiMediaHubPic,
+      livePreviewOfTheProject: 'https://optimedia-hub.onrender.com/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/OptiMedia-Hub',
     },
   ];
 
