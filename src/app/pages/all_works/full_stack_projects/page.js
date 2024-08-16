@@ -15,6 +15,7 @@ import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics
 import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
 import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
 import GeminiContentWizardPic from './../../../assets/full_stack_development_pics/geminicontentwizardprojectpic.png';
+import SmartWebChatPic from './../../../assets/full_stack_development_pics/smartwebchatpic.png';
 
 const Page = () => {
 
@@ -126,6 +127,15 @@ const Page = () => {
       picOfTheProj: GeminiContentWizardPic,
       livePreviewOfTheProject: 'https://gemini-content-wizard.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Gemini-Content-Wizard',
+    },
+    {
+      id: 13,
+      nameOfTheProject: 'Smart Web Chat',
+      descOfTheProject: "Smart Web Chat is a platform designed to facilitate interactive conversations with websites. Powered by the Meta-Llama-3-8B-Instruct Large Language Model, it delivers a smooth and engaging experience for users. Whether you're seeking information or looking for specific answers, Smart Web Chat enhances your interaction with web content through advanced AI capabilities.",
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, NextUI, Upstash Redis Database, Upstash RAG Model, Meta-Llama-3-8B-Instruct',
+      picOfTheProj: SmartWebChatPic,
+      livePreviewOfTheProject: 'https://smart-web-chat.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Smart-Web-Chat',
     },
   ];
 
