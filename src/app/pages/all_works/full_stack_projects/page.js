@@ -17,6 +17,9 @@ import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resu
 import GeminiContentWizardPic from './../../../assets/full_stack_development_pics/geminicontentwizardprojectpic.png';
 import SmartWebChatPic from './../../../assets/full_stack_development_pics/smartwebchatpic.png';
 import OptiMediaHubPic from './../../../assets/full_stack_development_pics/optimediahubprojectpic.png';
+import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
+import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
+
 
 const Page = () => {
 
@@ -146,6 +149,24 @@ const Page = () => {
       picOfTheProj: OptiMediaHubPic,
       livePreviewOfTheProject: 'https://optimedia-hub.onrender.com/',
       githubLinkOfTheProject: 'https://github.com/somenath203/OptiMedia-Hub',
+    },
+    {
+      id: 15,
+      nameOfTheProject: 'Write Your Thoughts',
+      descOfTheProject: 'This is a web app where a user can express his/her thoughts in front of the whole world.',
+      techStackUsedInTheProject: 'React, Firebase',
+      picOfTheProj: WriteMyThoughtsPic,
+      livePreviewOfTheProject: 'https://write-your-thoughts.netlify.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/WriteYourThoughts',
+    },
+    {
+      id: 16,
+      nameOfTheProject: 'CarePulse',
+      descOfTheProject: "CarePulse is a comprehensive healthcare management application designed to streamline patient and admin interactions. The application is divided into two main parts: user and admin functionalities. Users can register, submit their medical information, and book appointments, while admins can manage appointments and handle user requests.",
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Appwrite, Nodemailer, Gmail SMTP, Sentry.IO, Zod',
+      picOfTheProj: CarePulsePic,
+      livePreviewOfTheProject: 'https://care-pulse-som.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/CarePulse',
     },
   ];
 

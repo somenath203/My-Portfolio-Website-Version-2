@@ -16,18 +16,16 @@ import MiniDictionaryPic from './../../../assets/frontend_development_pics/minid
 import CurrencyConverterPic from './../../../assets/frontend_development_pics/currencyconverterimg.png';
 import QrCodeProjPic from './../../../assets/frontend_development_pics/playwithqrcode.png';
 import MarkdownPreviewerPic from './../../../assets/frontend_development_pics/markdownpreviewerprojimg.png';
-import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import PortfolioPic from './../../../assets/frontend_development_pics/portfolioimage.png';
 import FourInOneStreamlitAiToolAppImg from './../../../assets/frontend_development_pics/fourinoneaitoolproj.png';
 
-
 const Page = () => {
-
   const frontendProjects = [
     {
       id: 1,
       nameOfTheProject: 'Omnifood',
-      descOfTheProject: 'This is a fictional online food ordering website created with the help of Html and CSS.',
+      descOfTheProject:
+        'This is a fictional online food ordering website created with the help of Html and CSS.',
       techStackUsedInTheProject: 'Html, CSS',
       picOfTheProj: OmnifoodPic,
       livePreviewOfTheProject: 'https://omnifood-somenath.netlify.app/',
@@ -36,43 +34,52 @@ const Page = () => {
     {
       id: 2,
       nameOfTheProject: 'Kolkata Dines',
-      descOfTheProject: 'This is website of a fictional hotel by the name Kolkata Dines created with the help of Html and CSS.',
+      descOfTheProject:
+        'This is website of a fictional hotel by the name Kolkata Dines created with the help of Html and CSS.',
       techStackUsedInTheProject: 'Html, CSS',
       picOfTheProj: KolkataDinesPic,
       livePreviewOfTheProject: 'https://lovely-rabanadas-dc5fc8.netlify.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/css-hotel-website',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/css-hotel-website',
     },
     {
       id: 3,
       nameOfTheProject: 'Your Secret Message',
-      descOfTheProject: 'This is a project which the user can use to send a secret message to anyone. Atfirst, user needs to types the message and create on \'Create Share Link\' button. After user clicks on the button, a link is generated which user can send to any person and when the person opens the link, then the message is displayed.',
+      descOfTheProject:
+        "This is a project which the user can use to send a secret message to anyone. Atfirst, user needs to types the message and create on 'Create Share Link' button. After user clicks on the button, a link is generated which user can send to any person and when the person opens the link, then the message is displayed.",
       techStackUsedInTheProject: 'Html, CSS, Javacript',
       picOfTheProj: YourSecretMessagePic,
       livePreviewOfTheProject: 'https://secretmessage-pied.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Your-Secret-Message',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/Your-Secret-Message',
     },
     {
       id: 4,
       nameOfTheProject: 'Character Counter',
-      descOfTheProject: 'This is a simple character counter created using html, css and javascript. Here, the user can see how many characters he/she has written and also the user can copy the written text. This website also contains Dark Mode feature as well.',
+      descOfTheProject:
+        'This is a simple character counter created using html, css and javascript. Here, the user can see how many characters he/she has written and also the user can copy the written text. This website also contains Dark Mode feature as well.',
       techStackUsedInTheProject: 'Html, CSS, Javascript',
       picOfTheProj: CharacterCounterPic,
       livePreviewOfTheProject: 'https://merry-sprite-9115d1.netlify.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/javascript-Character-Counter',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/javascript-Character-Counter',
     },
     {
       id: 5,
       nameOfTheProject: 'Bookmark App',
-      descOfTheProject: 'With the help of this website, the user can add bookmarks to all the important websites that the user wants to access in no time. This website all has the feature of Localstorage means if the user refresh the page or close the page and then reopen it again, then, all the bookmarks that was previosuly added by the user will stay as it is.',
+      descOfTheProject:
+        'With the help of this website, the user can add bookmarks to all the important websites that the user wants to access in no time. This website all has the feature of Localstorage means if the user refresh the page or close the page and then reopen it again, then, all the bookmarks that was previosuly added by the user will stay as it is.',
       techStackUsedInTheProject: 'Html, CSS, Javascript',
       picOfTheProj: BookmarkAppPic,
       livePreviewOfTheProject: 'https://javascript-bookmark-app.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Javascript-Bookmark-App',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/Javascript-Bookmark-App',
     },
     {
       id: 6,
       nameOfTheProject: 'JSON Formatter',
-      descOfTheProject: 'This is a project where the user would be able to format his/her JSON data as well as get a minified version of the JSON data as well.',
+      descOfTheProject:
+        'This is a project where the user would be able to format his/her JSON data as well as get a minified version of the JSON data as well.',
       techStackUsedInTheProject: 'Html, CSS, Javascript',
       picOfTheProj: JSONFormatterPic,
       livePreviewOfTheProject: 'https://json-formatter-som.netlify.app/',
@@ -81,25 +88,31 @@ const Page = () => {
     {
       id: 7,
       nameOfTheProject: 'Lorem Ipsum Generator',
-      descOfTheProject: 'This is a project created with the help of ReactJS and TailwindCSS where a user can generate lorem ipsum text.',
+      descOfTheProject:
+        'This is a project created with the help of ReactJS and TailwindCSS where a user can generate lorem ipsum text.',
       techStackUsedInTheProject: 'React, TailwindCSS',
       picOfTheProj: LoremIpsumGeneratorPic,
       livePreviewOfTheProject: 'https://generate-lorem-ipsum-11.netlify.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/React-Lorem-Ipsum-Generator',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/React-Lorem-Ipsum-Generator',
     },
     {
       id: 8,
       nameOfTheProject: 'Color Generator',
-      descOfTheProject: 'This is a project where the user will be able to generate various tints and shades of a particular color by writing the hex code of that color in the input box.',
+      descOfTheProject:
+        'This is a project where the user will be able to generate various tints and shades of a particular color by writing the hex code of that color in the input box.',
       techStackUsedInTheProject: 'React',
       picOfTheProj: ColorsGeneratorPic,
-      livePreviewOfTheProject: 'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/React-Colors-Generator',
+      livePreviewOfTheProject:
+        'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/React-Colors-Generator',
     },
     {
       id: 9,
       nameOfTheProject: 'Grocery Bud',
-      descOfTheProject: 'This is a simple react CRUD application where the user will be able to add, update and delete groceries.',
+      descOfTheProject:
+        'This is a simple react CRUD application where the user will be able to add, update and delete groceries.',
       techStackUsedInTheProject: 'React',
       picOfTheProj: GroceryPic,
       livePreviewOfTheProject: 'https://grocery-bud-lemon.vercel.app/',
@@ -108,8 +121,10 @@ const Page = () => {
     {
       id: 10,
       nameOfTheProject: 'Mini Dictionary',
-      descOfTheProject: 'This is an application created with the help of FreeDictionaryAPI where the user can get the meaning of any word by just entering that particular word in the input field and pressing the submit button.',
-      techStackUsedInTheProject: 'React, Material UI, TailwindCSS, FreeDictionaryAPI',
+      descOfTheProject:
+        'This is an application created with the help of FreeDictionaryAPI where the user can get the meaning of any word by just entering that particular word in the input field and pressing the submit button.',
+      techStackUsedInTheProject:
+        'React, Material UI, TailwindCSS, FreeDictionaryAPI',
       picOfTheProj: MiniDictionaryPic,
       livePreviewOfTheProject: 'https://mini-dictionary.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mini-Dictionary',
@@ -117,7 +132,8 @@ const Page = () => {
     {
       id: 11,
       nameOfTheProject: 'Currency Converter',
-      descOfTheProject: 'This is an application which is designed to provide a fast and reliable way to convert currencies using real-time exchange rates.',
+      descOfTheProject:
+        'This is an application which is designed to provide a fast and reliable way to convert currencies using real-time exchange rates.',
       techStackUsedInTheProject: 'Vite, TailwindCSS, Frankfurter API',
       picOfTheProj: CurrencyConverterPic,
       livePreviewOfTheProject: 'https://mini-dictionary.vercel.app/',
@@ -126,7 +142,8 @@ const Page = () => {
     {
       id: 12,
       nameOfTheProject: 'Play With QRCode',
-      descOfTheProject: 'This is a website developed with the help of NextJS, tailwindCSS and ShadcnUI that lets user generate and scan QRCodes.',
+      descOfTheProject:
+        'This is a website developed with the help of NextJS, tailwindCSS and ShadcnUI that lets user generate and scan QRCodes.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI',
       picOfTheProj: QrCodeProjPic,
       livePreviewOfTheProject: 'https://play-with-qr-code.vercel.app/',
@@ -135,52 +152,46 @@ const Page = () => {
     {
       id: 13,
       nameOfTheProject: 'Markdown Previewer',
-      descOfTheProject: 'Markdown Previewer is an application created with the help of NextJS, tailwincCSS and daisyUI that allows you to instantly preview your markdown syntax as rendered HTML.',
+      descOfTheProject:
+        'Markdown Previewer is an application created with the help of NextJS, tailwincCSS and daisyUI that allows you to instantly preview your markdown syntax as rendered HTML.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, react-markdown',
       picOfTheProj: MarkdownPreviewerPic,
-      livePreviewOfTheProject: 'https://markdown-previewer-psi-liard.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Markdown-Previewer',
+      livePreviewOfTheProject:
+        'https://markdown-previewer-psi-liard.vercel.app/',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/Markdown-Previewer',
     },
     {
       id: 14,
-      nameOfTheProject: 'Write Your Thoughts',
-      descOfTheProject: 'This is a web app where a user can express his/her thoughts in front of the whole world.',
-      techStackUsedInTheProject: 'React, Firebase',
-      picOfTheProj: WriteMyThoughtsPic,
-      livePreviewOfTheProject: 'https://write-your-thoughts.netlify.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/WriteYourThoughts',
-    },
-    {
-      id: 15,
       nameOfTheProject: 'My Porfolio Website Version 1',
       descOfTheProject: 'This is my portfolio website version 1',
       techStackUsedInTheProject: 'React, TailwindCSS',
       picOfTheProj: PortfolioPic,
       livePreviewOfTheProject: 'https://somenath-portfolio-website.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/My-Portfolio-Project',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/My-Portfolio-Project',
     },
     {
-      id: 16,
+      id: 15,
       nameOfTheProject: '4 in 1 AI Toolkit Powered by Google Gemini API',
-      descOfTheProject: "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
+      descOfTheProject:
+        "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
       techStackUsedInTheProject: 'Streamlit, Google Gemini API',
       picOfTheProj: FourInOneStreamlitAiToolAppImg,
-      livePreviewOfTheProject: 'https://four-in-one-ai-toolkit-powered-by-gemini-api.streamlit.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/four-in-one-ai-toolkit-powered-by-google-gemini-api'
-  },
+      livePreviewOfTheProject:
+        'https://four-in-one-ai-toolkit-powered-by-gemini-api.streamlit.app/',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/four-in-one-ai-toolkit-powered-by-google-gemini-api',
+    },
   ];
-
-
 
   return (
     <div className="min-h-screen bg-slate-900 flex flex-col gap-11 items-center">
-
       <div className="mt-14 w-5/6 lg:w-1/4">
         <PageHeading heading="Frontend WebApp Projects" />
       </div>
 
       <WorkCard workArray={frontendProjects} />
-
     </div>
   );
 };
