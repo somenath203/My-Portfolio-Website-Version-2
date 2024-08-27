@@ -19,6 +19,7 @@ import SmartWebChatPic from './../../../assets/full_stack_development_pics/smart
 import OptiMediaHubPic from './../../../assets/full_stack_development_pics/optimediahubprojectpic.png';
 import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
+import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
 
 
 const Page = () => {
@@ -167,6 +168,15 @@ const Page = () => {
       picOfTheProj: CarePulsePic,
       livePreviewOfTheProject: 'https://care-pulse-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/CarePulse',
+    },
+    {
+      id: 17,
+      nameOfTheProject: 'Trimrr',
+      descOfTheProject: "Trimrr is a URL shortening web application that allows users to easily create and manage short URLs. After signing up, users can generate short URLs from long ones, track from where their links are being accessed, and view detailed statistics about the devices and cities from which their links are visited. With Trimrr, user can also generate QR codes for your short links, making it easy to share them.",
+      techStackUsedInTheProject: 'React (via Vite), TailwindCSS, ShadcnUI, Supabase, Yup, Recharts, IPAPI, UA-Parser-JS',
+      picOfTheProj: TrimrrPic,
+      livePreviewOfTheProject: 'https://trimrr-som.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Trimrr',
     },
   ];
 

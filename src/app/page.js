@@ -74,8 +74,8 @@ const Page = () => {
               </div>
 
               <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left">
-                I have 2 years of hands-on experience in developing full stack
-                webapps, ai models and deploying them in production.
+                I have 3 years of hands-on experience in developing full stack
+                webapps, AI models and deploying them in production.
               </div>
 
               <Link href="https://drive.google.com/file/d/1YtfxyQWCh0n8i9WcQuBRLkrcO4GcJe6G/view?usp=sharing" target='_blank'>
