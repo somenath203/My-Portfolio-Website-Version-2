@@ -34,6 +34,9 @@ import PDFChatAppLlama3GroqImg from './../../../assets/ai_development_pics/pdfch
 import MovieRecommenderSystemImg from './../../../assets/ai_development_pics/movierecommendationsystempic.png';
 import MarketingContentGeneratorImg from './../../../assets/ai_development_pics/marketingcontentgeneratorpic.png';
 import Nllb200LanguageTranslationImg from './../../../assets/ai_development_pics/languagetranslationpic.png';
+import FourInOneAIToolkitImg from './../../../assets/ai_development_pics/fourinoneaitoolproj.png';
+import ColdEmailGeneratorImg from './../../../assets/ai_development_pics/coldemailgeneratorpic.png';
+
 
 const Page = () => {
 
@@ -316,6 +319,27 @@ const Page = () => {
         picOfTheProj: Nllb200LanguageTranslationImg,
         livePreviewOfTheProject: 'https://language-translator-nllb-200-nextjs.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/next-nllb200-language-translator'
+    },
+    {
+        id: 32,
+        nameOfTheProject: '4 in 1 AI Toolkit Powered by Google Gemini API',
+        descOfTheProject:
+          "This is an application created with Google Gemini API that provides 4 services and those are: 'Chatbot', 'Image Caption Generator', 'Text Embedding Generator' and 'Question Answer System'.",
+        techStackUsedInTheProject: 'Streamlit, Google Gemini API',
+        picOfTheProj: FourInOneAIToolkitImg,
+        livePreviewOfTheProject:
+          'https://four-in-one-ai-toolkit-powered-by-gemini-api.streamlit.app/',
+        githubLinkOfTheProject:
+          'https://github.com/somenath203/four-in-one-ai-toolkit-powered-by-google-gemini-api',
+      },
+    {
+        id: 33,
+        nameOfTheProject: 'Cold Email Generator',
+        descOfTheProject: "The Cold Email Generator is a web application designed to help job seekers create personalized cold emails tailored to specific job postings. By providing the URL of a job post and a brief description of your skills and experience, the application automatically generates a well-crafted email to increase your chances of securing an interview.",
+        techStackUsedInTheProject: 'Streamlit, Groq API, Langchain, LLaMA-3.1-70B-Versatile Model',
+        picOfTheProj: ColdEmailGeneratorImg,
+        livePreviewOfTheProject: 'https://cold-email-generator-som.streamlit.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Cold-Email-Generator'
     },
 ];
 
