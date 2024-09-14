@@ -183,7 +183,7 @@ const Page = () => {
       id: 18,
       nameOfTheProject: 'Tweeets',
       descOfTheProject: "Tweeets is a simple web application that allows users to create, edit, and delete tweets. Each tweet consists of a description, and optionally, an image. Users can also view tweets created by other users. To interact with the application (create, edit, or delete tweets), users must first authenticate themselves first.",
-      techStackUsedInTheProject: 'Django, Jinja Templating Engine, SQLite3 (db.sqlite3), Django Tailwind',
+      techStackUsedInTheProject: 'Django, Django Templating Engine, SQLite3 (db.sqlite3), Django Tailwind',
       picOfTheProj: TweetsDjangoAppPic,
       livePreviewOfTheProject: 'https://www.youtube.com/watch?v=9J0202Y7sLk',
       githubLinkOfTheProject: 'https://github.com/somenath203/Tweeets',
