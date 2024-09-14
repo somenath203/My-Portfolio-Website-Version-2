@@ -20,6 +20,7 @@ import OptiMediaHubPic from './../../../assets/full_stack_development_pics/optim
 import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
 import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
+import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
 
 
 const Page = () => {
@@ -177,6 +178,15 @@ const Page = () => {
       picOfTheProj: TrimrrPic,
       livePreviewOfTheProject: 'https://trimrr-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Trimrr',
+    },
+    {
+      id: 18,
+      nameOfTheProject: 'Tweeets',
+      descOfTheProject: "Tweeets is a simple web application that allows users to create, edit, and delete tweets. Each tweet consists of a description, and optionally, an image. Users can also view tweets created by other users. To interact with the application (create, edit, or delete tweets), users must first authenticate themselves first.",
+      techStackUsedInTheProject: 'Django, Jinja Templating Engine, SQLite3 (db.sqlite3), Django Tailwind',
+      picOfTheProj: TweetsDjangoAppPic,
+      livePreviewOfTheProject: 'https://www.youtube.com/watch?v=9J0202Y7sLk',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Tweeets',
     },
   ];
 
