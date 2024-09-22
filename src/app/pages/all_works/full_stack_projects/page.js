@@ -21,6 +21,7 @@ import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writ
 import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
 import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
 import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
+import HomeAwayProjectPic from './../../../assets/full_stack_development_pics/homeawayprojectimg.png';
 
 
 const Page = () => {
@@ -187,6 +188,15 @@ const Page = () => {
       picOfTheProj: TweetsDjangoAppPic,
       livePreviewOfTheProject: 'https://www.youtube.com/watch?v=9J0202Y7sLk',
       githubLinkOfTheProject: 'https://github.com/somenath203/Tweeets',
+    },
+    {
+      id: 19,
+      nameOfTheProject: 'HomeAway',
+      descOfTheProject: "HomeAway is a full-stack rental booking application that allows users to browse, create, and book rentals across various categories. Users can filter and search for rentals, like and share them via email or social media, as well as leave ratings and comments. The application also provides functionalities to manage user profiles, handle bookings, and view reviews. Admin users can track important statistics such as total users, properties, and bookings. The app features both dark and light modes and is fully responsive.",
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Neon Database, Supabase, LeafletJS',
+      picOfTheProj: HomeAwayProjectPic,
+      livePreviewOfTheProject: 'https://home-away-somm.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/HomeAway',
     },
   ];
 
