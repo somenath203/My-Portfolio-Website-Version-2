@@ -17,6 +17,7 @@ import CurrencyConverterPic from './../../../assets/frontend_development_pics/cu
 import QrCodeProjPic from './../../../assets/frontend_development_pics/playwithqrcode.png';
 import MarkdownPreviewerPic from './../../../assets/frontend_development_pics/markdownpreviewerprojimg.png';
 import PortfolioPic from './../../../assets/frontend_development_pics/portfolioimage.png';
+import DeleteBgImgPic from './../../../assets/frontend_development_pics/delebgprojimgpic.png';
 
 const Page = () => {
   const frontendProjects = [
@@ -169,7 +170,17 @@ const Page = () => {
       livePreviewOfTheProject: 'https://somenath-portfolio-website.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/My-Portfolio-Project',
-    }
+    },
+    {
+      id: 15,
+      nameOfTheProject: 'Delete BG',
+      descOfTheProject: 'Delete BG is a website designed to make removing image backgrounds quick and easy. With just a few clicks, you can upload an image, remove its background, and download the result—all within a fully mobile-responsive interface',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Aceternity UI, Remove-BG API',
+      picOfTheProj: DeleteBgImgPic,
+      livePreviewOfTheProject: 'https://delete-bg-som.vercel.app/',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/Delete-BG',
+    },
   ];
 
   return (
