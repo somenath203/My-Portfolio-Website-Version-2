@@ -36,6 +36,7 @@ import MarketingContentGeneratorImg from './../../../assets/ai_development_pics/
 import Nllb200LanguageTranslationImg from './../../../assets/ai_development_pics/languagetranslationpic.png';
 import FourInOneAIToolkitImg from './../../../assets/ai_development_pics/fourinoneaitoolproj.png';
 import ColdEmailGeneratorImg from './../../../assets/ai_development_pics/coldemailgeneratorpic.png';
+import FitbitesProjImg from './../../../assets/ai_development_pics/fitbitesprojpic.png';
 
 
 const Page = () => {
@@ -340,6 +341,15 @@ const Page = () => {
         picOfTheProj: ColdEmailGeneratorImg,
         livePreviewOfTheProject: 'https://cold-email-generator-som.streamlit.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/Cold-Email-Generator'
+    },
+    {
+        id: 34,
+        nameOfTheProject: 'FitBites',
+        descOfTheProject: "FitBites is a personalized nutrition and diet web app that helps users plan meals, suggest recipes, and track their daily calorie intake. Powered by the Groq API with the Llama3-8b-8192 model, FitBites generates customized meal plans and recipe suggestions based on user preferences and tracks detailed caloric progress to support health goals.",
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Prisma ORM, Neon PostgreSQL Database, FastAPI, Groq API, Langchain, Llama3-8b-8192 Model',
+        picOfTheProj: FitbitesProjImg,
+        livePreviewOfTheProject: 'https://fitbites-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/FitBites'
     },
 ];
 
