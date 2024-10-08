@@ -22,6 +22,7 @@ import CarePulsePic from './../../../assets/full_stack_development_pics/carepuls
 import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
 import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
 import HomeAwayProjectPic from './../../../assets/full_stack_development_pics/homeawayprojectimg.png';
+import HirrdProjectPic from './../../../assets/full_stack_development_pics/hirrdprojectimgpic.png';
 
 
 const Page = () => {
@@ -175,7 +176,7 @@ const Page = () => {
       id: 17,
       nameOfTheProject: 'Trimrr',
       descOfTheProject: "Trimrr is a URL shortening web application that allows users to easily create and manage short URLs. After signing up, users can generate short URLs from long ones, track from where their links are being accessed, and view detailed statistics about the devices and cities from which their links are visited. With Trimrr, user can also generate QR codes for your short links, making it easy to share them.",
-      techStackUsedInTheProject: 'React (via Vite), TailwindCSS, ShadcnUI, Supabase, Yup, Recharts, IPAPI, UA-Parser-JS',
+      techStackUsedInTheProject: 'React (via Vite), TailwindCSS, ShadcnUI, Clerk, Supabase, Yup, Recharts, IPAPI, UA-Parser-JS',
       picOfTheProj: TrimrrPic,
       livePreviewOfTheProject: 'https://trimrr-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Trimrr',
@@ -193,11 +194,20 @@ const Page = () => {
       id: 19,
       nameOfTheProject: 'HomeAway',
       descOfTheProject: "HomeAway is a full-stack rental booking application that allows users to browse, create, and book rentals across various categories. Users can filter and search for rentals, like and share them via email or social media, as well as leave ratings and comments. The application also provides functionalities to manage user profiles, handle bookings, and view reviews. Admin users can track important statistics such as total users, properties, and bookings. The app features both dark and light modes and is fully responsive.",
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Neon Database, Supabase, LeafletJS',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk, Neon Database, Supabase, LeafletJS',
       picOfTheProj: HomeAwayProjectPic,
       livePreviewOfTheProject: 'https://home-away-somm.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/HomeAway',
     },
+    {
+      id: 20,
+      nameOfTheProject: 'Hirrd',
+      descOfTheProject: "Hirrd is a full-stack job portal designed to make job applications and recruitment easier for both applicants and recruiters. Job seekers can apply for jobs, track their application status, and view the history of all their applications. On the other hand, recruiters can create job posts, manage applicants, and track the hiring process with ease.",
+      techStackUsedInTheProject: 'ViteJS, ShadcnUI, TailwindCSS, Clerk, Supabase',
+      picOfTheProj: HirrdProjectPic,
+      livePreviewOfTheProject: 'https://hirrd-som.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Hirrd'
+  },
   ];
 
   return (

@@ -271,7 +271,7 @@ const Page = () => {
         id: 26,
         nameOfTheProject: 'Tomato Leaf Disease Classification',
         descOfTheProject: "In this project, deep learning techniques are used to detect and classify diseases in tomato leaves. This project is designed to help farmers know more about the health of their crops, providing valuable insights for effective crop management.",
-        techStackUsedInTheProject: 'Tensorflow, Transfer Learning, Ensemble Learning, ReactJS, TailwindCSS, Transfer Learning, ExpressJS, FastAPI',
+        techStackUsedInTheProject: 'Tensorflow, Transfer Learning, Ensemble Learning, ReactJS, Clerk Authentication, TailwindCSS, Transfer Learning, ExpressJS, FastAPI',
         picOfTheProj: TomatoLeafImg,
         livePreviewOfTheProject: 'https://healthy-tomato.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/tomato-disease-classification-ten-classes'
@@ -346,7 +346,7 @@ const Page = () => {
         id: 34,
         nameOfTheProject: 'FitBites',
         descOfTheProject: "FitBites is a personalized nutrition and diet web app that helps users plan meals, suggest recipes, and track their daily calorie intake. Powered by the Groq API with the Llama3-8b-8192 model, FitBites generates customized meal plans and recipe suggestions based on user preferences and tracks detailed caloric progress to support health goals.",
-        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Prisma ORM, Neon PostgreSQL Database, FastAPI, Groq API, Langchain, Llama3-8b-8192 Model',
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Clerk Authentication, Prisma ORM, Neon PostgreSQL Database, FastAPI, Groq API, Langchain, Llama3-8b-8192 Model',
         picOfTheProj: FitbitesProjImg,
         livePreviewOfTheProject: 'https://fitbites-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/FitBites'
