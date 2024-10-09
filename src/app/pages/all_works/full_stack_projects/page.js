@@ -203,7 +203,7 @@ const Page = () => {
       id: 20,
       nameOfTheProject: 'Hirrd',
       descOfTheProject: "Hirrd is a full-stack job portal designed to make job applications and recruitment easier for both applicants and recruiters. Job seekers can apply for jobs, track their application status, and view the history of all their applications. On the other hand, recruiters can create job posts, manage applicants, and track the hiring process with ease.",
-      techStackUsedInTheProject: 'ViteJS, ShadcnUI, TailwindCSS, Clerk, Supabase',
+      techStackUsedInTheProject: 'ViteJS, ShadcnUI, TailwindCSS, Clerk, Supabase, React-Hook-Form, Zod',
       picOfTheProj: HirrdProjectPic,
       livePreviewOfTheProject: 'https://hirrd-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Hirrd'
