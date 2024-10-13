@@ -23,6 +23,7 @@ import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlsh
 import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
 import HomeAwayProjectPic from './../../../assets/full_stack_development_pics/homeawayprojectimg.png';
 import HirrdProjectPic from './../../../assets/full_stack_development_pics/hirrdprojectimgpic.png';
+import PureTextProjectPic from './../../../assets/full_stack_development_pics/puretextprojimgpic.png';
 
 
 const Page = () => {
@@ -207,7 +208,16 @@ const Page = () => {
       picOfTheProj: HirrdProjectPic,
       livePreviewOfTheProject: 'https://hirrd-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Hirrd'
-  },
+    },
+    {
+      id: 21,
+      nameOfTheProject: 'PureText',
+      descOfTheProject: "PureText is a text analysis tool designed to help developers detect and flag inappropriate or harmful words in any given sentence. This tool can be easily integrated into various applications to ensure safer communication and create a more respectful online environment. Using real-time evaluations powered by Upstash's vector database, PureText quickly identifies potentially toxic or offensive content, providing immediate feedback to users.",
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, Upstash Vector Database, HonoJS, Cloudfare Workers',
+      picOfTheProj: PureTextProjectPic,
+      livePreviewOfTheProject: 'https://pure-text-som.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/PureText'
+    },
   ];
 
   return (
