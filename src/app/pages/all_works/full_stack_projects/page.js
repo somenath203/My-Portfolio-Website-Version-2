@@ -212,7 +212,7 @@ const Page = () => {
     {
       id: 21,
       nameOfTheProject: 'PureText',
-      descOfTheProject: "PureText is a text analysis tool designed to help developers detect and flag inappropriate or harmful words in any given sentence. This tool can be easily integrated into various applications to ensure safer communication and create a more respectful online environment. Using real-time evaluations powered by Upstash's vector database, PureText quickly identifies potentially toxic or offensive content, providing immediate feedback to users.",
+      descOfTheProject: "PureText is a text analysis tool designed to help developers detect whether a given sentence contains any offensive word or not. This tool can be easily integrated into various applications to ensure safer communication and create a more respectful online environment. Using real-time evaluations powered by Upstash's vector database, PureText quickly identifies potentially toxic or offensive content, providing immediate feedback to users.",
       techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, Upstash Vector Database, HonoJS, Cloudfare Workers',
       picOfTheProj: PureTextProjectPic,
       livePreviewOfTheProject: 'https://pure-text-som.vercel.app/',
