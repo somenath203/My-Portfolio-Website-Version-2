@@ -28,6 +28,7 @@ import { GoGraph } from "react-icons/go";
 import { SiScikitlearn } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 import {
   Tooltip,
   TooltipContent,
@@ -91,7 +92,8 @@ const Page = () => {
       id: 4,
       tabName: 'App Development',
       tabContent: [
-        { id: 1, icon: <SiFlutter />, nameOfTooltip: 'FLutter' }
+        { id: 1, icon: <SiFlutter />, nameOfTooltip: 'FLutter' },
+        { id: 2, icon: <TbBrandReactNative />, nameOfTooltip: 'React Native' },
       ],
     },
     {

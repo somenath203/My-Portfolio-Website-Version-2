@@ -5,6 +5,7 @@ import WorkCard from '@/app/components/WorkCard';
 
 import ToxicCommentClassificationProjImg from './../../../assets/app_development_pics/toxiccommentclassificationproj.png';
 import FlutterFireabseTodoProjImg from './../../../assets/app_development_pics/flutterfirebasetodoappprojimg.png';
+import AoraProjImg from './../../../assets/app_development_pics/aoraprojectpic.png';
 
 
 const Page = () => {
@@ -27,6 +28,15 @@ const Page = () => {
       picOfTheProj: ToxicCommentClassificationProjImg,
       livePreviewOfTheProject: 'https://github.com/somenath203/Toxic-Comment-Classifier?tab=readme-ov-file#demo-video-of-the-project',
       githubLinkOfTheProject: 'https://github.com/somenath203/Toxic-Comment-Classifier',
+    },
+    {
+      id: 3,
+      nameOfTheProject: 'Aora',
+      descOfTheProject: 'Aora is a mobile application where users can upload videos with titles and thumbnails and view videos from all users. It provides a seamless platform for video sharing and discovery.',
+      techStackUsedInTheProject: 'React Native, NativeWind, Appwrite',
+      picOfTheProj: AoraProjImg,
+      livePreviewOfTheProject: 'https://www.youtube.com/watch?v=IyuRW4DlVfM',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Aora',
     },
   ];
 
