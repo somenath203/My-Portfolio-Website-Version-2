@@ -32,7 +32,7 @@ const Page = () => {
     {
       id: 3,
       nameOfTheProject: 'Aora',
-      descOfTheProject: 'Aora is a mobile application where users can upload videos with titles and thumbnails and view videos from all users. It provides a seamless platform for video sharing and discovery.',
+      descOfTheProject: 'Aora is a mobile application that allows users to upload videos along with their titles and thumbnails. Users can also explore a diverse range of videos shared by the entire community. Aora offers a seamless platform for video sharing and discovery, making it easy to connect with content from fellow users.',
       techStackUsedInTheProject: 'React Native, NativeWind, Appwrite',
       picOfTheProj: AoraProjImg,
       livePreviewOfTheProject: 'https://www.youtube.com/watch?v=IyuRW4DlVfM',
