@@ -356,7 +356,7 @@ const Page = () => {
         id: 35,
         nameOfTheProject: 'ChatFolio',
         descOfTheProject: "ChatFolio is a personal chatbot designed to answer questions based on my resume. It provides insights into my background, including my skills, education, projects, achievements, and certifications. By interacting with ChatFolio, users can quickly access specific information about my professional profile, allowing for a more personalized and efficient way to explore my qualifications.",
-        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Langchain, BAAI/bge-small-en-v1.5 embeddings model, FAISS, LangChain Groq and Google’s Gemma 2-9B-IT model',
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Langchain, BAAI/bge-small-en-v1.5 embeddings model, FAISS, LangChain Groq, Google’s Gemma 2-9B-IT model',
         picOfTheProj: ChatFolioProjImg,
         livePreviewOfTheProject: 'https://chatfolio-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/ChatFolio'
