@@ -37,6 +37,7 @@ import Nllb200LanguageTranslationImg from './../../../assets/ai_development_pics
 import FourInOneAIToolkitImg from './../../../assets/ai_development_pics/fourinoneaitoolproj.png';
 import ColdEmailGeneratorImg from './../../../assets/ai_development_pics/coldemailgeneratorpic.png';
 import FitbitesProjImg from './../../../assets/ai_development_pics/fitbitesprojpic.png';
+import ChatFolioProjImg from './../../../assets/ai_development_pics/chatfolioprojectimg.png';
 
 
 const Page = () => {
@@ -350,6 +351,15 @@ const Page = () => {
         picOfTheProj: FitbitesProjImg,
         livePreviewOfTheProject: 'https://fitbites-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/FitBites'
+    },
+    {
+        id: 35,
+        nameOfTheProject: 'ChatFolio',
+        descOfTheProject: "ChatFolio is a personal chatbot designed to answer questions based on my resume. It provides insights into my background, including my skills, education, projects, achievements, and certifications. By interacting with ChatFolio, users can quickly access specific information about my professional profile, allowing for a more personalized and efficient way to explore my qualifications.",
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Langchain, BAAI/bge-small-en-v1.5 embeddings model, FAISS, LangChain Groq and Google’s Gemma 2-9B-IT model',
+        picOfTheProj: ChatFolioProjImg,
+        livePreviewOfTheProject: 'https://chatfolio-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/ChatFolio'
     },
 ];
 

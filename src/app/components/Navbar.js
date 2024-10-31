@@ -4,11 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
   Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
+  SheetContent
 } from '@/components/ui/sheet';
 import { useState } from 'react';
 
@@ -18,6 +14,7 @@ const Navbar = () => {
     { id: 2, navLinkname: 'Works', navPath: '/pages/works' },
     { id: 3, navLinkname: 'Achievements', navPath: '/pages/achievements' },
     { id: 4, navLinkname: 'Connect', navPath: '/pages/connect' },
+    { id: 5, navLinkname: 'AskMyAI', navPath: 'https://chatfolio-som.vercel.app/' },
   ];
 
   const pathname = usePathname();
