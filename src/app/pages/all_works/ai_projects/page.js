@@ -38,6 +38,7 @@ import FourInOneAIToolkitImg from './../../../assets/ai_development_pics/fourino
 import ColdEmailGeneratorImg from './../../../assets/ai_development_pics/coldemailgeneratorpic.png';
 import FitbitesProjImg from './../../../assets/ai_development_pics/fitbitesprojpic.png';
 import ChatFolioProjImg from './../../../assets/ai_development_pics/chatfolioprojectimg.png';
+import ScholarSyncProjImg from './../../../assets/ai_development_pics/scholarsyncprojpic.png';
 
 
 const Page = () => {
@@ -360,6 +361,15 @@ const Page = () => {
         picOfTheProj: ChatFolioProjImg,
         livePreviewOfTheProject: 'https://chatfolio-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/ChatFolio'
+    },
+    {
+        id: 36,
+        nameOfTheProject: 'Scholar Sync',
+        descOfTheProject: "Scholar Sync is a web app designed to help students and their parents manage and enhance the study experience. By offering tools for personalized study plans, question-and-answer generation, and organized YouTube study resources, Scholar Sync empowers both students and parents to take control of academic planning. Built with modern web technology, Scholar Sync makes it easy to organize, plan, and access essential learning materials all in one place.",
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Kinde Authentication, React-Hook-Form, Zod validation, Prisma ORM, Neon PostgreSQL Database, FastAPI, Groq API, Google’s Gemma 2-9B-IT model',
+        picOfTheProj: ScholarSyncProjImg,
+        livePreviewOfTheProject: 'https://scholarsync-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Scholar-Sync'
     },
 ];
 
