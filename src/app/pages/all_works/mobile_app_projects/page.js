@@ -6,6 +6,7 @@ import WorkCard from '@/app/components/WorkCard';
 import ToxicCommentClassificationProjImg from './../../../assets/app_development_pics/toxiccommentclassificationproj.png';
 import FlutterFireabseTodoProjImg from './../../../assets/app_development_pics/flutterfirebasetodoappprojimg.png';
 import AoraProjImg from './../../../assets/app_development_pics/aoraprojectpic.png';
+import SnapStoryProjImg from './../../../assets/app_development_pics/snapstoryprojectpic.jpg';
 
 
 const Page = () => {
@@ -33,10 +34,19 @@ const Page = () => {
       id: 3,
       nameOfTheProject: 'Aora',
       descOfTheProject: 'Aora is a mobile application that allows users to upload videos along with their titles and thumbnails. Users can also explore a diverse range of videos shared by the entire community. Aora offers a seamless platform for video sharing and discovery, making it easy to connect with content from fellow users.',
-      techStackUsedInTheProject: 'React Native, NativeWind, Appwrite',
+      techStackUsedInTheProject: 'React Native, Expo, NativeWind, Appwrite',
       picOfTheProj: AoraProjImg,
       livePreviewOfTheProject: 'https://www.youtube.com/watch?v=IyuRW4DlVfM',
       githubLinkOfTheProject: 'https://github.com/somenath203/Aora',
+    },
+    {
+      id: 4,
+      nameOfTheProject: 'Snap Story',
+      descOfTheProject: 'Snap Story is a mobile application that creates imaginative short stories from images. With Snap Story, you can simply take or select a photo, and the app will analyze it to generate an engaging story based on the image. The app uses the power of Google Gemini\'s image analysis to interpret the content of the photo and produce a creative short story, making it a fun tool for storytelling and creativity.',
+      techStackUsedInTheProject: 'React Native, Expo, NativeWind, Zustand, FastAPI, Google Gemini API',
+      picOfTheProj: SnapStoryProjImg,
+      livePreviewOfTheProject: 'https://www.youtube.com/shorts/ByOS_1Es0ZA',
+      githubLinkOfTheProject: 'https://github.com/somenath203/SnapStory',
     },
   ];
 
