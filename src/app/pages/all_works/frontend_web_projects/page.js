@@ -18,6 +18,7 @@ import QrCodeProjPic from './../../../assets/frontend_development_pics/playwithq
 import MarkdownPreviewerPic from './../../../assets/frontend_development_pics/markdownpreviewerprojimg.png';
 import PortfolioPic from './../../../assets/frontend_development_pics/portfolioimage.png';
 import DeleteBgImgPic from './../../../assets/frontend_development_pics/delebgprojimgpic.png';
+import KlimateImgPic from './../../../assets/frontend_development_pics/klimateprojectimg.png';
 
 const Page = () => {
   const frontendProjects = [
@@ -180,6 +181,16 @@ const Page = () => {
       livePreviewOfTheProject: 'https://delete-bg-som.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/Delete-BG',
+    },
+    {
+      id: 16,
+      nameOfTheProject: 'Klimate',
+      descOfTheProject: 'Klimate is a web app that gives you detailed weather information for your location or any city you search for. It provides data like temperature, humidity, windspeed, sunrise, sunset, and more. The app also lets you view hourly temperature graphs and a 5-day forecast. You can save your favorite locations and easily access them later. With a light/dark mode feature, Klimate is designed for a smooth and user-friendly experience.',
+      techStackUsedInTheProject: 'React via Vite, TailwindCSS, ShadcnUI, TanStack Query, OpenWeatherMap API, Recharts',
+      picOfTheProj: KlimateImgPic,
+      livePreviewOfTheProject: 'https://klimate-som.vercel.app/',
+      githubLinkOfTheProject:
+        'https://github.com/somenath203/Klimate',
     },
   ];
 
