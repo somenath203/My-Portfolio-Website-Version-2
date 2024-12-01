@@ -7,6 +7,7 @@ import ToxicCommentClassificationProjImg from './../../../assets/app_development
 import FlutterFireabseTodoProjImg from './../../../assets/app_development_pics/flutterfirebasetodoappprojimg.png';
 import AoraProjImg from './../../../assets/app_development_pics/aoraprojectpic.png';
 import SnapStoryProjImg from './../../../assets/app_development_pics/snapstoryprojectpic.jpg';
+import RydeProjImg from './../../../assets/app_development_pics/rydeprojimg.jpg';
 
 
 const Page = () => {
@@ -47,6 +48,15 @@ const Page = () => {
       picOfTheProj: SnapStoryProjImg,
       livePreviewOfTheProject: 'https://www.youtube.com/shorts/ByOS_1Es0ZA',
       githubLinkOfTheProject: 'https://github.com/somenath203/SnapStory',
+    },
+    {
+      id: 5,
+      nameOfTheProject: 'Ryde',
+      descOfTheProject: 'Ryde is a user-friendly online car booking mobile application built using React Native. The app provides an easy and efficient way to book rides. It allows users to authenticate, view their current location, search for destinations, choose a driver, and make secure payments for their rides. The app is designed to deliver a seamless and reliable ride-booking experience.',
+      techStackUsedInTheProject: 'React Native, Expo, NativeWind, Zustand, Clerk, Google Places API, Google Directions API, Stripe, GEOAPIFY_API, Neon PostgreSQL Database',
+      picOfTheProj: RydeProjImg,
+      livePreviewOfTheProject: 'https://www.youtube.com/watch?v=lbGS07Fiw2c',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Ryde',
     },
   ];
 
