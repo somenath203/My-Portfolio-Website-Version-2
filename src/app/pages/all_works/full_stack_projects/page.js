@@ -2,7 +2,6 @@
 
 import PageHeading from '@/app/components/PageHeading';
 import WorkCard from '@/app/components/WorkCard';
-
 import ImageGalleryPic from './../../../assets/full_stack_development_pics/imagegallery.png';
 import MyExpenseManagerPic from './../../../assets/full_stack_development_pics/myexpensemanager.png';
 import ShortMyURLPic from './../../../assets/full_stack_development_pics/shortmyurlpic.png';
@@ -10,20 +9,15 @@ import MernAuthWithEmailVerifyPic from './../../../assets/full_stack_development
 import ShareYourFilePic from './../../../assets/full_stack_development_pics/sharefileprojpic.png';
 import WeatherAppPic from './../../../assets/full_stack_development_pics/weatherappimage.png';
 import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pics/taskmanagerprojimg.png';
-
 import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
 import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
 import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
-
-
-
 import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
 import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
 import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
 import HomeAwayProjectPic from './../../../assets/full_stack_development_pics/homeawayprojectimg.png';
 import HirrdProjectPic from './../../../assets/full_stack_development_pics/hirrdprojectimgpic.png';
-import PureTextProjectPic from './../../../assets/full_stack_development_pics/puretextprojimgpic.png';
 
 
 const Page = () => {
@@ -93,7 +87,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/PedalStart-Task-Manager-Assignment',
     },
     {
-      id: 9,
+      id: 8,
       nameOfTheProject: 'Next Finance Tracker',
       descOfTheProject: 'Next Finance Tracker is a full stack finance management application built with Next.js, designed to help users track and manage their finances in real time.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Recharts',
@@ -102,7 +96,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/next-finance-tracker',
     },
     {
-      id: 10,
+      id: 9,
       nameOfTheProject: 'Next AI Form Builder',
       descOfTheProject: 'Next AI Form Builder is an AI-powered application that helps users create forms quickly and easily. By providing a prompt, users can generate forms with the help of the Google Gemini API. Users can customize, preview, and share these forms. Additionally, they can manage and export form responses.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, daisyUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
@@ -111,7 +105,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-AI-Form-Builder',
     },
     {
-      id: 11,
+      id: 10,
       nameOfTheProject: 'Next Resumeee',
       descOfTheProject: 'Next Resumeee is a comprehensive full stack Resume Builder Application developed using NextJS. It allows users to generate their resumes with ease by selecting from various templates. The application offers both free and premium templates. Users with a premium subscription can download any resume template they prefer. Additionally, the application features robust admin functionalities for managing templates and viewing user information in a structured format.',
       techStackUsedInTheProject: 'NextJS, TailwindCSS, Antd Design, MongoDB, Firebase, Zustand, Stripe',
@@ -120,7 +114,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-Resumeee',
     },
     {
-      id: 15,
+      id: 11,
       nameOfTheProject: 'Write Your Thoughts',
       descOfTheProject: 'This is a web app where a user can express his/her thoughts in front of the whole world.',
       techStackUsedInTheProject: 'React, Firebase',
@@ -129,7 +123,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/WriteYourThoughts',
     },
     {
-      id: 16,
+      id: 12,
       nameOfTheProject: 'CarePulse',
       descOfTheProject: "CarePulse is a comprehensive healthcare management application designed to streamline patient and admin interactions. The application is divided into two main parts: user and admin functionalities. Users can register, submit their medical information, and book appointments, while admins can manage appointments and handle user requests.",
       techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Appwrite, Nodemailer, Gmail SMTP, Sentry.IO, Zod',
@@ -138,7 +132,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/CarePulse',
     },
     {
-      id: 17,
+      id: 13,
       nameOfTheProject: 'Trimrr',
       descOfTheProject: "Trimrr is a URL shortening web application that allows users to easily create and manage short URLs. After signing up, users can generate short URLs from long ones, track from where their links are being accessed, and view detailed statistics about the devices and cities from which their links are visited. With Trimrr, user can also generate QR codes for your short links, making it easy to share them.",
       techStackUsedInTheProject: 'React (via Vite), TailwindCSS, ShadcnUI, Clerk, Supabase, Yup, Recharts, IPAPI, UA-Parser-JS',
@@ -147,7 +141,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/Trimrr',
     },
     {
-      id: 18,
+      id: 14,
       nameOfTheProject: 'Tweeets',
       descOfTheProject: "Tweeets is a simple web application that allows users to create, edit, and delete tweets. Each tweet consists of a description, and optionally, an image. Users can also view tweets created by other users. To interact with the application (create, edit, or delete tweets), users must first authenticate themselves first.",
       techStackUsedInTheProject: 'Django, Django Templating Engine, SQLite3 (db.sqlite3), Django Tailwind',
@@ -156,7 +150,7 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/Tweeets',
     },
     {
-      id: 19,
+      id: 15,
       nameOfTheProject: 'HomeAway',
       descOfTheProject: "HomeAway is a full-stack rental booking application that allows users to browse, create, and book rentals across various categories. Users can filter and search for rentals, like and share them via email or social media, as well as leave ratings and comments. The application also provides functionalities to manage user profiles, handle bookings, and view reviews. Admin users can track important statistics such as total users, properties, and bookings. The app features both dark and light modes and is fully responsive.",
       techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk, Neon Database, Supabase, LeafletJS',
@@ -165,22 +159,13 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/HomeAway',
     },
     {
-      id: 20,
+      id: 16,
       nameOfTheProject: 'Hirrd',
       descOfTheProject: "Hirrd is a full-stack job portal designed to make job applications and recruitment easier for both applicants and recruiters. Job seekers can apply for jobs, track their application status, and view the history of all their applications. On the other hand, recruiters can create job posts, manage applicants, and track the hiring process with ease.",
       techStackUsedInTheProject: 'ViteJS, ShadcnUI, TailwindCSS, Clerk, Supabase, React-Hook-Form, Zod',
       picOfTheProj: HirrdProjectPic,
       livePreviewOfTheProject: 'https://hirrd-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Hirrd'
-    },
-    {
-      id: 21,
-      nameOfTheProject: 'PureText',
-      descOfTheProject: "PureText is a text analysis tool designed to help developers detect whether a given sentence contains any offensive word or not. This tool can be easily integrated into various applications to ensure safer communication and create a more respectful online environment. Using real-time evaluations powered by Upstash's vector database, PureText quickly identifies potentially toxic or offensive content, providing immediate feedback to users.",
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, Upstash Vector Database, HonoJS, Cloudfare Workers',
-      picOfTheProj: PureTextProjectPic,
-      livePreviewOfTheProject: 'https://pure-text-som.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/PureText'
     },
   ];
 

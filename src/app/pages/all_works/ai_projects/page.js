@@ -44,6 +44,8 @@ import GeminiContentWizardPic from './../../../assets/ai_development_pics/gemini
 import NextJSGeminiChatAppPic from './../../../assets/ai_development_pics/nextgeminichatapppic.png';
 import OptiMediaHubPic from './../../../assets/ai_development_pics/optimediahubprojectpic.png';
 import SmartWebChatPic from './../../../assets/ai_development_pics/smartwebchatpic.png';
+import PureTextProjectPic from './../../../assets/ai_development_pics/puretextprojimgpic.png';
+import ImageExtractorAppImg from './../../../assets/ai_development_pics/imagetextextractorimage.png';
 
 
 const Page = () => {
@@ -420,6 +422,24 @@ const Page = () => {
         picOfTheProj: SmartWebChatPic,
         livePreviewOfTheProject: 'https://smart-web-chat.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/Smart-Web-Chat',
+    },
+    {
+        id: 42,
+        nameOfTheProject: 'PureText',
+        descOfTheProject: "PureText is a text analysis tool designed to help developers detect whether a given sentence contains any offensive word or not. This tool can be easily integrated into various applications to ensure safer communication and create a more respectful online environment. Using real-time evaluations powered by Upstash's vector database, PureText quickly identifies potentially toxic or offensive content, providing immediate feedback to users.",
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, Upstash Vector Database, HonoJS, Cloudfare Workers',
+        picOfTheProj: PureTextProjectPic,
+        livePreviewOfTheProject: 'https://pure-text-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/PureText'
+    },
+    {
+        id: 43,
+        nameOfTheProject: 'Image Text Extractor',
+        descOfTheProject: 'This is a web app that lets users extract text from any image and also the user has the option to copy the extracted text in the clipboard as well.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, FastAPI, pytesseract',
+        picOfTheProj: ImageExtractorAppImg,
+        livePreviewOfTheProject: 'https://image-text-generator.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Image-Text-Extractor',
     },
 ];
 

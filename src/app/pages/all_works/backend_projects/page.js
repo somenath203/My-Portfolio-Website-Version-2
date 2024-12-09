@@ -7,7 +7,6 @@ import BlogProjImg from './../../../assets/backend_development_pics/blogproj.png
 import JobsAPIProjImg from './../../../assets/backend_development_pics/jobsapi.png';
 import AmazonWebScrapperProjImg from './../../../assets/backend_development_pics/amazonwebscrapper.png';
 import FoodDeliveryProjImg from './../../../assets/backend_development_pics/fooddeliveryproject.png';
-import ImageExtractorAppImg from './../../../assets/backend_development_pics/imagetextextractorimage.png';
 
 
 const Page = () => {
@@ -48,16 +47,7 @@ const Page = () => {
       picOfTheProj: FoodDeliveryProjImg,
       livePreviewOfTheProject: 'https://documenter.getpostman.com/view/14623339/2s93zFXKXo',
       githubLinkOfTheProject: 'https://github.com/somenath203/Food-Delivery-API-NodeJS',
-    },
-    {
-      id: 5,
-      nameOfTheProject: 'Image Text Extractor',
-      descOfTheProject: 'This is a web app that lets users extract text from any image and also the user has the option to copy the extracted text in the clipboard as well.',
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, FastAPI, pytesseract',
-      picOfTheProj: ImageExtractorAppImg,
-      livePreviewOfTheProject: 'https://image-text-generator.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Image-Text-Extractor',
-    },
+    }
   ];
 
 
