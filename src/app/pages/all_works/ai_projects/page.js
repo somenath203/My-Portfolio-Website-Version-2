@@ -39,6 +39,11 @@ import ColdEmailGeneratorImg from './../../../assets/ai_development_pics/coldema
 import FitbitesProjImg from './../../../assets/ai_development_pics/fitbitesprojpic.png';
 import ChatFolioProjImg from './../../../assets/ai_development_pics/chatfolioprojectimg.png';
 import ScholarSyncProjImg from './../../../assets/ai_development_pics/scholarsyncprojpic.png';
+import PDFfyProjImg from './../../../assets/ai_development_pics/pdffyaiprojimg.png';
+import GeminiContentWizardPic from './../../../assets/ai_development_pics/geminicontentwizardprojectpic.png';
+import NextJSGeminiChatAppPic from './../../../assets/ai_development_pics/nextgeminichatapppic.png';
+import OptiMediaHubPic from './../../../assets/ai_development_pics/optimediahubprojectpic.png';
+import SmartWebChatPic from './../../../assets/ai_development_pics/smartwebchatpic.png';
 
 
 const Page = () => {
@@ -370,6 +375,51 @@ const Page = () => {
         picOfTheProj: ScholarSyncProjImg,
         livePreviewOfTheProject: 'https://scholarsync-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/Scholar-Sync'
+    },
+    {
+        id: 37,
+        nameOfTheProject: 'PDFfy AI',
+        descOfTheProject: "PDFfy AI is a SaaS application designed to simplify note-taking and question-answering directly from your PDFs. With this app, users can upload PDFs, take notes, and even generate AI-powered answers for selected text, all in a seamless interface. Whether you’re studying, researching, or organizing your thoughts, PDFfy AI is here to make your workflow smarter and more efficient.",
+        techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Clerk Authentication, Convex Database, Google Gemini API, TipTap Editor, Langchain, Razorpay',
+        picOfTheProj: PDFfyProjImg,
+        livePreviewOfTheProject: 'https://pdffy-ai-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/PDFfy-AI'
+    },
+    {
+        id: 38,
+        nameOfTheProject: 'Gemini Content Wizard',
+        descOfTheProject: "Gemini Content Wizard is an AI-powered content generation application designed to simplify your content creation process. Whether you're a blogger, YouTuber, social media manager, or developer, Gemini Content Wizard offers a variety of tools to help you generate high-quality content with ease. Simply input your desired parameters, and let the power of AI craft the perfect output for you.",
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
+        picOfTheProj: GeminiContentWizardPic,
+        livePreviewOfTheProject: 'https://gemini-content-wizard.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Gemini-Content-Wizard',
+    },
+    {
+        id: 39,
+        nameOfTheProject: 'Next Gemini ChatApp',
+        descOfTheProject: 'This project is a full stack chatbot application built using modern web development technologies. It uses Next.js for the frontend and integrates the Gemini API to provide chatbot functionalities. The app is designed to offer a seamless and interactive user experience. Along with chat functionality, users can also view detailed histories of each chat session conducted in the past.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Vercel-AI SDK, Google Gemini API',
+        picOfTheProj: NextJSGeminiChatAppPic,
+        livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Next-Gemini-ChatApp',
+    },
+    {
+        id: 40,
+        nameOfTheProject: 'OptiMedia Hub',
+        descOfTheProject: "OptiMedia Hub is an easy-to-use tool that helps you prepare images and videos for social media. It lets content creators quickly format their media for platforms like Instagram, Twitter, and Facebook. The app uses Cloudinary for processing media, Clerk for user authentication, and Neon PostgreSQL for managing data, all within a simple and friendly interface built with Next.js",
+        techStackUsedInTheProject: 'NextJS, Clerk, TailwindCSS, DaisyUI, Cloudinary, Next-Cloudinary, Prisma ORM, Neon Database',
+        picOfTheProj: OptiMediaHubPic,
+        livePreviewOfTheProject: 'https://optimedia-hub.onrender.com/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/OptiMedia-Hub',
+    },
+    {
+        id: 41,
+        nameOfTheProject: 'Smart Web Chat',
+        descOfTheProject: "Smart Web Chat is a platform designed to facilitate interactive conversations with websites. Powered by the Meta-Llama-3-8B-Instruct Large Language Model, it delivers a smooth and engaging experience for users. Whether you're seeking information or looking for specific answers, Smart Web Chat enhances your interaction with web content through advanced AI capabilities.",
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, NextUI, Upstash Redis Database, Upstash RAG Model, Meta-Llama-3-8B-Instruct',
+        picOfTheProj: SmartWebChatPic,
+        livePreviewOfTheProject: 'https://smart-web-chat.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Smart-Web-Chat',
     },
 ];
 

@@ -10,13 +10,13 @@ import MernAuthWithEmailVerifyPic from './../../../assets/full_stack_development
 import ShareYourFilePic from './../../../assets/full_stack_development_pics/sharefileprojpic.png';
 import WeatherAppPic from './../../../assets/full_stack_development_pics/weatherappimage.png';
 import SimpleTaskManagerAppPic from './../../../assets/full_stack_development_pics/taskmanagerprojimg.png';
-import NextJSGeminiChatAppPic from './../../../assets/full_stack_development_pics/nextgeminichatapppic.png';
+
 import NextFinanceTrackerPic from './../../../assets/full_stack_development_pics/nextfinancetrackerpic.png';
 import AIFormBuilderPic from './../../../assets/full_stack_development_pics/aiformbuilderprojimg.png';
 import ResumeBuilderPic from './../../../assets/full_stack_development_pics/resumebuilderprojpic.png';
-import GeminiContentWizardPic from './../../../assets/full_stack_development_pics/geminicontentwizardprojectpic.png';
-import SmartWebChatPic from './../../../assets/full_stack_development_pics/smartwebchatpic.png';
-import OptiMediaHubPic from './../../../assets/full_stack_development_pics/optimediahubprojectpic.png';
+
+
+
 import WriteMyThoughtsPic from './../../../assets/frontend_development_pics/writemythoughts.png';
 import CarePulsePic from './../../../assets/full_stack_development_pics/carepulseimage.png';
 import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png';
@@ -93,15 +93,6 @@ const Page = () => {
       githubLinkOfTheProject: 'https://github.com/somenath203/PedalStart-Task-Manager-Assignment',
     },
     {
-      id: 8,
-      nameOfTheProject: 'Next Gemini ChatApp',
-      descOfTheProject: 'This project is a full stack chatbot application built using modern web development technologies. It uses Next.js for the frontend and integrates the Gemini API to provide chatbot functionalities. The app is designed to offer a seamless and interactive user experience. Along with chat functionality, users can also view detailed histories of each chat session conducted in the past.',
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, antd, MongoDB, Zustand, Clerk, Vercel-AI SDK, Google Gemini API',
-      picOfTheProj: NextJSGeminiChatAppPic,
-      livePreviewOfTheProject: 'https://next-gemini-chat-app.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Next-Gemini-ChatApp',
-    },
-    {
       id: 9,
       nameOfTheProject: 'Next Finance Tracker',
       descOfTheProject: 'Next Finance Tracker is a full stack finance management application built with Next.js, designed to help users track and manage their finances in real time.',
@@ -127,33 +118,6 @@ const Page = () => {
       picOfTheProj: ResumeBuilderPic,
       livePreviewOfTheProject: 'https://next-resumeee.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Next-Resumeee',
-    },
-    {
-      id: 12,
-      nameOfTheProject: 'Gemini Content Wizard',
-      descOfTheProject: "Gemini Content Wizard is an AI-powered content generation application designed to simplify your content creation process. Whether you're a blogger, YouTuber, social media manager, or developer, Gemini Content Wizard offers a variety of tools to help you generate high-quality content with ease. Simply input your desired parameters, and let the power of AI craft the perfect output for you.",
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Drizzle ORM, Neon Database, Clerk, Google Gemini API',
-      picOfTheProj: GeminiContentWizardPic,
-      livePreviewOfTheProject: 'https://gemini-content-wizard.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Gemini-Content-Wizard',
-    },
-    {
-      id: 13,
-      nameOfTheProject: 'Smart Web Chat',
-      descOfTheProject: "Smart Web Chat is a platform designed to facilitate interactive conversations with websites. Powered by the Meta-Llama-3-8B-Instruct Large Language Model, it delivers a smooth and engaging experience for users. Whether you're seeking information or looking for specific answers, Smart Web Chat enhances your interaction with web content through advanced AI capabilities.",
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, NextUI, Upstash Redis Database, Upstash RAG Model, Meta-Llama-3-8B-Instruct',
-      picOfTheProj: SmartWebChatPic,
-      livePreviewOfTheProject: 'https://smart-web-chat.vercel.app/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/Smart-Web-Chat',
-    },
-    {
-      id: 14,
-      nameOfTheProject: 'OptiMedia Hub',
-      descOfTheProject: "OptiMedia Hub is an easy-to-use tool that helps you prepare images and videos for social media. It lets content creators quickly format their media for platforms like Instagram, Twitter, and Facebook. The app uses Cloudinary for processing media, Clerk for user authentication, and Neon PostgreSQL for managing data, all within a simple and friendly interface built with Next.js",
-      techStackUsedInTheProject: 'NextJS, Clerk, TailwindCSS, DaisyUI, Cloudinary, Next-Cloudinary, Prisma ORM, Neon Database',
-      picOfTheProj: OptiMediaHubPic,
-      livePreviewOfTheProject: 'https://optimedia-hub.onrender.com/',
-      githubLinkOfTheProject: 'https://github.com/somenath203/OptiMedia-Hub',
     },
     {
       id: 15,
