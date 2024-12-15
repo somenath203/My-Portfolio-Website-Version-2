@@ -18,6 +18,7 @@ import TrimrrPic from './../../../assets/full_stack_development_pics/trimrrurlsh
 import TweetsDjangoAppPic from './../../../assets/full_stack_development_pics/tweeetdjangoapp.png';
 import HomeAwayProjectPic from './../../../assets/full_stack_development_pics/homeawayprojectimg.png';
 import HirrdProjectPic from './../../../assets/full_stack_development_pics/hirrdprojectimgpic.png';
+import JShareProjectPic from './../../../assets/full_stack_development_pics/jshareprojimg.png';
 
 
 const Page = () => {
@@ -153,7 +154,7 @@ const Page = () => {
       id: 15,
       nameOfTheProject: 'HomeAway',
       descOfTheProject: "HomeAway is a full-stack rental booking application that allows users to browse, create, and book rentals across various categories. Users can filter and search for rentals, like and share them via email or social media, as well as leave ratings and comments. The application also provides functionalities to manage user profiles, handle bookings, and view reviews. Admin users can track important statistics such as total users, properties, and bookings. The app features both dark and light modes and is fully responsive.",
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk, Neon Database, Supabase, LeafletJS',
+      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk, Prisma ORM, Neon Database, Supabase, LeafletJS',
       picOfTheProj: HomeAwayProjectPic,
       livePreviewOfTheProject: 'https://home-away-somm.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/HomeAway',
@@ -166,6 +167,15 @@ const Page = () => {
       picOfTheProj: HirrdProjectPic,
       livePreviewOfTheProject: 'https://hirrd-som.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Hirrd'
+    },
+    {
+      id: 17,
+      nameOfTheProject: 'JShare',
+      descOfTheProject: "JShare is a user-friendly web application designed to help you store and share your JSON data with ease. Whether you're a developer or someone who works with JSON, JShare makes it super simple to manage and share JSON data via sharable links.",
+      techStackUsedInTheProject: 'NextJS, ShadcnUI, TailwindCSS, Prisma ORM, Neon PostgreSQL Database, Clerk Authentication, @uiw/react-codemirror, React JSON View',
+      picOfTheProj: JShareProjectPic,
+      livePreviewOfTheProject: 'https://j-share-som.vercel.app/',
+      githubLinkOfTheProject: 'https://github.com/somenath203/JShare'
     },
   ];
 

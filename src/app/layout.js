@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <ToastContainer />
-        <script src="https://kit.fontawesome.com/1b20c7f767.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1b20c7f767.js" crossOrigin="anonymous"></script>
       </body>
     </html>
   );

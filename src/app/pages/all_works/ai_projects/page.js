@@ -46,6 +46,8 @@ import OptiMediaHubPic from './../../../assets/ai_development_pics/optimediahubp
 import SmartWebChatPic from './../../../assets/ai_development_pics/smartwebchatpic.png';
 import PureTextProjectPic from './../../../assets/ai_development_pics/puretextprojimgpic.png';
 import ImageExtractorAppImg from './../../../assets/ai_development_pics/imagetextextractorimage.png';
+import ToxicCommentClassificationProjImg from './../../../assets/ai_development_pics/toxiccommentclassificationproj.png';
+import SnapStoryProjImg from './../../../assets/ai_development_pics/snapstoryprojectpic.jpg';
 
 
 const Page = () => {
@@ -440,6 +442,24 @@ const Page = () => {
         picOfTheProj: ImageExtractorAppImg,
         livePreviewOfTheProject: 'https://image-text-generator.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/Image-Text-Extractor',
+    },
+    {
+        id: 44,
+        nameOfTheProject: 'Toxic Comment Classifier',
+        descOfTheProject: 'This is a project which categorizes a particular toxic comment entered by the user into mainly 6 categories and those are: toxic, severe_toxic, obscene, threat, insult and identity_hate.',
+        techStackUsedInTheProject: 'Flutter, FastAPI, Toxic-Bert HuggingFace Model',
+        picOfTheProj: ToxicCommentClassificationProjImg,
+        livePreviewOfTheProject: 'https://github.com/somenath203/Toxic-Comment-Classifier?tab=readme-ov-file#demo-video-of-the-project',
+        githubLinkOfTheProject: 'https://github.com/somenath203/Toxic-Comment-Classifier',
+    },
+    {
+        id: 45,
+        nameOfTheProject: 'Snap Story',
+        descOfTheProject: 'Snap Story is a mobile application that creates imaginative short stories from images. With Snap Story, you can simply take or select a photo, and the app will analyze it to generate an engaging story based on the image. The app uses the power of Google Gemini\'s image analysis to interpret the content of the photo and produce a creative short story, making it a fun tool for storytelling and creativity.',
+        techStackUsedInTheProject: 'React Native, Expo, NativeWind, Zustand, FastAPI, Google Gemini API',
+        picOfTheProj: SnapStoryProjImg,
+        livePreviewOfTheProject: 'https://www.youtube.com/shorts/ByOS_1Es0ZA',
+        githubLinkOfTheProject: 'https://github.com/somenath203/SnapStory',
     },
 ];
 
