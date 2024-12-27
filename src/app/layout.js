@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'My Portfolio Website',
+  title: 'Somenath Choudhury',
   description:
     'This is my portfolio website which contains my resume, my skillset, my projects and my achievements.',
 };
