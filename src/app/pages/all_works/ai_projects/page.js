@@ -48,6 +48,7 @@ import PureTextProjectPic from './../../../assets/ai_development_pics/puretextpr
 import ImageExtractorAppImg from './../../../assets/ai_development_pics/imagetextextractorimage.png';
 import ToxicCommentClassificationProjImg from './../../../assets/ai_development_pics/toxiccommentclassificationproj.png';
 import SnapStoryProjImg from './../../../assets/ai_development_pics/snapstoryprojectpic.jpg';
+import NeuroPadProjImg from './../../../assets/ai_development_pics/neuropadprojimg.png';
 
 
 const Page = () => {
@@ -460,6 +461,15 @@ const Page = () => {
         picOfTheProj: SnapStoryProjImg,
         livePreviewOfTheProject: 'https://www.youtube.com/shorts/ByOS_1Es0ZA',
         githubLinkOfTheProject: 'https://github.com/somenath203/SnapStory',
+    },
+    {
+        id: 46,
+        nameOfTheProject: 'NeuroPad',
+        descOfTheProject: 'Snap Story is a mobile application that creates imaginative short stories from images. With Snap Story, you can simply take or select a photo, and the app will analyze it to generate an engaging story based on the image. The app uses the power of Google Gemini\'s image analysis to interpret the content of the photo and produce a creative short story, making it a fun tool for storytelling and creativity.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk Authentication, Prisma ORM, MongoDB, React-Hook-Form, Zod validation, Pinecone Vector Database, Google Gemini API',
+        picOfTheProj: NeuroPadProjImg,
+        livePreviewOfTheProject: 'https://neuro-pad-som.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/NeuroPad',
     },
 ];
 
