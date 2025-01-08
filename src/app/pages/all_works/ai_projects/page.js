@@ -49,6 +49,7 @@ import ImageExtractorAppImg from './../../../assets/ai_development_pics/imagetex
 import ToxicCommentClassificationProjImg from './../../../assets/ai_development_pics/toxiccommentclassificationproj.png';
 import SnapStoryProjImg from './../../../assets/ai_development_pics/snapstoryprojectpic.jpg';
 import NeuroPadProjImg from './../../../assets/ai_development_pics/neuropadprojimg.png';
+import VidWiseProjImg from './../../../assets/ai_development_pics/vidwiseprojimgpic.png';
 
 
 const Page = () => {
@@ -470,6 +471,15 @@ const Page = () => {
         picOfTheProj: NeuroPadProjImg,
         livePreviewOfTheProject: 'https://neuro-pad-som.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/NeuroPad',
+    },
+    {
+        id: 47,
+        nameOfTheProject: 'VidWise',
+        descOfTheProject: 'VidWise is a cutting-edge video analysis application powered by Google Gemini 1.5 Flash and PhiData, designed to provide detailed and actionable insights from video content.',
+        techStackUsedInTheProject: 'Streamlit, DuckDuckGo-Search, PhiData, Google Generative AI',
+        picOfTheProj: VidWiseProjImg,
+        livePreviewOfTheProject: 'https://vidwisesomm.streamlit.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/VidWise',
     },
 ];
 
