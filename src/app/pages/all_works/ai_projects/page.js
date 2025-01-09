@@ -50,6 +50,7 @@ import ToxicCommentClassificationProjImg from './../../../assets/ai_development_
 import SnapStoryProjImg from './../../../assets/ai_development_pics/snapstoryprojectpic.jpg';
 import NeuroPadProjImg from './../../../assets/ai_development_pics/neuropadprojimg.png';
 import VidWiseProjImg from './../../../assets/ai_development_pics/vidwiseprojimgpic.png';
+import LogoCraftAIProjImg from './../../../assets/ai_development_pics/logocraftaiprojimg.png';
 
 
 const Page = () => {
@@ -480,6 +481,15 @@ const Page = () => {
         picOfTheProj: VidWiseProjImg,
         livePreviewOfTheProject: 'https://vidwisesomm.streamlit.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/VidWise',
+    },
+    {
+        id: 48,
+        nameOfTheProject: 'LogoCraft AI',
+        descOfTheProject: 'LogoCraft AI is a web application that enables users to create personalized logos for their websites, apps, or businesses with the help of AI.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk Authentication, Firebase, Google Gemini API, HuggingFace, Flux-Midjourney-Mix2-LoRA Model, Cashfree Payments',
+        picOfTheProj: LogoCraftAIProjImg,
+        livePreviewOfTheProject: 'https://www.youtube.com/watch?v=Je7fMf9B2fY',
+        githubLinkOfTheProject: 'https://github.com/somenath203/LogoCraft-AI',
     },
 ];
 
