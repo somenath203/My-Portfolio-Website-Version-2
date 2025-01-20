@@ -51,6 +51,7 @@ import SnapStoryProjImg from './../../../assets/ai_development_pics/snapstorypro
 import NeuroPadProjImg from './../../../assets/ai_development_pics/neuropadprojimg.png';
 import VidWiseProjImg from './../../../assets/ai_development_pics/vidwiseprojimgpic.png';
 import LogoCraftAIProjImg from './../../../assets/ai_development_pics/logocraftaiprojimg.png';
+import LeadRankerProjImg from './../../../assets/ai_development_pics/leadrankerprojimg.png';
 
 
 const Page = () => {
@@ -490,6 +491,15 @@ const Page = () => {
         picOfTheProj: LogoCraftAIProjImg,
         livePreviewOfTheProject: 'https://www.youtube.com/watch?v=Je7fMf9B2fY',
         githubLinkOfTheProject: 'https://github.com/somenath203/LogoCraft-AI',
+    },
+    {
+        id: 49,
+        nameOfTheProject: 'LeadRanker',
+        descOfTheProject: 'LeadRanker is a full-stack web application designed to help organizations and companies identify, analyze, and prioritize top developer talent from GitHub. With LeadRanker, users can quickly find developers based on their specific job requirements, generate detailed insights about the leads, and create personalized email communications. The application streamlines the talent search process and makes it easy to download and manage developer data.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Clerk Authentication, Prisma ORM, Neon Database, Google Gemini API, React Hook Form, Zod Validation, FileSaver.js',
+        picOfTheProj: LeadRankerProjImg,
+        livePreviewOfTheProject: 'https://lead-ranker-somm.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/leadranker',
     },
 ];
 
