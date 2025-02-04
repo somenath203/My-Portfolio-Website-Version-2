@@ -50,7 +50,7 @@ const Page = () => {
       nameOfTheAchievement: 'Devfolio Live the Code 2.0 Hackathon',
       photoOfTheAchievement: DevfolioAchievmentPic,
       descriptionOfTheAchievement:
-        'Achieved Rank 5 and became a Pool Prize Winner out of 100 teams in Devfolio Live the Code 2.0 hackathon.',
+        'Recognized as a Pool Prize Winner among 100 teams in the Devfolio Live The Code 2.0 Hackathon.',
       urlOfTheAchievement:
         'https://drive.google.com/file/d/1SHrwWFKx7aovLIpB6Lks4EEZ7cN9oscM/view',
     },
