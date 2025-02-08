@@ -52,6 +52,7 @@ import NeuroPadProjImg from './../../../assets/ai_development_pics/neuropadproji
 import VidWiseProjImg from './../../../assets/ai_development_pics/vidwiseprojimgpic.png';
 import LogoCraftAIProjImg from './../../../assets/ai_development_pics/logocraftaiprojimg.png';
 import LeadRankerProjImg from './../../../assets/ai_development_pics/leadrankerprojimg.png';
+import AquaYieldAIProjImg from './../../../assets/ai_development_pics/aquayieldaiprojimg.png';
 
 
 const Page = () => {
@@ -500,6 +501,15 @@ const Page = () => {
         picOfTheProj: LeadRankerProjImg,
         livePreviewOfTheProject: 'https://lead-ranker-somm.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/leadranker',
+    },
+    {
+        id: 50,
+        nameOfTheProject: 'AquaYield AI',
+        descOfTheProject: 'AquaYield AI is an advanced, AI-powered solution designed to revolutionize sustainable agriculture by optimizing water usage, tracking environmental conditions, and implementing intelligent irrigation scheduling. By integrating cutting-edge AI technologies, AquaYield AI empowers farmers with actionable insights, helping them make data-driven decisions for efficient farm management.',
+        techStackUsedInTheProject: 'NextJS, TailwindCSS, daisyUI, Zustand, Recharts, React-Markdown, Puppeteer-Core, @sparticuz/chromium, FastAPI, Phidata, Google Gemini API, OpenAI API',
+        picOfTheProj: AquaYieldAIProjImg,
+        livePreviewOfTheProject: 'https://aquayieldaisom.vercel.app/',
+        githubLinkOfTheProject: 'https://github.com/somenath203/aquayieldai',
     },
 ];
 
