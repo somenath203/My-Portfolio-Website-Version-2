@@ -53,6 +53,7 @@ import VidWiseProjImg from './../../../assets/ai_development_pics/vidwiseprojimg
 import LogoCraftAIProjImg from './../../../assets/ai_development_pics/logocraftaiprojimg.png';
 import LeadRankerProjImg from './../../../assets/ai_development_pics/leadrankerprojimg.png';
 import AquaYieldAIProjImg from './../../../assets/ai_development_pics/aquayieldaiprojimg.png';
+import QuillSenseProjImg from './../../../assets/ai_development_pics/quillsenseprojimg.jpg';
 
 
 const Page = () => {
@@ -510,6 +511,15 @@ const Page = () => {
         picOfTheProj: AquaYieldAIProjImg,
         livePreviewOfTheProject: 'https://aquayieldaisom.vercel.app/',
         githubLinkOfTheProject: 'https://github.com/somenath203/aquayieldai',
+    },
+    {
+        id: 51,
+        nameOfTheProject: 'QuillSense',
+        descOfTheProject: 'QuillSense is an AI-powered handwriting analysis application that helps users understand their handwriting patterns, mood, and overall well-being. This app takes user input, including their full name, age, sleep hours, current mood, exercise history, and a sample photo of their handwriting.',
+        techStackUsedInTheProject: 'React Native, Expo, NativeWind, Zustand, FastAPI, Google Gemini API, React Native Chart Kit, Expo Image Picker, Expo Speech, Expo Sharing',
+        picOfTheProj: QuillSenseProjImg,
+        livePreviewOfTheProject: 'https://www.youtube.com/watch?v=DP3Wns3og7Y',
+        githubLinkOfTheProject: 'https://github.com/somenath203/quillsense',
     },
 ];
 
