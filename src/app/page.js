@@ -85,10 +85,11 @@ const Page = () => {
               </div>
 
               <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left leading-relaxed">
-                Full Stack Developer with 4 years of hands-on experience
-                building scalable web and mobile applications, developing
-                machine learning and deep learning models, and deploying web
-                applications, backend APIs, and AI solutions in production.
+                Full Stack Developer with 3 years of hands-on experience
+                building modern web and mobile applications, developing machine
+                learning and deep learning models, and deploying
+                production-ready web applications, backend APIs, and AI
+                solutions.
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start w-full">
