@@ -85,7 +85,7 @@ const Page = () => {
               </div>
 
               <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left leading-relaxed">
-                Full Stack Developer with 3 years of hands-on experience
+                Full Stack Developer with 4 years of hands-on experience
                 building modern web and mobile applications, developing machine
                 learning and deep learning models, and deploying
                 production-ready web applications, backend APIs, and AI
@@ -115,7 +115,7 @@ const Page = () => {
                 </Link>
               </div>
 
-              <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-2 mt-2 m-auto lg:m-0">
+              <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-2 mt-2 mb-8 lg:mb-0 m-auto lg:m-0">
                 <span className="text-xl lg:text-lg tracking-wider font-poppins mr-2 text-center lg:text-left">
                   Social Links:
                 </span>
