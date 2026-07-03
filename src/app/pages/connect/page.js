@@ -123,7 +123,7 @@ const Page = () => {
               </span>
             </div>
             <p className="text-slate-400 text-sm font-poppins">
-              Reach out directly and I&apos;ll reply within a day or two.
+              Feel free to reach out via email — I’d be happy to connect!
             </p>
             <p
               onClick={handleCopyEmail}
