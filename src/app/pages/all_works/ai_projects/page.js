@@ -17,7 +17,6 @@ import GeminiContentWizardPic from "./../../../assets/ai_development_pics/gemini
 import LeadRankerProjImg from "./../../../assets/ai_development_pics/leadrankerprojimg.png";
 import QuillSenseProjImg from "./../../../assets/ai_development_pics/quillsenseprojimg.jpg";
 
-
 const Page = () => {
   const aiProjects = [
     {
@@ -105,15 +104,14 @@ const Page = () => {
     },
     {
       id: 7,
-      nameOfTheProject: "Tomato Leaf Disease Classification",
+      nameOfTheProject: "TomatoLeaf Care",
       descOfTheProject:
-        "This deep learning project detects and classifies diseases in tomato leaves, helping farmers monitor crop health and make informed decisions for effective crop management.",
+        "This deep learning project identifies and classifies diseases in tomato leaves, helping farmers proactively monitor crop health and improve decision-making for effective crop management.",
       techStackUsedInTheProject:
         "TensorFlow, Transfer Learning, Ensemble Learning, React, Clerk Authentication, Tailwind CSS, Express.js, FastAPI",
       picOfTheProj: TomatoLeafImg,
-      livePreviewOfTheProject: "https://healthy-tomato.vercel.app/",
-      githubLinkOfTheProject:
-        "https://github.com/somenath203/tomato-disease-classification-ten-classes",
+      livePreviewOfTheProject: "https://tomatoleaf-care.vercel.app/",
+      githubLinkOfTheProject: "https://github.com/somenath203/TomatoLeaf-Care",
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
