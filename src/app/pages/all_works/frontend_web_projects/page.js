@@ -31,6 +31,7 @@ const Page = () => {
       picOfTheProj: OmnifoodPic,
       livePreviewOfTheProject: 'https://omnifood-somenath.netlify.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Omnifood',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 2,
@@ -42,6 +43,7 @@ const Page = () => {
       livePreviewOfTheProject: 'https://lovely-rabanadas-dc5fc8.netlify.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/css-hotel-website',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 3,
@@ -53,6 +55,7 @@ const Page = () => {
       livePreviewOfTheProject: 'https://secretmessage-pied.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/Your-Secret-Message',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 4,
@@ -64,6 +67,7 @@ const Page = () => {
       livePreviewOfTheProject: 'https://merry-sprite-9115d1.netlify.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/javascript-Character-Counter',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 5,
@@ -75,6 +79,7 @@ const Page = () => {
       livePreviewOfTheProject: 'https://javascript-bookmark-app.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/Javascript-Bookmark-App',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 6,
@@ -85,6 +90,7 @@ const Page = () => {
       picOfTheProj: JSONFormatterPic,
       livePreviewOfTheProject: 'https://json-formatter-som.netlify.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/JSON-Formatter',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 7,
@@ -96,6 +102,7 @@ const Page = () => {
       livePreviewOfTheProject: 'https://generate-lorem-ipsum-11.netlify.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/React-Lorem-Ipsum-Generator',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 8,
@@ -108,6 +115,7 @@ const Page = () => {
         'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/React-Colors-Generator',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 9,
@@ -118,6 +126,7 @@ const Page = () => {
       picOfTheProj: GroceryPic,
       livePreviewOfTheProject: 'https://grocery-bud-lemon.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Grocery-Bud',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 10,
@@ -129,6 +138,7 @@ const Page = () => {
       picOfTheProj: MiniDictionaryPic,
       livePreviewOfTheProject: 'https://mini-dictionary.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mini-Dictionary',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 11,
@@ -139,6 +149,7 @@ const Page = () => {
       picOfTheProj: CurrencyConverterPic,
       livePreviewOfTheProject: 'https://mini-dictionary.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Mini-Dictionary',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 12,
@@ -149,6 +160,7 @@ const Page = () => {
       picOfTheProj: QrCodeProjPic,
       livePreviewOfTheProject: 'https://play-with-qr-code.vercel.app/',
       githubLinkOfTheProject: 'https://github.com/somenath203/Play-With-QRCode',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 13,
@@ -161,6 +173,7 @@ const Page = () => {
         'https://markdown-previewer-psi-liard.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/Markdown-Previewer',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 14,
@@ -171,26 +184,31 @@ const Page = () => {
       livePreviewOfTheProject: 'https://somenath-portfolio-website.vercel.app/',
       githubLinkOfTheProject:
         'https://github.com/somenath203/My-Portfolio-Project',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 15,
       nameOfTheProject: 'Delete BG',
-      descOfTheProject: 'Delete BG is a website designed to make removing image backgrounds quick and easy. With just a few clicks, you can upload an image, remove its background, and download the result—all within a fully mobile-responsive interface',
-      techStackUsedInTheProject: 'NextJS, TailwindCSS, ShadcnUI, Aceternity UI, Remove-BG API',
+      descOfTheProject:
+        'Delete BG is a website designed to make removing image backgrounds quick and easy. With just a few clicks, you can upload an image, remove its background, and download the result—all within a fully mobile-responsive interface',
+      techStackUsedInTheProject:
+        'NextJS, TailwindCSS, ShadcnUI, Aceternity UI, Remove-BG API',
       picOfTheProj: DeleteBgImgPic,
       livePreviewOfTheProject: 'https://delete-bg-som.vercel.app/',
-      githubLinkOfTheProject:
-        'https://github.com/somenath203/Delete-BG',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Delete-BG',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
     {
       id: 16,
       nameOfTheProject: 'Klimate',
-      descOfTheProject: 'Klimate is a web app that gives you detailed weather information for your location or any city you search for. It provides data like temperature, humidity, windspeed, sunrise, sunset, and more. The app also lets you view hourly temperature graphs and a 5-day forecast. You can save your favorite locations and easily access them later. With a light/dark mode feature, Klimate is designed for a smooth and user-friendly experience.',
-      techStackUsedInTheProject: 'React via Vite, TailwindCSS, ShadcnUI, TanStack Query, OpenWeatherMap API, Recharts',
+      descOfTheProject:
+        'Klimate is a web app that gives you detailed weather information for your location or any city you search for. It provides data like temperature, humidity, windspeed, sunrise, sunset, and more. The app also lets you view hourly temperature graphs and a 5-day forecast. You can save your favorite locations and easily access them later. With a light/dark mode feature, Klimate is designed for a smooth and user-friendly experience.',
+      techStackUsedInTheProject:
+        'React via Vite, TailwindCSS, ShadcnUI, TanStack Query, OpenWeatherMap API, Recharts',
       picOfTheProj: KlimateImgPic,
       livePreviewOfTheProject: 'https://klimate-som.vercel.app/',
-      githubLinkOfTheProject:
-        'https://github.com/somenath203/Klimate',
+      githubLinkOfTheProject: 'https://github.com/somenath203/Klimate',
+      youtubeVideoLink: 'https://www.youtube.com/',
     },
   ];
 
@@ -200,7 +218,7 @@ const Page = () => {
         <PageHeading heading="Frontend WebApp Projects" />
       </div>
 
-      <WorkCard workArray={frontendProjects} />
+      <WorkCard workArray={frontendProjects} accentColor="#38bdf8" />
     </div>
   );
 };

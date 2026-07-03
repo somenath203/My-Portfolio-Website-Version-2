@@ -21,7 +21,6 @@ import { SiChakraui } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 import { FaLayerGroup } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
 import { SiNumpy } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { GoGraph } from "react-icons/go";
@@ -92,8 +91,7 @@ const Page = () => {
       id: 4,
       tabName: 'App Development',
       tabContent: [
-        { id: 1, icon: <SiFlutter />, nameOfTooltip: 'FLutter' },
-        { id: 2, icon: <TbBrandReactNative />, nameOfTooltip: 'React Native' },
+        { id: 1, icon: <TbBrandReactNative />, nameOfTooltip: 'React Native' },
       ],
     },
     {
@@ -119,31 +117,32 @@ const Page = () => {
   const [selectedTab, setSelectedTab] = useState(tabListName[0].name);
 
   return (
-    <div className="min-h-screen bg-slate-900 flex flex-col gap-16 lg:gap-48 items-center font-poppins">
-
+    <div className="min-h-screen bg-slate-900 flex flex-col gap-10 items-center font-poppins px-4">
 
       <div className="mt-14 w-3/6 lg:w-1/6">
         <PageHeading heading='My Skills' />
       </div>
 
+      <Tabs
+        defaultValue={selectedTab}
+        className="w-11/12 lg:w-4/5 mb-16 border border-slate-800 rounded-2xl bg-slate-950/40 p-4 sm:p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-8"
+      >
 
-      <Tabs defaultValue={selectedTab} className="w-5/6 lg:w-3/6 flex flex-col lg:flex-row gap-48 lg:gap-5">
+        <TabsList className="w-full h-auto bg-transparent p-0 lg:col-span-1">
 
-        <TabsList className="w-full bg-transparent ">
-
-          <div className='w-full h-16 lg:h-80 flex flex-row lg:flex-col gap-6 overflow-x-auto lg:overflow-y-auto pr-0 lg:pr-6'>
+          <div className="w-full flex flex-row lg:flex-col gap-3 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0">
             {tabListName.map((tab) => (
               <TabsTrigger
                 key={tab.id}
                 value={tab.name}
-                className={`w-full border-2 border-green-500 rounded-lg p-4 ${
+                className={`shrink-0 lg:w-full text-left rounded-lg px-4 py-3 border-l-4 transition-all duration-200 ${
                   selectedTab === tab.name
-                    ? '!bg-slate-800 !text-white'
-                    : '!bg-transparent'
+                    ? '!bg-slate-800 !text-white border-green-400'
+                    : '!bg-transparent border-transparent hover:!bg-slate-800/50'
                 }`}
                 onClick={() => setSelectedTab(tab.name)}
               >
-                <span className="font-poppins text-white tracking-wide">
+                <span className="font-poppins text-white tracking-wide text-sm whitespace-nowrap lg:whitespace-normal">
                   {tab.name}
                 </span>
               </TabsTrigger>
@@ -152,40 +151,37 @@ const Page = () => {
 
         </TabsList>
 
-
-        <TabsList className="bg-transparent w-full">
+        <TabsList className="bg-transparent p-0 w-full h-auto lg:col-span-3">
           {tabContents.map((tabcontent) => (
             <TabsContent
               key={tabcontent.id}
               value={tabcontent.tabName}
-              className="text-white w-full"
+              className="text-white w-full mt-0"
             >
-              <div className="overflow-y-auto h-80">
-                <div className="flex lg:items-center lg:justify-center">
-                  <div className="flex lg:items-center lg:justify-center gap-5 overflow-x-auto lg:grid lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4">
-                    {tabcontent.tabContent.map((icon) => (
-                      <div key={icon.id} className="p-10 rounded-lg bg-slate-800">
-                        <div className="text-6xl">
-                          <TooltipProvider>
-                            <Tooltip>
-                              <TooltipTrigger>
-                                <div className="text-6xl hover:text-green-300 transition-all duration-200">{icon.icon}</div>
-                              </TooltipTrigger>
-                              <TooltipContent>
-                                <p>{icon.nameOfTooltip}</p>
-                              </TooltipContent>
-                            </Tooltip>
-                          </TooltipProvider>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                {tabcontent.tabContent.map((icon) => (
+                  <TooltipProvider key={icon.id}>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <div className="flex flex-col items-center justify-center gap-3 rounded-xl border border-slate-800 bg-slate-900/60 p-5 hover:border-green-500/60 hover:bg-slate-800 transition-all duration-200">
+                          <div className="text-4xl text-green-400">
+                            {icon.icon}
+                          </div>
+                          <span className="text-xs text-slate-400 text-center leading-tight">
+                            {icon.nameOfTooltip}
+                          </span>
                         </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>{icon.nameOfTooltip}</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                ))}
               </div>
             </TabsContent>
           ))}
         </TabsList>
-
 
       </Tabs>
     </div>
