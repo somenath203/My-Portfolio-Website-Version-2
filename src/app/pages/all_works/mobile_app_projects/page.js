@@ -2,7 +2,7 @@
 
 import PageHeading from "@/app/components/PageHeading";
 import WorkCard from "@/app/components/WorkCard";
-import FlutterFireabseTodoProjImg from "./../../../assets/app_development_pics/flutterfirebasetodoappprojimg.png";
+
 import AoraProjImg from "./../../../assets/app_development_pics/aoraprojectpic.png";
 import RydeProjImg from "./../../../assets/app_development_pics/rydeprojimg.jpg";
 
@@ -10,7 +10,7 @@ const Page = () => {
   
   const appProjects = [
     {
-      id: 2,
+      id: 1,
       nameOfTheProject: "Aora",
       descOfTheProject:
         "Aora is a mobile video-sharing application that allows users to upload videos along with custom titles and thumbnails. Users can also explore and discover videos shared by the community, providing a seamless platform for content creation and video discovery.",
@@ -21,7 +21,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 3,
+      id: 2,
       nameOfTheProject: "Ryde",
       descOfTheProject:
         "Ryde is a ride-booking mobile application that enables users to book rides with ease. The app supports user authentication, real-time location detection, destination search, driver selection, and secure online payments, providing a smooth and reliable ride-booking experience.",

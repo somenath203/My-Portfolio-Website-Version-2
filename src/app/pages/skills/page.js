@@ -54,10 +54,9 @@ const Page = () => {
       id: 1,
       tabName: 'Programming Languages',
       tabContent: [
-        { id: 1, icon: <TbBrandCpp />, nameOfTooltip: 'C++' },
-        { id: 2, icon: <FaJava />, nameOfTooltip: 'JAVA' },
-        { id: 3, icon: <FaPython />, nameOfTooltip: 'Python' },
-        { id: 4, icon: <IoLogoJavascript />, nameOfTooltip: 'Javascript' },
+        { id: 1, icon: <FaJava />, nameOfTooltip: 'JAVA' },
+        { id: 2, icon: <FaPython />, nameOfTooltip: 'Python' },
+        { id: 3, icon: <IoLogoJavascript />, nameOfTooltip: 'Javascript' },
       ],
     },
     {
@@ -83,8 +82,7 @@ const Page = () => {
       tabContent: [
         { id: 1, icon: <FaNodeJs />, nameOfTooltip: 'NodeJS' },
         { id: 2, icon: <SiExpress />, nameOfTooltip: 'ExpressJS' },
-        { id: 3, icon: <SiFlask />, nameOfTooltip: 'Flask' },
-        { id: 4, icon: <SiFastapi />, nameOfTooltip: 'FastAPI' },
+        { id: 3, icon: <SiFastapi />, nameOfTooltip: 'FastAPI' },
       ],
     },
     {

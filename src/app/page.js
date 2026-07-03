@@ -68,7 +68,7 @@ const Page = () => {
 
               <div className="flex justify-center text-center lg:justify-start lg:text-start">
                 <span className="font-mono text-xs sm:text-sm px-3 py-1.5 rounded-full border border-green-500/40 bg-green-500/10 text-green-400">
-                  {'>_'} Full Stack Developer • AI/ML Engineer
+                  {'>_'} Full Stack Developer • AI Enthusiast
                 </span>
               </div>
 

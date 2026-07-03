@@ -3,62 +3,25 @@
 import PageHeading from "@/app/components/PageHeading";
 import WorkCard from "@/app/components/WorkCard";
 
-import TitanicProjPic from "./../../../assets/ai_development_pics/titanic_proj.png";
-import HousePredictorPic from "./../../../assets/ai_development_pics/californiahousepricepredictionimg.png";
 import StudentSuccessDropoutPredictorPic from "./../../../assets/ai_development_pics/studentsuccessdropoutpredictor.png";
-import CreditCardFraudDetectImg from "./../../../assets/ai_development_pics/creditcardfrauddetectimg.png";
-import SpamEmailDetectImg from "./../../../assets/ai_development_pics/spamemailpredictionimg.png";
-import RockVSMineImg from "./../../../assets/ai_development_pics/rockvsminepredcitionpic.png";
-import LoanStatusImg from "./../../../assets/ai_development_pics/loanstatuspredictionpic.png";
-import GoldPriceImg from "./../../../assets/ai_development_pics/goldpricepredimg.png";
-import ParkinsonImg from "./../../../assets/ai_development_pics/parkinsondiseasepredpic.png";
-import SpamSMSImg from "./../../../assets/ai_development_pics/spamsmsimg.png";
-import SuicideDepressionImg from "./../../../assets/ai_development_pics/suicidedepressionimg.png";
-import AirQualityPic from "./../../../assets/ai_development_pics/airqualitypic.png";
 import SkinLesionPic from "./../../../assets/ai_development_pics/skinlesionimg.png";
 import ClusterNewsPic from "./../../../assets/ai_development_pics/clusternewspic.png";
-import SummarizeTextPic from "./../../../assets/ai_development_pics/textsummarizerimg.png";
-import CNNWithMNISTPic from "./../../../assets/ai_development_pics/cnnmnistprojectpic.png";
-import CNNwithCIFARTEN from "./../../../assets/ai_development_pics/cifartenprojectimg.png";
-import BrainTumorPic from "./../../../assets/ai_development_pics/braintumorpic.png";
 import ForecastInClothingLSTM from "./../../../assets/ai_development_pics/forecastclothfuturelstmpic.png";
 import RemoveNoiseFromImg from "./../../../assets/ai_development_pics/reducenoiseprojectimg.png";
 import MulticlassBrainTumorImg from "./../../../assets/ai_development_pics/multiclassbraintumorprojectimage.png";
-import SatelliteImageClassificationProjImg from "./../../../assets/ai_development_pics/satelliteimgclassifyprojectimg.png";
-import LanguageIdentifierProjImg from "./../../../assets/ai_development_pics/languageidentifierprojectimg.png";
-import MalariaImgCellClassifyProjImg from "./../../../assets/ai_development_pics/malariacellclassification.png";
-import NamedEntityRecognizerImg from "./../../../assets/ai_development_pics/namedentityrecognizerpic.png";
 import TomatoLeafImg from "./../../../assets/ai_development_pics/tomatoleafprojectpic.png";
-import QuestionAnswerAiLlama3ChatAppImg from "./../../../assets/ai_development_pics/langchainollamallama3projpic.png";
-import PDFChatAppLlama3GroqImg from "./../../../assets/ai_development_pics/pdfchatllamathreegroqpic.png";
-import MovieRecommenderSystemImg from "./../../../assets/ai_development_pics/movierecommendationsystempic.png";
-import MarketingContentGeneratorImg from "./../../../assets/ai_development_pics/marketingcontentgeneratorpic.png";
-import Nllb200LanguageTranslationImg from "./../../../assets/ai_development_pics/languagetranslationpic.png";
-import FourInOneAIToolkitImg from "./../../../assets/ai_development_pics/fourinoneaitoolproj.png";
 import ColdEmailGeneratorImg from "./../../../assets/ai_development_pics/coldemailgeneratorpic.png";
 import FitbitesProjImg from "./../../../assets/ai_development_pics/fitbitesprojpic.png";
 import ChatFolioProjImg from "./../../../assets/ai_development_pics/chatfolioprojectimg.png";
-import ScholarSyncProjImg from "./../../../assets/ai_development_pics/scholarsyncprojpic.png";
-import PDFfyProjImg from "./../../../assets/ai_development_pics/pdffyaiprojimg.png";
 import GeminiContentWizardPic from "./../../../assets/ai_development_pics/geminicontentwizardprojectpic.png";
-import NextJSGeminiChatAppPic from "./../../../assets/ai_development_pics/nextgeminichatapppic.png";
-import OptiMediaHubPic from "./../../../assets/ai_development_pics/optimediahubprojectpic.png";
-import SmartWebChatPic from "./../../../assets/ai_development_pics/smartwebchatpic.png";
-import PureTextProjectPic from "./../../../assets/ai_development_pics/puretextprojimgpic.png";
-import ImageExtractorAppImg from "./../../../assets/ai_development_pics/imagetextextractorimage.png";
-import ToxicCommentClassificationProjImg from "./../../../assets/ai_development_pics/toxiccommentclassificationproj.png";
-import SnapStoryProjImg from "./../../../assets/ai_development_pics/snapstoryprojectpic.jpg";
-import NeuroPadProjImg from "./../../../assets/ai_development_pics/neuropadprojimg.png";
-import VidWiseProjImg from "./../../../assets/ai_development_pics/vidwiseprojimgpic.png";
-import LogoCraftAIProjImg from "./../../../assets/ai_development_pics/logocraftaiprojimg.png";
 import LeadRankerProjImg from "./../../../assets/ai_development_pics/leadrankerprojimg.png";
-import AquaYieldAIProjImg from "./../../../assets/ai_development_pics/aquayieldaiprojimg.png";
 import QuillSenseProjImg from "./../../../assets/ai_development_pics/quillsenseprojimg.jpg";
+
 
 const Page = () => {
   const aiProjects = [
     {
-      id: 3,
+      id: 1,
       nameOfTheProject: "Student Academic Success Dropout Predictor",
       descOfTheProject:
         "This is a machine learning project that predicts whether a student is likely to drop out or successfully complete their academic journey.",
@@ -72,7 +35,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 13,
+      id: 2,
       nameOfTheProject: "Skin Lesion Segmentation using OpenCV",
       descOfTheProject:
         "This project uses OpenCV to segment skin lesion images. Skin lesion segmentation is one of the first steps toward the computer-aided diagnosis of skin cancer.",
@@ -85,7 +48,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 14,
+      id: 3,
       nameOfTheProject: "Clustering News using Unsupervised Machine Learning",
       descOfTheProject:
         "This machine learning project uses unsupervised learning algorithms such as K-Means, K-Medoids, and Agglomerative Hierarchical Clustering to group news articles into meaningful clusters based on their content.",
@@ -98,7 +61,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 19,
+      id: 4,
       nameOfTheProject:
         "Predicting Future Retail Sales of Clothing Stores using LSTM",
       descOfTheProject:
@@ -112,7 +75,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 20,
+      id: 5,
       nameOfTheProject:
         "Removing Noise from MNIST Handwritten Digit Images using Autoencoder",
       descOfTheProject:
@@ -127,7 +90,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 21,
+      id: 6,
       nameOfTheProject: "Multiclass Brain Tumor Classification",
       descOfTheProject:
         "This deep learning project classifies brain MRI images into three tumor categories: glioma, meningioma, and pituitary tumor.",
@@ -141,7 +104,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 26,
+      id: 7,
       nameOfTheProject: "Tomato Leaf Disease Classification",
       descOfTheProject:
         "This deep learning project detects and classifies diseases in tomato leaves, helping farmers monitor crop health and make informed decisions for effective crop management.",
@@ -154,7 +117,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 33,
+      id: 8,
       nameOfTheProject: "Cold Email Generator",
       descOfTheProject:
         "Cold Email Generator is an AI-powered web application that helps job seekers create personalized cold emails tailored to specific job postings. Users simply provide a job post URL and a brief summary of their skills to generate a professional email.",
@@ -168,7 +131,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 34,
+      id: 9,
       nameOfTheProject: "FitBites",
       descOfTheProject:
         "FitBites is an AI-powered nutrition and diet planning web application that generates personalized meal plans, recommends recipes, and tracks daily calorie intake based on each user's preferences and health goals.",
@@ -180,7 +143,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 35,
+      id: 10,
       nameOfTheProject: "ChatFolio",
       descOfTheProject:
         "ChatFolio is a personal AI chatbot that answers questions about my resume, including my skills, education, projects, achievements, and certifications, providing an interactive way to explore my professional profile.",
@@ -192,7 +155,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 38,
+      id: 11,
       nameOfTheProject: "Gemini Content Wizard",
       descOfTheProject:
         "Gemini Content Wizard is an AI-powered content generation platform that helps users create high-quality content for blogs, YouTube, social media, and various other use cases with the help of Google Gemini.",
@@ -205,7 +168,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 49,
+      id: 12,
       nameOfTheProject: "LeadRanker",
       descOfTheProject:
         "LeadRanker is a full-stack web application that helps organizations discover, analyze, and prioritize top developers from GitHub. It also generates AI-powered insights and personalized outreach emails for potential candidates.",
@@ -217,7 +180,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 51,
+      id: 13,
       nameOfTheProject: "QuillSense",
       descOfTheProject:
         "QuillSense is an AI-powered handwriting analysis mobile application that helps users understand their handwriting patterns, mood, and overall well-being by analyzing handwriting samples along with user-provided information.",

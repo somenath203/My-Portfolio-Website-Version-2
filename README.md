@@ -73,12 +73,6 @@ https://somenath-choudhury-portfolio-version-2.vercel.app/
 
 ---
 
-## 🎥 Demo Video
-
-https://github.com/somenath203/My-Portfolio-Website-Version-2/assets/81456073/68976dd4-fc37-4fa9-b6dc-f95c546b2f86
-
----
-
 ## ⭐ If you like this project
 
 If you found this project helpful or interesting, consider giving it a ⭐ on GitHub.

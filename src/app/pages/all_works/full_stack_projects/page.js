@@ -2,28 +2,15 @@
 
 import PageHeading from "@/app/components/PageHeading";
 import WorkCard from "@/app/components/WorkCard";
-import ImageGalleryPic from "./../../../assets/full_stack_development_pics/imagegallery.png";
+
 import MyExpenseManagerPic from "./../../../assets/full_stack_development_pics/myexpensemanager.png";
-import ShortMyURLPic from "./../../../assets/full_stack_development_pics/shortmyurlpic.png";
-import MernAuthWithEmailVerifyPic from "./../../../assets/full_stack_development_pics/authwithemailverification.png";
-import ShareYourFilePic from "./../../../assets/full_stack_development_pics/sharefileprojpic.png";
-import WeatherAppPic from "./../../../assets/full_stack_development_pics/weatherappimage.png";
-import SimpleTaskManagerAppPic from "./../../../assets/full_stack_development_pics/taskmanagerprojimg.png";
 import NextFinanceTrackerPic from "./../../../assets/full_stack_development_pics/nextfinancetrackerpic.png";
-import AIFormBuilderPic from "./../../../assets/full_stack_development_pics/aiformbuilderprojimg.png";
-import ResumeBuilderPic from "./../../../assets/full_stack_development_pics/resumebuilderprojpic.png";
-import WriteMyThoughtsPic from "./../../../assets/frontend_development_pics/writemythoughts.png";
-import CarePulsePic from "./../../../assets/full_stack_development_pics/carepulseimage.png";
-import TrimrrPic from "./../../../assets/full_stack_development_pics/trimrrurlshortenerpic.png";
-import TweetsDjangoAppPic from "./../../../assets/full_stack_development_pics/tweeetdjangoapp.png";
-import HomeAwayProjectPic from "./../../../assets/full_stack_development_pics/homeawayprojectimg.png";
-import HirrdProjectPic from "./../../../assets/full_stack_development_pics/hirrdprojectimgpic.png";
 import JShareProjectPic from "./../../../assets/full_stack_development_pics/jshareprojimg.png";
 
 const Page = () => {
   const fullStackProjects = [
     {
-      id: 2,
+      id: 1,
       nameOfTheProject: "My Finance Manager",
       descOfTheProject:
         "My Finance Manager is a full-stack personal finance management application that allows users to track their savings, expenses, and investments. Based on the recorded financial data, the application provides insights to help users manage their money more effectively.",
@@ -37,7 +24,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 8,
+      id: 2,
       nameOfTheProject: "Next Finance Tracker",
       descOfTheProject:
         "Next Finance Tracker is a full-stack finance management application built with Next.js that helps users track income, expenses, and overall financial activity through an intuitive and interactive dashboard.",
@@ -51,7 +38,7 @@ const Page = () => {
       youtubeVideoLink: "https://www.youtube.com/",
     },
     {
-      id: 17,
+      id: 3,
       nameOfTheProject: "JShare",
       descOfTheProject:
         "JShare is a full-stack web application that allows users to store, manage, and share JSON data with ease. Users can generate shareable links, making it simple to collaborate and exchange JSON data with others.",

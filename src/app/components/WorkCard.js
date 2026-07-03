@@ -81,7 +81,7 @@ const WorkCard = ({ workArray, accentColor = "#4ade80" }) => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full flex flex-col overflow-hidden bg-slate-950 text-white font-poppins border-2 border-[var(--accent)]">
+              <Card className="h-full flex flex-col overflow-hidden bg-slate-950/40 text-white font-poppins border-2 border-[var(--accent)]">
                 <div className="relative w-full aspect-video">
                   <Image
                     src={work.picOfTheProj}
