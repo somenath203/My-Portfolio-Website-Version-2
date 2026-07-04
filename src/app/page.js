@@ -86,9 +86,10 @@ const Page = () => {
 
               <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left leading-relaxed">
                 Full Stack Developer with 4 years of hands-on experience
-                building modern web and mobile applications, developing machine
-                learning and deep learning models, and shipping production-ready
-                AI solutions and APIs..
+                building modern web and mobile applications through personal
+                projects. Experienced in developing machine learning and deep
+                learning models and building production-ready AI applications
+                and APIs.
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start w-full">
