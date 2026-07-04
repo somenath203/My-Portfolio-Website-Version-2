@@ -1,16 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { FaFileAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
+
+import { Button } from "@/components/ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { motion } from "framer-motion";
-
 import WelcomePageImg from "./assets/welcome_page_pics/welcome_page_img.png";
 
 const Page = () => {
@@ -113,8 +114,8 @@ const Page = () => {
                     variant="ghost"
                     className="border-2 border-green-500 hover:bg-slate-800 transition-all duration-150 text-base hover:text-white py-6 w-full sm:w-auto px-6 flex items-center justify-center gap-2"
                   >
-                    <i className="ri-download-cloud-line text-2xl font-poppins"></i>
-                    <span>Download Resume</span>
+                    <FaFileAlt size={20} />
+                    <span>View Resume</span>
                   </Button>
                 </Link>
               </div>
