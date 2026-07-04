@@ -69,7 +69,7 @@ The website is deployed on **Vercel**.
 ## 🔗 Live Website
 
 **Visit here:**
-https://somenath-choudhury-portfolio-version-2.vercel.app/
+https://my-portfolio-website-version-two.vercel.app/
 
 ---
 
