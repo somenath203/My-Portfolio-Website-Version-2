@@ -54,7 +54,7 @@ const Page = () => {
       setLoading(false);
 
       toast.success(
-        "Thank you for filling out the form. Your details has been saved successfully.",
+        "Thank you for filling out the form. Your details have been saved successfully.",
         {
           position: "top-center",
           autoClose: 7000,
