@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { addDoc, collection } from "firebase/firestore";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaPaperPlane } from "react-icons/fa";
+import { FaEnvelope, FaPaperPlane, FaRegCopy } from "react-icons/fa";
 
 import PageHeading from "@/app/components/PageHeading";
 import firebaseDB from "@/firebaseConfig";
@@ -131,6 +131,9 @@ const Page = () => {
             >
               somenathchoudhury38@gmail.com
             </p>
+            <span className="font-mono text-xs text-slate-500 text-center lg:text-left w-full">
+              click the email above to copy it to your clipboard
+            </span>
           </div>
         </motion.div>
 
