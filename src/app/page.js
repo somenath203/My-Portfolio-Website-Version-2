@@ -85,11 +85,15 @@ const Page = () => {
               </div>
 
               <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left leading-relaxed">
-                Full Stack Developer with 4 years of hands-on experience
-                building modern web and mobile applications through personal
-                projects. Experienced in developing machine learning and deep
-                learning models and building production-ready AI applications
-                and APIs.
+                I am a Full Stack Developer passionate about building modern web
+                and mobile applications using the MERN Stack, Next.js, React
+                Native (Expo), and FastAPI. I also enjoy building AI-powered
+                applications using Machine Learning, Deep Learning, Generative
+                AI, Large Language Models (LLMs), and modern AI technologies. I
+                like solving real-world problems, writing clean and maintainable
+                code, and continuously learning by building hands-on projects. I
+                am always eager to learn, improve, and build software that makes
+                a real impact.
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start w-full">
