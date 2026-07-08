@@ -5,14 +5,12 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { FaJava } from 'react-icons/fa';
 import { FaPython } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { TbBrandCpp } from 'react-icons/tb';
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
-import { SiFlask } from "react-icons/si";
 import { SiFastapi } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAntdesign } from "react-icons/si";
@@ -26,6 +24,7 @@ import { SiPandas } from "react-icons/si";
 import { GoGraph } from "react-icons/go";
 import { SiScikitlearn } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
+import { LuSparkles } from "react-icons/lu";
 import { FaDocker } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import {
@@ -45,8 +44,9 @@ const Page = () => {
     { id: 2, name: 'Frontend Web Development' },
     { id: 3, name: 'Backend Development' },
     { id: 4, name: 'App Development' },
-    { id: 5, name: 'Artificial Intelligence' },
-    { id: 6, name: 'DevOps' },
+    { id: 5, name: 'Data Science & Visualization' },
+    { id: 6, name: 'Artificial Intelligence' },
+    { id: 7, name: 'DevOps' },
   ];
 
   const tabContents = [
@@ -94,17 +94,24 @@ const Page = () => {
     },
     {
       id: 5,
-      tabName: 'Artificial Intelligence',
+      tabName: 'Data Science & Visualization',
       tabContent: [
         { id: 1, icon: <SiNumpy />, nameOfTooltip: 'Numpy' },
         { id: 2, icon: <SiPandas />, nameOfTooltip: 'Pandas' },
         { id: 3, icon: <GoGraph />, nameOfTooltip: 'Matplotlib and Seaborn' },
-        { id: 4, icon: <SiScikitlearn />, nameOfTooltip: 'Scikit learn' },
-        { id: 5, icon: <SiTensorflow />, nameOfTooltip: 'TensorFlow' },
-      ],
+      ]
     },
     {
       id: 6,
+      tabName: 'Artificial Intelligence',
+      tabContent: [
+        { id: 1, icon: <SiScikitlearn />, nameOfTooltip: 'Scikit learn' },
+        { id: 2, icon: <SiTensorflow />, nameOfTooltip: 'TensorFlow' },
+        { id: 3, icon: <LuSparkles />, nameOfTooltip: 'Generative AI' },
+      ],
+    },
+    {
+      id: 7,
       tabName: 'DevOps',
       tabContent: [
         { id: 1, icon: <FaDocker />, nameOfTooltip: 'Docker' }
