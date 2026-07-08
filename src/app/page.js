@@ -85,16 +85,30 @@ const Page = () => {
                 </p>
               </div>
 
-              <div className="text-gray-400 px-3 lg:p-0 max-w-lg text-center lg:text-left leading-relaxed">
-                I am a Full Stack Developer passionate about building modern web
-                and mobile applications using the MERN Stack, Next.js, React
-                Native (Expo), and FastAPI. I also enjoy building AI-powered
-                applications using Machine Learning, Deep Learning, Generative
-                AI, Large Language Models (LLMs), and modern AI technologies. I
-                like solving real-world problems, writing clean and maintainable
-                code, and continuously learning by building hands-on projects. I
-                am always eager to learn, improve, and build software that makes
-                a real impact.
+              <div className="text-slate-300 px-3 lg:p-0 max-w-lg text-center lg:text-left text-base lg:text-lg  leading-relaxed">
+                I am a Full Stack Developer specializing in the{" "}
+                <span className="text-green-400 font-semibold">MERN Stack</span>
+                , <span className="text-green-400 font-semibold">Next.js</span>,{" "}
+                <span className="text-green-400 font-semibold">
+                  React Native (Expo)
+                </span>
+                , and{" "}
+                <span className="text-green-400 font-semibold">FastAPI</span>. I
+                also build AI-powered applications using{" "}
+                <span className="text-green-400 font-semibold">
+                  Machine Learning
+                </span>
+                ,{" "}
+                <span className="text-green-400 font-semibold">
+                  Deep Learning
+                </span>
+                , and{" "}
+                <span className="text-green-400 font-semibold">
+                  Generative AI
+                </span>
+                . I enjoy solving real-world problems, writing clean,
+                maintainable code, and continuously learning through hands-on
+                projects.
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 items-center lg:items-start w-full">
